@@ -1,35 +1,16 @@
 ---
-title: "AnVIL Book Name"
+title: "GDSCN: Course Name "
 date: "`r format(Sys.time(), '%B %d, %Y')`"
 site: bookdown::bookdown_site
 documentclass: book
 bibliography: book.bib
 biblio-style: apalike
 link-citations: yes
-description: Description about Course/Book.
-favicon: assets/AnVIL_style/anvil_favicon.ico
+description: "Description about Course/Book."
+favicon: assets/GDSCN_style/gdscn_favicon.ico
 ---
 
+# About this Course {-}
 
-# About this Book {-}
+This book is part of a series of books for the [The Genomic Data Science Community Network (GDSCN)](https://www.gdscn.org/home).  GDSCN is a group of educators gathered with the aim to bring genomic data science education to students at diverse institutions. 
 
-This book is part of a series of books for the Genomic Data Science Analysis, Visualization, and Informatics Lab-space (AnVIL) of the National Human Genome Research Institute (NHGRI). Learn more about AnVIL by visiting `https://anvilproject.org` or reading the [article in Cell Genomics](https://www.sciencedirect.com/science/article/pii/S2666979X21001063).
-
-## AnVIL Collection {-}
-
-Please check out our full collection of AnVIL and related resources below!
-
-```{r, echo = FALSE, message = FALSE, warning = FALSE}
-source("scripts/anvil_repo_table.R")
-
-# Add below any repositories that should not be added
-exclude = c(
-  "anvil-intro",
-  "AnVIL_Template",
-  "AnVIL_Template_Test",
-  "GDSCN_bookdown_style"
-)
-
-# Create table for AnVIL repos detected through the API
-knitr::kable(make_anvil_repo_table(exclude), format = "html")
-```
