@@ -17,20 +17,22 @@ ottrpal::set_knitr_image_path()
 
 1. Open RStudio in your preferred environment.
 1. In the R console window, type the following commands to load the Swirl package:
+
     ```
     library (swirl)
     swirl()
     ```
+
 1. Install the course “**R Programming: The basics of programming in R**”, by following the instructions provided by swirl
-    1. Enter your name.
-    1. Press ENTER.
-    1. Enter 1, 2, or 3.
-    1. Install the course “R Programming: The basics of programming in R”.
+    a. Enter your name.
+    a. Press ENTER.
+    a. Enter 1, 2, or 3.
+    a. Install the course “R Programming: The basics of programming in R”.
 1. Complete your first lesson.
-    1. Select “**R Programming**”.
-    1. Select “**Basic Building Blocks**”, by entering `1` ( i.e. the corresponding lesson number ).
-    1. Follow the instructions provided by swirl to complete your first lesson.
-    1. At the end, when Swirl asks if you would like to receive Coursera credit, select “No”.
+    a. Select “**R Programming**”.
+    a. Select “**Basic Building Blocks**”, by entering `1` ( i.e. the corresponding lesson number ).
+    a. Follow the instructions provided by swirl to complete your first lesson.
+    a. At the end, when Swirl asks if you would like to receive Coursera credit, select “No”.
 
 
 ## Complete additional `swirl` lessons
