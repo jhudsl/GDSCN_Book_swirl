@@ -3,6 +3,7 @@ BIPOC
 Bloomberg
 callout
 Callout
+Coursera
 dropdown
 GDSCN
 Gmail
@@ -15,6 +16,7 @@ OTTR
 ottrpal
 preprint
 reproducibility
+RStudio
 underserved
 Workspaces
 Workspace's
