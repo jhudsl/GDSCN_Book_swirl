@@ -1,0 +1,18 @@
+# (PART\*) Student Guide {-}
+
+
+```{r, include = FALSE}
+ottrpal::set_knitr_image_path()
+```
+
+# Setup
+
+# Introduction
+
+# Lab Exercise
+
+## Complete your first `swirl` lesson
+
+## Complete additional `swirl` lessons
+
+## Explore the ??? dataframe
