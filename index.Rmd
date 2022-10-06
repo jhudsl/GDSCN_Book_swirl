@@ -1,12 +1,12 @@
 ---
-title: "GDSCN: Course Name "
+title: "GDSCN: Intro R with swirl "
 date: "`r format(Sys.time(), '%B %d, %Y')`"
 site: bookdown::bookdown_site
 documentclass: book
 bibliography: book.bib
 biblio-style: apalike
 link-citations: yes
-description: "Description about Course/Book."
+description: "This book provides a lab exercise that introduces students to the basics of R programming."
 favicon: assets/GDSCN_style/gdscn_favicon.ico
 ---
 
