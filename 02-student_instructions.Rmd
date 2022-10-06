@@ -39,7 +39,7 @@ ottrpal::set_knitr_image_path()
 
 *Estimated time: 80 min*
 
-1. Complete additional Swirl lessons. 
+1. Complete additional swirl lessons. 
     a. Select “**R Programming**”
     a. Compete each of the following lessons:
         - **4: Vectors**
@@ -47,6 +47,6 @@ ottrpal::set_knitr_image_path()
         - **6: Subsetting_Vectors**
         - **12: Looking_at_Data**
 1. Once you have completed all the lessons listed above, exit swirl.
-    a. To exit swirl, type “bye()” in the R console, press “ESC” on your keyboard, or enter “0” in response to the Swirl course menu prompt.
+    a. To exit swirl, type “bye()” in the R console, press “ESC” on your keyboard, or enter “0” in response to the swirl course menu prompt.
 
 ## Explore the ??? dataframe
