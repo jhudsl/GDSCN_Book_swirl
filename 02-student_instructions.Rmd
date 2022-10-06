@@ -41,12 +41,12 @@ ottrpal::set_knitr_image_path()
 
 1. Complete additional Swirl lessons. 
     a. Select “**R Programming**”
-    a. Select one of the courses listed below:
+    a. Compete each of the following lessons:
         - **4: Vectors**
         - **5: Missing_Values**
         - **6: Subsetting_Vectors**
         - **12: Looking_at_Data**
-1. Once you have completed all the courses listed above, exit swirl.
-    a. To exit swirl, type “bye()” in the console, press “ESC”, or enter “0” in response to the Swirl course menu prompt.
+1. Once you have completed all the lessons listed above, exit swirl.
+    a. To exit swirl, type “bye()” in the R console, press “ESC” on your keyboard, or enter “0” in response to the Swirl course menu prompt.
 
 ## Explore the ??? dataframe
