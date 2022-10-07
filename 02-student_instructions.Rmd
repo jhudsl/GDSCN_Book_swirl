@@ -19,14 +19,14 @@ ottrpal::set_knitr_image_path()
 1. In the R console window, type the following commands to load the Swirl package:
 
     ```
-    library (swirl)
+    library(swirl)
     swirl()
     ```
 
 1. Install the course “**R Programming: The basics of programming in R**”, by following the instructions provided by swirl.
     a. Enter your name.
-    a. Press ENTER.
-    a. Enter 1, 2, or 3.
+    a. Press `ENTER`.
+    a. Enter `1`, `2`, or `3`.
     a. Install the course “R Programming: The basics of programming in R”.
 1. Complete your first lesson.
     a. Select “**R Programming**”.
@@ -47,6 +47,6 @@ ottrpal::set_knitr_image_path()
         - **6: Subsetting_Vectors**
         - **12: Looking_at_Data**
 1. Once you have completed all the lessons listed above, exit swirl.
-    a. To exit swirl, type “bye()” in the R console, press “ESC” on your keyboard, or enter “0” in response to the swirl course menu prompt.
+    a. To exit swirl, type `bye()` in the R console, press `ESC` on your keyboard, or enter `0` in response to the swirl course menu prompt.
 
 ## Explore the ??? dataframe
