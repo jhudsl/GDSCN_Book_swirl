@@ -16,7 +16,7 @@ ottrpal::set_knitr_image_path()
 *Estimated time: 20 min*
 
 1. Open RStudio.
-1. In the R console window, type the following commands to load the Swirl package:
+1. In the R console window, type the following commands to load the swirl package:
 
     ```
     library(swirl)
