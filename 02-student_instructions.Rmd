@@ -9,7 +9,7 @@ ottrpal::set_knitr_image_path()
 
 # Introduction
 
-# Lab Exercise
+# Exercises
 
 ## Complete your first `swirl` lesson
 
@@ -49,4 +49,32 @@ ottrpal::set_knitr_image_path()
 1. Once you have completed all the lessons listed above, exit swirl.
     a. To exit swirl, type `bye()` in the R console, press `ESC` on your keyboard, or enter `0` in response to the swirl course menu prompt.
 
-## Explore the ??? dataframe
+# Project
+
+## Explore a dataframe
+
+Now we will use your new R skills to explore a data.frame!
+
+### R tips
+
+Don't worry if you can't remember everything!  Data scientists and computer programmers don't memorize everything either.  That's why there's a help function built in to R!
+
+As a reminder, here are a few useful commands for exploring dataframes:
+```
+dim()
+head()
+tail()
+summary()
+str()
+```
+
+If you need help remembering how to use a command, use `?`
+```
+?dim
+```
+
+If you start using R frequently, you'll naturally start to remember some of the common commands.  But don't hesitate to look things up, or ask if you get stuck!
+
+There are also some handy cheatsheets made by other R users, to help people remember how to do things in R.  Here you can [download a base R cheatsheet](https://github.com/rstudio/cheatsheets/raw/main/base-r.pdf), which shows several of the R commands you've seen already, along with many other useful commands.
+
+### Explore the ??? dataframe
