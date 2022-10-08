@@ -53,6 +53,8 @@ ottrpal::set_knitr_image_path()
 
 Now we will use your new R skills to explore a data.frame!
 
+<br>
+
 ## R tips
 
 Don't worry if you can't remember everything!  Data scientists and computer programmers don't memorize everything either.  That's why there's a help function built in to R!
