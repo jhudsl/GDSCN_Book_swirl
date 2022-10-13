@@ -76,3 +76,30 @@ If you need help remembering how to use a command, use `?`
 If you start using R frequently, you'll naturally start to remember some of the common commands.  But don't hesitate to look things up, or ask if you get stuck!
 
 ## Explore the ??? dataframe
+
+## Wrap-up
+
+Cloud computing costs are based on the amount of time you use the computing resources, so it's important to clean up after yourself when you're done, and not just leave the computers running.
+
+There are two ways to "shut down" RStudio on AnVIL:
+
+- **Pause** the environment: This will save a copy of your work, and then release the computers for other people to use them.  It's similar to turning off your computer or phone - when you start it back up, everything will be where you left it.  This still costs a small amount of money, but much less than leaving the computer running.  Do this if you plan to continue working in RStudio.
+- **Delete** the environment: This will delete everything and then release the computers for other people to use them.  It's similar to throwing your computer or phone in the trash!  **You will not be able to recover your work.**  Make sure you have saved anything you need before you delete your environment.  Do this if you are completely finished working in RStudio, or if your future work will be in a new environment.
+
+### Pause RStudio environment
+
+```{r, echo = FALSE, results='asis'}
+cow::borrow_chapter(
+  doc_path = "child/__child_rstudio_pause.Rmd",
+  repo_name = "jhudsl/AnVIL_Template"
+)
+```
+
+### Delete RStudio environment
+
+```{r, echo = FALSE, results='asis'}
+cow::borrow_chapter(
+  doc_path = "child/__child_rstudio_delete.Rmd",
+  repo_name = "jhudsl/AnVIL_Template"
+)
+```
