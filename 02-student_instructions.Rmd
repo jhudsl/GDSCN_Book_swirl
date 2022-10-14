@@ -90,7 +90,7 @@ There are two ways to "shut down" RStudio on AnVIL:
 
 ```{r, echo = FALSE, results='asis'}
 cow::borrow_chapter(
-  doc_path = "child/__child_rstudio_pause.Rmd",
+  doc_path = "child/_child_rstudio_pause.Rmd",
   repo_name = "jhudsl/AnVIL_Template"
 )
 ```
@@ -99,7 +99,7 @@ cow::borrow_chapter(
 
 ```{r, echo = FALSE, results='asis'}
 cow::borrow_chapter(
-  doc_path = "child/__child_rstudio_delete.Rmd",
+  doc_path = "child/_child_rstudio_delete.Rmd",
   repo_name = "jhudsl/AnVIL_Template"
 )
 ```
