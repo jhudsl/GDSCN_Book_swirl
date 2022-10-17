@@ -1,5 +1,12 @@
+setup
 introduction
-motivation
-target-audience
-curriculum
+exercises
+complete-your-first-swirl-lesson
+complete-additional-swirl-lessons
+project-explore-dataframe
+r-tips
+explore-the-dataframe
+wrap-up
+pause-rstudio-environment
+delete-rstudio-environment
 references
