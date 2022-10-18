@@ -5,7 +5,18 @@
 ottrpal::set_knitr_image_path()
 ```
 
-# Setup
+# Set Up
+
+## Set Up Your Computer
+
+In order to run your analyses, you will use the [AnVIL cloud computing platform](https://anvilproject.org/), so that you do not need to install everything on your own computer.  AnVIL (Analysis Visualization and Informatics Lab-space) is a cloud computing platform specially designed for analyzing biological data, and is used by scientists doing all sorts of biological research.
+
+**Create Google Account**
+
+Behind the scenes, AnVIL relies on Google Cloud Platform to provide computing infrastructure, so the first thing you will need to do is set up (free) a Google account.
+
+If you do not already have a Google account that you would like to use for accessing AnVIL, [create one now](https://accounts.google.com/SignUp).
+
 
 # Introduction
 
