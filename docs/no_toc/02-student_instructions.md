@@ -5,6 +5,8 @@
 
 # Set Up
 
+## Set Up Your Computer
+
 In order to run your analyses, you will use the [AnVIL cloud computing platform](https://anvilproject.org/), so that you do not need to install everything on your own computer.
 
 <br>
@@ -18,7 +20,7 @@ AnVIL (Analysis Visualization and Informatics Lab-space) is a cloud computing pl
 - AnVIL uses [Terra](https://anvil.terra.bio/) to provides many computational tools useful for biological data analysis, such as [RStudio](https://www.rstudio.com/products/rstudio/), [Galaxy](https://usegalaxy.org/), and [Jupyter Notebooks](https://jupyter.org/).  Terra takes care of installing these tools on Google's computers, so that you can just start using them.
 :::
 
-**Step 1: Create Google Account**
+### Create Google Account
 
 First, you will need to set up a (free) Google account.
 
@@ -26,7 +28,7 @@ If you do not already have a Google account that you would like to use for acces
 
 - Alternatively, if you would like to create a Google account that is associated an existing non-Gmail email address, you can follow [these instructions](https://support.terra.bio/hc/en-us/articles/360029186611).
 
-**Step 2: Log In to Terra**
+### Log In to Terra
 
 Next, make sure you can log in to Terra - you will use Terra to perform computations on AnVIL. 
 
@@ -36,7 +38,7 @@ You can access Terra by going to [`anvil.terra.bio`](https://anvil.terra.bio/), 
 
 Open Terra, and you should be prompted to sign in with your Google account.
 
-**Step 3: Share username**
+### Step 3: Share username
 
 Finally, make sure your instructor has your Google account username (e.g. `myname@gmail.com`), so they can give you access to everything you need.
 
@@ -46,6 +48,8 @@ Finally, make sure your instructor has your Google account username (e.g. `mynam
 :::{.warning}
 It is *very important* that you share the Google account you will be using to access AnVIL with with your instructor! Otherwise, the instructor cannot add you to billing projects or Workspaces, and you will be unable to proceed with your assignments.
 :::
+
+## Access Materials
 
 
 # Introduction
