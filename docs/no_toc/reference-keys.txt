@@ -2,7 +2,7 @@ set-up
 set-up-your-computer
 create-google-account
 log-in-to-terra
-step-3-share-username
+share-username
 access-materials
 introduction
 exercises
