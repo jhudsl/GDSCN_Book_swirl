@@ -7,11 +7,7 @@
 
 ## Set Up Your Computer
 
-In order to run your analyses, you will use the [AnVIL cloud computing platform](https://anvilproject.org/), so that you do not need to install everything on your own computer.
-
-<br>
-
-AnVIL (Analysis Visualization and Informatics Lab-space) is a cloud computing platform specially designed for analyzing biological data, and is used by scientists doing all sorts of biological research.
+In order to run your analyses, you will use the [AnVIL cloud computing platform](https://anvilproject.org/), so that you do not need to install everything on your own computer.  The AnVIL (Analysis Visualization and Informatics Lab-space) platform is specially designed for analyzing biological data, and is used by scientists doing all sorts of biological research.
 
 :::{.notice}
 **AnVIL in a nutshell**
@@ -30,9 +26,9 @@ If you do not already have a Google account that you would like to use for acces
 
 ### Log In to Terra
 
-Next, make sure you can log in to Terra - you will use Terra to perform computations on AnVIL. 
+Next, make sure you can log in to Terra -- you will use Terra to perform computations on AnVIL. 
 
-You can access Terra by going to [`anvil.terra.bio`](https://anvil.terra.bio/), or by clicking the link on the AnVIL home page.
+You can access Terra by going to [`anvil.terra.bio`](https://anvil.terra.bio/), or by clicking the link on the AnVIL home page ([`anvilproject.org`](https://anvilproject.org/)).
 
 <img src="resources/images/02-student_instructions_files/figure-html//1tyt8ifxD3y7QW3nN27jh02aPrBvNEo1GN_u2Ne_UngM_gde7783227e_0_31.png" title="Screenshot of the AnVIL home page. The button to &quot;launch Terra&quot; is highlighted." alt="Screenshot of the AnVIL home page. The button to &quot;launch Terra&quot; is highlighted." width="480" />
 
