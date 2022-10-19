@@ -39,7 +39,7 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/1tyt8ifxD3y7QW3nN
 
 Open Terra, and you should be prompted to sign in with your Google account.
 
-### Step 3: Share username
+### Share username
 
 Finally, make sure your instructor has your Google account username (e.g. `myname@gmail.com`), so they can give you access to everything you need.
 
