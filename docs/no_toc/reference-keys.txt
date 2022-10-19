@@ -1,7 +1,4 @@
 set-up
-create-google-account
-step-2-log-in-to-terra
-step-3-share-username
 introduction
 exercises
 complete-your-first-swirl-lesson
