@@ -9,21 +9,28 @@ ottrpal::set_knitr_image_path()
 
 In order to run your analyses, you will use the [AnVIL cloud computing platform](https://anvilproject.org/), so that you do not need to install everything on your own computer.
 
+<br>
+
 AnVIL (Analysis Visualization and Informatics Lab-space) is a cloud computing platform specially designed for analyzing biological data, and is used by scientists doing all sorts of biological research.
+
+:::{.notice}
+**AnVIL in a nutshell**
+
+- Behind the scenes, AnVIL relies on Google Cloud Platform to provide computing infrastructure.  Basically, AnVIL lets you "rent" computers from Google (remotely).  Whenever you run an analyses on AnVIL, it actually runs on one of Google's computers, and AnVIL lets you see the results in your browser.
+- AnVIL uses [Terra](https://anvil.terra.bio/) to provides many computational tools useful for biological data analysis, such as [RStudio](https://www.rstudio.com/products/rstudio/), [Galaxy](https://usegalaxy.org/), and [Jupyter Notebooks](https://jupyter.org/).  Terra takes care of installing these tools on Google's computers, so that you can just start using them.
+:::
 
 ## Create Google Account
 
-Behind the scenes, AnVIL relies on Google Cloud Platform to provide computing infrastructure, so the first thing you will need to do is set up (free) a Google account.
+The first thing you will need to do is set up (free) a Google account.
 
 If you do not already have a Google account that you would like to use for accessing AnVIL, [create one now](https://accounts.google.com/SignUp).
 
-Alternatively, if you would like to create a Google account that is associated an existing non-Gmail email address, you can follow [these instructions](https://support.terra.bio/hc/en-us/articles/360029186611) (the instructions discuss "institutional email" accounts, but should work for any email).
+- Alternatively, if you would like to create a Google account that is associated an existing non-Gmail email address, you can follow [these instructions](https://support.terra.bio/hc/en-us/articles/360029186611).
 
 ## Step 2: Log In to Terra
 
-AnVIL uses [Terra](https://anvil.terra.bio/) to run analyses.  Terra provides many computational tools useful for biological data analysis, such as [RStudio](https://www.rstudio.com/products/rstudio/), [Galaxy](https://usegalaxy.org/), and [Jupyter Notebooks](https://jupyter.org/).  Terra takes care of installing these tools on Google's computers, so that you can just start using them.
-
-Make sure you can log in to Terra - you will need to use Terra to perform computations on AnVIL. 
+Next, make sure you can log in to Terra - you will need to use Terra to perform computations on AnVIL. 
 
 You can access Terra by going to [`anvil.terra.bio`](https://anvil.terra.bio/), or by clicking the link on the AnVIL home page.
 
