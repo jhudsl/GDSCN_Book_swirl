@@ -50,8 +50,33 @@ It is *very important* that you share the Google account you will be using to ac
 
 ## Access Materials
 
-Next you will need to access the materials on AnVIL.
 
+
+Next you will need to access the materials on AnVIL.  AnVIL is centered around different “Workspaces”. Each Workspace functions almost like a mini code laboratory - it is a place where data can be examined, stored, and analyzed. The first thing we want to do is to copy or “clone” a Workspace to create a space for you to experiment.  This will give you access to
+
+- the files you will need (data, code)
+- the computing environment you will use
+
+Use a web browser to go to the AnVIL website. In the browser type:
+
+```
+anvil.terra.bio
+```
+
+:::{.notice}
+**Tip**
+At this point, it might make things easier to open up a new window in your browser and split your screen. That way, you can follow along with this guide on one side and execute the steps on the other.
+:::
+
+After logging in, click “View Workspaces”. Select the “Public” tab. In the top search bar type the activity workspace \“Workspace_name\”. You can also go directly to the following link: Workspace_link. 
+
+Clone the workspace by clicking the teardrop button (![teardrop button](resources/images/teardrop.png){#id .class width=25 height=20px}). And selecting “Clone”.
+
+<img src="resources/images/02-student_instructions_files/figure-html//182AOzMaiyrreinnsRX2VhH7YsVgvAp4xtIB_7Mzmk6I_ged15532ded_0_625.png" title="Screenshot showing the teardrop button. The button has been clicked revealing the &quot;clone&quot; option. The Clone option and the teardrop button are highlighted." alt="Screenshot showing the teardrop button. The button has been clicked revealing the &quot;clone&quot; option. The Clone option and the teardrop button are highlighted." width="480" />
+
+In the first box, give your Workspace clone a name by adding an underscore (“_”) and your name. For example, \“`r paste0(workspace_name, "_First_Last\”. Next, select the Billing project provided by your instructor. Leave the bottom two boxes as-is and click “CLONE WORKSPACE”.
+
+<img src="resources/images/02-student_instructions_files/figure-html//182AOzMaiyrreinnsRX2VhH7YsVgvAp4xtIB_7Mzmk6I_ged15532ded_0_648.png" title="Screenshot showing the &quot;clone a workspace&quot; popout. The Workspace name, Billing Project, and Clone Workspace button have been filled in and highlighted." alt="Screenshot showing the &quot;clone a workspace&quot; popout. The Workspace name, Billing Project, and Clone Workspace button have been filled in and highlighted." width="480" />
 
 # Introduction
 
