@@ -110,7 +110,7 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/182AOzMaiyrreinns
     ```
 
 1. You will see a popup box appear, asking you to configure your Workspace
-    a. Give your Workspace clone a name by adding an underscore ("_") and your name. For example, \"`r paste0(workspace_name, "_First_Last)`\".
+    a. Give your Workspace clone a name by adding an underscore ("_") and your name. For example, \"`r paste0(workspace_name, '_First_Last')`\".
     a. Select the Billing project `r billing_project`.
     a. Leave the bottom two boxes as-is.
     a. Click “CLONE WORKSPACE”.
