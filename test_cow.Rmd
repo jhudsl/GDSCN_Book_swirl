@@ -1,0 +1,3 @@
+Here's the workspace name: `r print(workspace_name)`
+
+And here's some more text
