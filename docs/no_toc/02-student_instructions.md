@@ -74,7 +74,7 @@ Clone the workspace by clicking the teardrop button (![teardrop button](resource
 
 <img src="resources/images/02-student_instructions_files/figure-html//182AOzMaiyrreinnsRX2VhH7YsVgvAp4xtIB_7Mzmk6I_ged15532ded_0_625.png" title="Screenshot showing the teardrop button. The button has been clicked revealing the &quot;clone&quot; option. The Clone option and the teardrop button are highlighted." alt="Screenshot showing the teardrop button. The button has been clicked revealing the &quot;clone&quot; option. The Clone option and the teardrop button are highlighted." width="480" />
 
-In the first box, give your Workspace clone a name by adding an underscore (“_”) and your name. For example, \“`r paste0(workspace_name, "_First_Last\”. Next, select the Billing project provided by your instructor. Leave the bottom two boxes as-is and click “CLONE WORKSPACE”.
+In the first box, give your Workspace clone a name by adding an underscore (“_”) and your name. For example, \“`r paste0(workspace_name, "_First_Last)\”. Next, select the Billing project provided by your instructor. Leave the bottom two boxes as-is and click “CLONE WORKSPACE”.
 
 <img src="resources/images/02-student_instructions_files/figure-html//182AOzMaiyrreinnsRX2VhH7YsVgvAp4xtIB_7Mzmk6I_ged15532ded_0_648.png" title="Screenshot showing the &quot;clone a workspace&quot; popout. The Workspace name, Billing Project, and Clone Workspace button have been filled in and highlighted." alt="Screenshot showing the &quot;clone a workspace&quot; popout. The Workspace name, Billing Project, and Clone Workspace button have been filled in and highlighted." width="480" />
 
