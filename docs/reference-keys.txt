@@ -1,4 +1,3 @@
-set-up
 set-up-your-computer
 create-google-account
 log-in-to-terra
