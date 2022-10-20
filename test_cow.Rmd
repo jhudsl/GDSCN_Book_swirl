@@ -1,3 +1,14 @@
 Here's the workspace name: `r workspace_name`
 
-And here's some more text
+And here's some more text.
+
+Here's a normal code block
+
+```{r}
+mtcars
+```
+
+Here I'm trying to print the workspace name:
+```{r}
+workspace_name
+```
