@@ -5,6 +5,8 @@
 
 # Set Up
 
+Welcome!  This lab will introduce you to some basic data analysis using the [R programming language](https://www.r-project.org/).  In order to do this, there are a few steps you need to complete so that you can access the material.
+
 ## Set Up Your Computer
 
 In order to run your analyses, you will use the [AnVIL cloud computing platform](https://anvilproject.org/), so that you do not need to install everything on your own computer.  The AnVIL (Analysis Visualization and Informatics Lab-space) platform is specially designed for analyzing biological data, and is used by scientists doing all sorts of biological research.
@@ -47,6 +49,8 @@ It is *very important* that you share the Google account you will be using to ac
 :::
 
 ## Access Materials
+
+Next you will need to access the materials on AnVIL.
 
 
 # Introduction
