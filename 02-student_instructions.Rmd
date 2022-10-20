@@ -90,30 +90,30 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/1ioYY0n3CcrP934WR
 ottrpal::include_slide("https://docs.google.com/presentation/d/1ioYY0n3CcrP934WRKEsQ1aKocPqfswdWWHxYCf76BCg/edit#slide=id.g10f3888d99c_0_0")
     ```
     
-1. Locate the \“`r workspace_name`\” Workspace, and click to open it.
+1. Locate the \"`r workspace_name`\" Workspace, and click to open it.
     a. If it has been shared with you ahead of time, it will appear in "MY WORKSPACES".  
 
     ```{r, echo=FALSE, fig.alt='Screenshot of Terra "MY WORKSPACES" menu. The "MY WORKSPACES" tab is highlighted. No Workspaces are visible because none have been shared with the user. There is an option to create a new Workspace.'}
 ottrpal::include_slide("https://docs.google.com/presentation/d/1JvfOluHe543cUCyyH3zz0ew-1J1QjhdYGZufW9NrC_M/edit#slide=id.g117abafa453_0_0")
     ```
-    b. Otherwise, select the “Public” tab.  In the top search bar type the name of the workspace \“`r workspace_name`\”.
+    b. Otherwise, select the "PUBLIC" tab.  In the top search bar type the name of the workspace \"`r workspace_name`\".
 
     ```{r, echo=FALSE, fig.alt='Screenshot of Terra "My Workspaces" menu. The "FEATURED" tab is highlighted.'}
 ottrpal::include_slide("https://docs.google.com/presentation/d/1JvfOluHe543cUCyyH3zz0ew-1J1QjhdYGZufW9NrC_M/edit#slide=id.g117abafa453_0_144")
     ```
     c. You can also go directly to the workspace by clicking this link: `r workspace_link`.
     
-1. Clone the workspace by clicking the teardrop button (![teardrop button](resources/images/teardrop.png){#id .class width=25 height=20px}). Select “Clone”.
+1. Clone the workspace by clicking the teardrop button (![teardrop button](resources/images/teardrop.png){#id .class width=25 height=20px}). Select "Clone".
 
     ```{r, echo=FALSE, fig.alt='Screenshot showing the teardrop button. The button has been clicked revealing the "clone" option. The Clone option and the teardrop button are highlighted.'}
 ottrpal::include_slide("https://docs.google.com/presentation/d/182AOzMaiyrreinnsRX2VhH7YsVgvAp4xtIB_7Mzmk6I/edit#slide=id.ged15532ded_0_625")
     ```
 
 1. You will see a popup box appear, asking you to configure your Workspace
-    a. Give your Workspace clone a name by adding an underscore (“_”) and your name. For example, \“`r paste0(workspace_name, "_First_Last)\”.
+    a. Give your Workspace clone a name by adding an underscore ("_") and your name. For example, \"`r paste0(workspace_name, "_First_Last)`\".
     a. Select the Billing project `r billing_project`.
-    a. Leave the bottom two boxes as-is
-    a. click “CLONE WORKSPACE”.
+    a. Leave the bottom two boxes as-is.
+    a. Click “CLONE WORKSPACE”.
     
     ```{r, echo=FALSE, fig.alt='Screenshot showing the "clone a workspace" popout. The Workspace name, Billing Project, and Clone Workspace button have been filled in and highlighted.'}
 ottrpal::include_slide("https://docs.google.com/presentation/d/182AOzMaiyrreinnsRX2VhH7YsVgvAp4xtIB_7Mzmk6I/edit#slide=id.ged15532ded_0_648")
