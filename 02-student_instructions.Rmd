@@ -84,7 +84,7 @@ Clone the workspace by clicking the teardrop button (![teardrop button](resource
 ottrpal::include_slide("https://docs.google.com/presentation/d/182AOzMaiyrreinnsRX2VhH7YsVgvAp4xtIB_7Mzmk6I/edit#slide=id.ged15532ded_0_625")
 ```
 
-In the first box, give your Workspace clone a name by adding an underscore (“_”) and your name. For example, \“`r paste0(workspace_name, "_First_Last\”. Next, select the Billing project provided by your instructor. Leave the bottom two boxes as-is and click “CLONE WORKSPACE”.
+In the first box, give your Workspace clone a name by adding an underscore (“_”) and your name. For example, \“`r paste0(workspace_name, "_First_Last)\”. Next, select the Billing project provided by your instructor. Leave the bottom two boxes as-is and click “CLONE WORKSPACE”.
 
 ```{r, echo=FALSE, fig.alt='Screenshot showing the "clone a workspace" popout. The Workspace name, Billing Project, and Clone Workspace button have been filled in and highlighted.'}
 ottrpal::include_slide("https://docs.google.com/presentation/d/182AOzMaiyrreinnsRX2VhH7YsVgvAp4xtIB_7Mzmk6I/edit#slide=id.ged15532ded_0_648")
