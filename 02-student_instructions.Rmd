@@ -60,23 +60,23 @@ workspace_link <- "Workspace_link"
 billing_project <- "provided by your Instructor"
 ```
 
+:::{.warning}
+This **will not work** until your instructor has given you permission to spend money to "rent" the computers that will power your analyses, (by adding you to a "Billing Project").
+:::
+
 On AnVIL, you access files and computers through **Workspaces**.  Each Workspace functions almost like a mini code laboratory - it is a place where data can be examined, stored, and analyzed. The first thing we want to do is to copy or “clone” a Workspace to create a space for you to experiment.  This will give you access to
 
 - the files you will need (data, code)
 - the computing environment you will use
 
-:::{.warning}
-This **will not work** until your instructor has given you permission to spend money to "rent" the computers that will power your analyses, (by adding you to a "Billing Project").
+:::{.notice}
+    **Tip**
+    At this point, it might make things easier to open up a new window in your browser and split your screen. That way, you can follow along with this guide on one side and execute the steps on the other.
 :::
 
 To clone an AnVIL Workspace:
 
 1. Open Terra - use a web browser to go to [`anvil.terra.bio`](https://anvil.terra.bio/)
-
-:::{.notice}
-    **Tip**
-    At this point, it might make things easier to open up a new window in your browser and split your screen. That way, you can follow along with this guide on one side and execute the steps on the other.
-:::
 
 1. In the drop-down menu on the left, navigate to "Workspaces". Click the triple bar in the top left corner to access the menu. Click "Workspaces".
 
