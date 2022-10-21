@@ -98,7 +98,7 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/1a5Da6qX9BG7Q_6XA
     ```
     b. Otherwise, select the "PUBLIC" tab.  In the top search bar, type the name of the workspace \"`r workspace_name`\".
 
-    ```{r, echo=FALSE, fig.alt='Screenshot of Terra Workspaces page with the "PUBLIC" tab selected. The "PUBLIC" tab and search box are highlighted.'}
+    ```{r, echo=FALSE, fig.alt='Screenshot of Terra Workspaces page with the "PUBLIC" tab selected. The "PUBLIC" tab and search box are highlighted.  The the user has typed in the term "sars". A Workspace related to SARS appears in the results.'}
 ottrpal::include_slide("https://docs.google.com/presentation/d/1a5Da6qX9BG7Q_6XAz7MvlDyWTvssm2hWwuo1WFJXb_0/edit#slide=id.g17144dbacd0_0_327")
     ```
     c. You can also go directly to the Workspace by clicking this link: `r workspace_link`.
@@ -125,13 +125,6 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/182AOzMaiyrreinns
 1. The new Workspace should now show up under "My Workspaces".  You now have your own copy of the Workspace to work in.
     
 -----
-
-    
-1. Use the search box to find the Workspace you want to clone.
-
-    ```{r, echo=FALSE, fig.alt='Screenshot of Terra "My Workspaces" menu. The search bar is highlighted and the user has typed in the term "COVID-19". A Workspace related to COVID-19 appears in the results.'}
-ottrpal::include_slide("https://docs.google.com/presentation/d/1JvfOluHe543cUCyyH3zz0ew-1J1QjhdYGZufW9NrC_M/edit#slide=id.g117abafa453_0_288")
-    ```
     
 1. Click the teardrop button on the far right next to the Workspace you want to clone.
 
