@@ -84,7 +84,7 @@ To clone an AnVIL Workspace:
     <img src="resources/images/02-student_instructions_files/figure-html//1a5Da6qX9BG7Q_6XAz7MvlDyWTvssm2hWwuo1WFJXb_0_g17144dbacd0_0_320.png" title="Screenshot of Terra Workspaces page with the &quot;MY WORKSPACES&quot; tab selected. The &quot;MY WORKSPACES&quot; tab a Workspace name are highlighted." alt="Screenshot of Terra Workspaces page with the &quot;MY WORKSPACES&quot; tab selected. The &quot;MY WORKSPACES&quot; tab a Workspace name are highlighted." width="480" />
     b. Otherwise, select the "PUBLIC" tab.  In the top search bar, type the name of the workspace \"Workspace_name\".
 
-    <img src="resources/images/02-student_instructions_files/figure-html//1a5Da6qX9BG7Q_6XAz7MvlDyWTvssm2hWwuo1WFJXb_0_g17144dbacd0_0_327.png" title="Screenshot of Terra Workspaces page with the &quot;PUBLIC&quot; tab selected. The &quot;PUBLIC&quot; tab and search box are highlighted." alt="Screenshot of Terra Workspaces page with the &quot;PUBLIC&quot; tab selected. The &quot;PUBLIC&quot; tab and search box are highlighted." width="480" />
+    <img src="resources/images/02-student_instructions_files/figure-html//1a5Da6qX9BG7Q_6XAz7MvlDyWTvssm2hWwuo1WFJXb_0_g17144dbacd0_0_327.png" title="Screenshot of Terra Workspaces page with the &quot;PUBLIC&quot; tab selected. The &quot;PUBLIC&quot; tab and search box are highlighted.  The the user has typed in the term &quot;sars&quot;. A Workspace related to SARS appears in the results." alt="Screenshot of Terra Workspaces page with the &quot;PUBLIC&quot; tab selected. The &quot;PUBLIC&quot; tab and search box are highlighted.  The the user has typed in the term &quot;sars&quot;. A Workspace related to SARS appears in the results." width="480" />
     c. You can also go directly to the Workspace by clicking this link: Workspace_link.
     
 1. Clone the workspace by clicking the teardrop button (![teardrop button](resources/images/teardrop.png){#id .class width=25 height=20px}). Select "Clone".  Or, if you have opened the Workspace, you can find the teardrop button on the top right of the Workspace.
@@ -103,11 +103,6 @@ To clone an AnVIL Workspace:
 1. The new Workspace should now show up under "My Workspaces".  You now have your own copy of the Workspace to work in.
     
 -----
-
-    
-1. Use the search box to find the Workspace you want to clone.
-
-    <img src="resources/images/02-student_instructions_files/figure-html//1JvfOluHe543cUCyyH3zz0ew-1J1QjhdYGZufW9NrC_M_g117abafa453_0_288.png" title="Screenshot of Terra &quot;My Workspaces&quot; menu. The search bar is highlighted and the user has typed in the term &quot;COVID-19&quot;. A Workspace related to COVID-19 appears in the results." alt="Screenshot of Terra &quot;My Workspaces&quot; menu. The search bar is highlighted and the user has typed in the term &quot;COVID-19&quot;. A Workspace related to COVID-19 appears in the results." width="480" />
     
 1. Click the teardrop button on the far right next to the Workspace you want to clone.
 
