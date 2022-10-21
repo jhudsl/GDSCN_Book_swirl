@@ -1,6 +1,6 @@
 ---
 title: "GDSCN: Intro R with swirl "
-date: "October 20, 2022"
+date: "October 21, 2022"
 site: bookdown::bookdown_site
 documentclass: book
 bibliography: book.bib
