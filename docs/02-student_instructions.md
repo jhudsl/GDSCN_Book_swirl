@@ -3,7 +3,9 @@
 
 
 
-# Set Up Your Computer
+# Setup
+
+## Set Up Your Computer
 
 Welcome!  This lab will introduce you to some basic data analysis using the [R programming language](https://www.r-project.org/).  In order to do this, there are a few steps you need to complete so that you can access the material.
 
@@ -16,7 +18,7 @@ In order to run your analyses, you will use the [AnVIL cloud computing platform]
 - AnVIL uses [Terra](https://anvil.terra.bio/) to provide many computational tools useful for biological data analysis, such as [RStudio](https://www.rstudio.com/products/rstudio/), [Galaxy](https://usegalaxy.org/), and [Jupyter Notebooks](https://jupyter.org/).  Terra takes care of installing these tools on Google's computers, so that you can just start using them.
 :::
 
-## Create Google Account
+### Create Google Account
 
 First, you will need to set up a (free) Google account.
 
@@ -24,18 +26,18 @@ If you do not already have a Google account that you would like to use for acces
 
 - Alternatively, if you would like to create a Google account that is associated with an existing non-Gmail email address, you can follow [these instructions](https://support.terra.bio/hc/en-us/articles/360029186611).
 
-## Log In to Terra
+### Log In to Terra
 
 Next, make sure you can log in to Terra -- you will use Terra to perform computations on AnVIL. 
 
-You can access Terra by going to [`anvil.terra.bio`](https://anvil.terra.bio/), or by clicking the link on the AnVIL home page ([`anvilproject.org`](https://anvilproject.org/)).
+You can access Terra by going to [`anvil.terra.bio`](https://anvil.terra.bio/), or by clicking the link on the [AnVIL home page](https://anvilproject.org/).
 
 
 <img src="resources/images/02-student_instructions_files/figure-html//1tyt8ifxD3y7QW3nN27jh02aPrBvNEo1GN_u2Ne_UngM_gde7783227e_0_31.png" title="Screenshot of the AnVIL home page. The button to &quot;launch Terra&quot; is highlighted." alt="Screenshot of the AnVIL home page. The button to &quot;launch Terra&quot; is highlighted." width="480" />
 
 Open Terra, and you should be prompted to sign in with your Google account.
 
-## Share username
+### Share username
 
 Finally, make sure your instructor has your Google account username (e.g. `myname@gmail.com`), so they can give you access to everything you need.
 
@@ -46,7 +48,7 @@ Finally, make sure your instructor has your Google account username (e.g. `mynam
 It is *very important* that you share the Google account you will be using to access AnVIL with with your instructor! Otherwise, the instructor cannot add you to billing projects or Workspaces, and you will be unable to proceed with your assignments.
 :::
 
-# Access Materials
+## Access Materials
 
 Next you will need to access the required materials and software.
 
