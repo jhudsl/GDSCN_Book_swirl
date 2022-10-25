@@ -62,7 +62,7 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/1a5Da6qX9BG7Q_6XA
 1. Locate the \"`r workspace_name`\" Workspace.
     a. If it has been shared with you ahead of time, it will appear in "MY WORKSPACES".  
 
-    ```{r, echo=FALSE, fig.alt='Screenshot of Terra Workspaces page with the "MY WORKSPACES" tab selected. The "MY WORKSPACES" tab a Workspace name are highlighted.'}
+    ```{r, echo=FALSE, fig.alt='Screenshot of Terra Workspaces page with the "MY WORKSPACES" tab selected. The "MY WORKSPACES" tab and a Workspace name are highlighted.'}
 ottrpal::include_slide("https://docs.google.com/presentation/d/1a5Da6qX9BG7Q_6XAz7MvlDyWTvssm2hWwuo1WFJXb_0/edit#slide=id.g17144dbacd0_0_337")
     ```
     b. Otherwise, select the "PUBLIC" tab.  In the top search bar, type the name of the workspace \"`r workspace_name`\".
