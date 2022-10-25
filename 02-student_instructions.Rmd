@@ -39,8 +39,8 @@ On AnVIL, you access files and computers through **Workspaces**.  Each Workspace
 - the computing environment you will use
 
 :::{.notice}
-    **Tip**
-    At this point, it might make things easier to open up a new window in your browser and split your screen. That way, you can follow along with this guide on one side and execute the steps on the other.
+**Tip**
+At this point, it might make things easier to open up a new window in your browser and split your screen. That way, you can follow along with this guide on one side and execute the steps on the other.
 :::
 
 To clone an AnVIL Workspace:
