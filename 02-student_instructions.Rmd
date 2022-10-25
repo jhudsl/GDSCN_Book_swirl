@@ -63,7 +63,7 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/1a5Da6qX9BG7Q_6XA
     a. If it has been shared with you ahead of time, it will appear in "MY WORKSPACES".  
 
     ```{r, echo=FALSE, fig.alt='Screenshot of Terra Workspaces page with the "MY WORKSPACES" tab selected. The "MY WORKSPACES" tab a Workspace name are highlighted.'}
-ottrpal::include_slide("https://docs.google.com/presentation/d/1a5Da6qX9BG7Q_6XAz7MvlDyWTvssm2hWwuo1WFJXb_0/edit#slide=id.g17144dbacd0_0_320")
+ottrpal::include_slide("https://docs.google.com/presentation/d/1a5Da6qX9BG7Q_6XAz7MvlDyWTvssm2hWwuo1WFJXb_0/edit#slide=id.g17144dbacd0_0_337")
     ```
     b. Otherwise, select the "PUBLIC" tab.  In the top search bar, type the name of the workspace \"`r workspace_name`\".
 
@@ -75,10 +75,10 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/1a5Da6qX9BG7Q_6XA
 1. Clone the workspace by clicking the teardrop button (![teardrop button](resources/images/teardrop.png){#id .class width=25 height=20px}). Select "Clone".  Or, if you have opened the Workspace, you can find the teardrop button on the top right of the Workspace.
 
     ```{r, echo=FALSE, fig.alt='Screenshot showing the teardrop button. The button has been clicked revealing the "clone" option. The Clone option and the teardrop button are highlighted.'}
-ottrpal::include_slide("https://docs.google.com/presentation/d/182AOzMaiyrreinnsRX2VhH7YsVgvAp4xtIB_7Mzmk6I/edit#slide=id.ged15532ded_0_625")
+ottrpal::include_slide("https://docs.google.com/presentation/d/1a5Da6qX9BG7Q_6XAz7MvlDyWTvssm2hWwuo1WFJXb_0/edit#slide=id.g17144dbacd0_0_344")
     ```
     ```{r, echo=FALSE, fig.alt='Screenshot of the Dashboard for the Workspace that we want to clone. The teardrop button has been clicked to bring up the options. The "Clone" option from the list is highlighted.'}
-ottrpal::include_slide("https://docs.google.com/presentation/d/1JvfOluHe543cUCyyH3zz0ew-1J1QjhdYGZufW9NrC_M/edit#slide=id.g117abafa453_0_577")
+ottrpal::include_slide("https://docs.google.com/presentation/d/1a5Da6qX9BG7Q_6XAz7MvlDyWTvssm2hWwuo1WFJXb_0/edit#slide=id.g117abafa453_0_577")
     ```
 
 1. You will see a popup box appear, asking you to configure your Workspace
@@ -88,19 +88,11 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/1JvfOluHe543cUCyy
     a. Click “CLONE WORKSPACE”.
     
     ```{r, echo=FALSE, fig.alt='Screenshot showing the "clone a workspace" popout. The Workspace name, Billing Project, and Clone Workspace button have been filled in and highlighted.'}
-ottrpal::include_slide("https://docs.google.com/presentation/d/182AOzMaiyrreinnsRX2VhH7YsVgvAp4xtIB_7Mzmk6I/edit#slide=id.ged15532ded_0_648")
+ottrpal::include_slide("https://docs.google.com/presentation/d/1a5Da6qX9BG7Q_6XAz7MvlDyWTvssm2hWwuo1WFJXb_0/edit#slide=id.g17144dbacd0_0_352")
     ```
 
-1. The new Workspace should now show up under "My Workspaces".  You now have your own copy of the Workspace to work in.
+1. The new Workspace should now show up under "MY WORKSPACES".  You now have your own copy of the Workspace to work in.
     
------
-    
-1. Click the teardrop button on the far right next to the Workspace you want to clone.
-
-    ```{r, echo=FALSE, fig.alt='Screenshot of Terra "My Workspaces" menu with the Workspace that we want to clone. The teardrop button has been clicked to bring up the options. The "Clone" option from the list is highlighted.'}
-ottrpal::include_slide("https://docs.google.com/presentation/d/1JvfOluHe543cUCyyH3zz0ew-1J1QjhdYGZufW9NrC_M/edit#slide=id.g117abafa453_0_432")
-    ```
-
 -----
 
 1. Click on the name of a Workspace to open it.  Opening and viewing a Workspace does not cost anything.
