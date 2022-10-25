@@ -23,9 +23,26 @@ cow::borrow_chapter(
 Next you will need to access the required materials and software.
 
 ```{r, echo = FALSE, results='asis'}
-workspace_name <- "Workspace_name"
-workspace_link <- "Workspace_link"
-billing_project <- "provided by your Instructor"
+# workspace_name <- "Workspace_name"
+# workspace_link <- "Workspace_link"
+# billing_project <- "Example Billing Project"
+```
+
+```{r, include = FALSE}
+if (!exists(workspace_name) {
+  workspace_name <- "specified by your instructor"
+  clone_name <- paste0("workspace_name", "_first_last")
+} else {
+  clone_name <- paste0(workspace_name, "_first_last")
+}
+
+if (!exists(workspace_link) {
+  workspace_link <- "ask your instructor"
+}
+
+if (!exists(billing_project) {
+  billing_project <- "provided by your Instructor"
+}
 ```
 
 :::{.warning}
@@ -58,13 +75,13 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/1a5Da6qX9BG7Q_6XA
 ottrpal::include_slide("https://docs.google.com/presentation/d/1a5Da6qX9BG7Q_6XAz7MvlDyWTvssm2hWwuo1WFJXb_0/edit#slide=id.g17144dbacd0_0_303")
     ```
     
-1. Locate the \"`r workspace_name`\" Workspace.
+1. Locate the Workspace **`r workspace_name`**.
     a. If it has been shared with you ahead of time, it will appear in "MY WORKSPACES".  
 
     ```{r, echo=FALSE, fig.alt='Screenshot of Terra Workspaces page with the "MY WORKSPACES" tab selected. The "MY WORKSPACES" tab and a Workspace name are highlighted.'}
 ottrpal::include_slide("https://docs.google.com/presentation/d/1a5Da6qX9BG7Q_6XAz7MvlDyWTvssm2hWwuo1WFJXb_0/edit#slide=id.g17144dbacd0_0_337")
     ```
-    b. Otherwise, select the "PUBLIC" tab.  In the top search bar, type the name of the workspace \"`r workspace_name`\".
+    b. Otherwise, select the "PUBLIC" tab.  In the top search bar, type the Workspace name **`r workspace_name`**.
 
     ```{r, echo=FALSE, fig.alt='Screenshot of Terra Workspaces page with the "PUBLIC" tab selected. The "PUBLIC" tab and search box are highlighted.  The the user has typed in the term "sars". A Workspace related to SARS appears in the results.'}
 ottrpal::include_slide("https://docs.google.com/presentation/d/1a5Da6qX9BG7Q_6XAz7MvlDyWTvssm2hWwuo1WFJXb_0/edit#slide=id.g17144dbacd0_0_327")
@@ -81,8 +98,8 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/1a5Da6qX9BG7Q_6XA
     ```
 
 1. You will see a popup box appear, asking you to configure your Workspace
-    a. Give your Workspace clone a name by adding an underscore ("_") and your name. For example, \"`r paste0(workspace_name, '_First_Last')`\".
-    a. Select the Billing project `r billing_project`.
+    a. Give your Workspace clone a name by adding an underscore ("_") and your name. For example, \"`r clone_name`\".
+    a. Select the Billing Project `r billing_project`.
     a. Leave the bottom two boxes as-is.
     a. Click “CLONE WORKSPACE”.
     
