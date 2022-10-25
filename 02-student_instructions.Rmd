@@ -14,7 +14,6 @@ Welcome!  This lab will introduce you to some basic data analysis using the [R p
 ```{r, echo = FALSE, results='asis'}
 cow::borrow_chapter(
   doc_path = "child/_child_student_create_account.Rmd",
-  branch = "KCox-student-signup",
   repo_name = "jhudsl/AnVIL_Template"
 )
 ```
