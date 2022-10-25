@@ -9,13 +9,10 @@ ottrpal::set_knitr_image_path()
 
 Welcome!  This lab will introduce you to some basic data analysis using the [R programming language](https://www.r-project.org/).  In order to do this, there are a few steps you need to complete so that you can access the material.
 
-## Set Up Your Computer
-
 ```{r, echo = FALSE, results='asis'}
 cow::borrow_chapter(
-  doc_path = "child/_child_student_create_account.Rmd",
-  branch = "KCox-student-signup",
-  repo_name = "jhudsl/AnVIL_Template"
+  doc_path = "child/student_setup/AnVIL_student_setup.Rmd",
+  repo_name = "jhudsl/GDSCN_Book_swirl/"
 )
 ```
 
