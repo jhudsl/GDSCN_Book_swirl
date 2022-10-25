@@ -9,6 +9,7 @@ Welcome!  This lab will introduce you to some basic data analysis using the [R p
 
 ## Set Up Your Computer
 
+
 In order to run your analyses, you will use the [AnVIL cloud computing platform](https://anvilproject.org/), so that you do not need to install everything on your own computer.  The AnVIL (Analysis Visualization and Informatics Lab-space) platform is specially designed for analyzing biological data, and is used by scientists doing all sorts of biological research.
 
 :::{.notice}
@@ -37,7 +38,7 @@ You can access Terra by going to [`anvil.terra.bio`](https://anvil.terra.bio/), 
 
 Open Terra, and you should be prompted to sign in with your Google account.
 
-### Share username
+### Share Username
 
 Finally, make sure your instructor has your Google account username (e.g. `myname@gmail.com`), so they can give you access to everything you need.
 
