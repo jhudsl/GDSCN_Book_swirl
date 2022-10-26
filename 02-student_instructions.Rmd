@@ -31,9 +31,9 @@ Next you will need to access the required materials and software.
 ```{r, include = FALSE}
 if (!exists("workspace_name")) {
   workspace_name <- "specified by your instructor"
-  clone_name <- paste0("workspace_name", "_first_last")
+  clone_name <- paste0("workspacename", "_firstname_lastname")
 } else {
-  clone_name <- paste0(workspacename, "_firstname_lastname")
+  clone_name <- paste0(workspace_name, "_firstname_lastname")
 }
 
 if (!exists("workspace_link")) {
