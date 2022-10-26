@@ -58,7 +58,7 @@ Next you will need to access the required materials and software.
 
 
 :::{.warning}
-This **will not work** until your instructor has given you permission to spend money to "rent" the computers that will power your analyses, (by adding you to a "Billing Project").
+This **will not work** until your instructor has given you permission to spend money to "rent" the computers that will power your analyses (by adding you to a "Billing Project").
 :::
 
 On AnVIL, you access files and computers through **Workspaces**.  Each Workspace functions almost like a mini code laboratory - it is a place where data can be examined, stored, and analyzed. The first thing we want to do is to copy or “clone” a Workspace to create a space for you to experiment.  This will give you access to
