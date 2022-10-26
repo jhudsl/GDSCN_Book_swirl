@@ -23,17 +23,17 @@ cow::borrow_chapter(
 Next you will need to access the required materials and software.
 
 ```{r, echo = FALSE, results='asis'}
-# workspace_name <- "Workspace_name"
-# workspace_link <- "Workspace_link"
-# billing_project <- "Example Billing Project"
+workspace_name <- "Workspace_name"
+workspace_link <- "Workspace_link"
+billing_project <- "Example Billing Project"
 ```
 
 ```{r, include = FALSE}
 if (!exists("workspace_name")) {
   workspace_name <- "specified by your instructor"
-  clone_name <- paste0("workspacename", "_firstname_lastname")
+  clone_name <- paste0("workspacename", "_Firstname_Lastname")
 } else {
-  clone_name <- paste0(workspace_name, "_firstname_lastname")
+  clone_name <- paste0(workspace_name, "_Firstname_Lastname")
 }
 
 if (!exists("workspace_link")) {
