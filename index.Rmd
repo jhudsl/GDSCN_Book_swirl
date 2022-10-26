@@ -32,13 +32,13 @@ _Programming skills_
 - Use basic commands to manipulate R objects (e.g. assigning, printing, subsetting, mathematical operations)
 - Conduct basic exploration of a dataframe
 
-The primary goal of this exercise is to get students comfortable interacting with the R console.  The majority of the student activity consists of lessons using `swirl` (https://swirlstats.com/), which teach students R from within the R console. 
+The primary goal of this exercise is to get students comfortable interacting with the R console.  The majority of the student activity consists of lessons using `swirl` (https://swirlstats.com), which teach students R from within the R console. 
 
 This exercise is intended to be used either
 
 1. As a stand-alone "taste of R", to introduce students to the field of data science, give them an idea of what a data scientist's day-to-day work looks like, and help students see it as something they could do.
 
-2. As an entry point for a more in-depth course or workshop.  In this case we recommend following up on important topics using additional resources (such as [R for Data Science](https://r4ds.had.co.nz/)).  The `swirl` lessons are great for letting students work through the basics in a "real" R environment where they get immediate feedback, but they are hard for students to refer back to later.  We find swirl most useful for giving students a first look at the big ideas along with practice typing commands into the console, which sets them up well for a more in-depth treatment over the subsequent course/workshop sessions.
+2. As an entry point for a more in-depth course or workshop.  In this case we recommend following up on important topics using additional resources (such as [R for Data Science](https://r4ds.had.co.nz/)).  The `swirl` lessons are great for letting students work through the basics in a "real" R environment where they get immediate feedback, but they are hard for students to refer back to later.  We find swirl most useful for giving students a first look at the big ideas, along with practice typing commands into the console.  This sets them up well for a more in-depth treatment over the subsequent course/workshop sessions.
 
 The `swirl` lessons cover several additional R commands and concepts beyond those mentioned in the learning objectives and provide a useful starting point for going deeper if you desire.  Additional `swirl` lessons can be found at the [`swirl` Course Network](http://swirlstats.com/scn/).
 
