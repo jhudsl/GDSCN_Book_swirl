@@ -32,7 +32,7 @@ _Programming skills_
 - Use basic commands to manipulate R objects (e.g. assigning, printing, subsetting, mathematical operations)
 - Conduct basic exploration of a dataframe
 
-The primary goal of this exercise is to get students comfortable interacting with the R console.  The majority of the student activity consists of lessons using swirl (https://swirlstats.com/), which teach students R from within the R console. 
+The primary goal of this exercise is to get students comfortable interacting with the R console.  The majority of the student activity consists of lessons using `swirl` (https://swirlstats.com/), which teach students R from within the R console. 
 
 This exercise is intended to be used either
 
