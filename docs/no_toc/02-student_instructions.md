@@ -54,9 +54,6 @@ It is *very important* that you share the Google account you will be using to ac
 Next you will need to access the required materials and software.
 
 
-
-
-
 :::{.warning}
 This **will not work** until your instructor has given you permission to spend money to "rent" the computers that will power your analyses (by adding you to a "Billing Project").
 :::
@@ -83,14 +80,14 @@ To clone an AnVIL Workspace:
 
     <img src="resources/images/02-student_instructions_files/figure-html//1a5Da6qX9BG7Q_6XAz7MvlDyWTvssm2hWwuo1WFJXb_0_g17144dbacd0_0_303.png" title="Screenshot of Terra Workspaces page with the &quot;MY WORKSPACES&quot; tab selected.  The &quot;MY WORKSPACES&quot; tab and the column showing permission level are highlighted." alt="Screenshot of Terra Workspaces page with the &quot;MY WORKSPACES&quot; tab selected.  The &quot;MY WORKSPACES&quot; tab and the column showing permission level are highlighted." width="480" />
     
-1. Locate the Workspace **Workspace_name**.
+1. Locate the Workspace **specified by your instructor**.
     a. If it has been shared with you ahead of time, it will appear in "MY WORKSPACES".  
 
     <img src="resources/images/02-student_instructions_files/figure-html//1a5Da6qX9BG7Q_6XAz7MvlDyWTvssm2hWwuo1WFJXb_0_g17144dbacd0_0_337.png" title="Screenshot of Terra Workspaces page with the &quot;MY WORKSPACES&quot; tab selected. The &quot;MY WORKSPACES&quot; tab and a Workspace name are highlighted." alt="Screenshot of Terra Workspaces page with the &quot;MY WORKSPACES&quot; tab selected. The &quot;MY WORKSPACES&quot; tab and a Workspace name are highlighted." width="480" />
-    b. Otherwise, select the "PUBLIC" tab.  In the top search bar, type the Workspace name **Workspace_name**.
+    b. Otherwise, select the "PUBLIC" tab.  In the top search bar, type the Workspace name **specified by your instructor**.
 
     <img src="resources/images/02-student_instructions_files/figure-html//1a5Da6qX9BG7Q_6XAz7MvlDyWTvssm2hWwuo1WFJXb_0_g17144dbacd0_0_327.png" title="Screenshot of Terra Workspaces page with the &quot;PUBLIC&quot; tab selected. The &quot;PUBLIC&quot; tab and search box are highlighted.  The the user has typed in the term &quot;sars&quot;. A Workspace related to SARS appears in the results." alt="Screenshot of Terra Workspaces page with the &quot;PUBLIC&quot; tab selected. The &quot;PUBLIC&quot; tab and search box are highlighted.  The the user has typed in the term &quot;sars&quot;. A Workspace related to SARS appears in the results." width="480" />
-    c. You can also go directly to the Workspace by clicking this link: Workspace_link.
+    c. You can also go directly to the Workspace by clicking this link: ask your instructor.
     
 1. Clone the workspace by clicking the teardrop button (![teardrop button](https://raw.githubusercontent.com/jhudsl/AnVIL_Template/student-clone/child/child_assets/teardrop_button.png){width=25px}). Select "Clone".  Or, if you have opened the Workspace, you can find the teardrop button on the top right of the Workspace.
 
@@ -98,8 +95,8 @@ To clone an AnVIL Workspace:
     <img src="resources/images/02-student_instructions_files/figure-html//1a5Da6qX9BG7Q_6XAz7MvlDyWTvssm2hWwuo1WFJXb_0_g117abafa453_0_577.png" title="Screenshot of the Dashboard for the Workspace that we want to clone. The teardrop button has been clicked to bring up the options. The &quot;Clone&quot; option from the list is highlighted." alt="Screenshot of the Dashboard for the Workspace that we want to clone. The teardrop button has been clicked to bring up the options. The &quot;Clone&quot; option from the list is highlighted." width="480" />
 
 1. You will see a popup box appear, asking you to configure your Workspace
-    a. Give your Workspace clone a name by adding an underscore ("_") and your name. For example, \"Workspace_name_Firstname_Lastname\".
-    a. Select the Billing Project Example Billing Project.
+    a. Give your Workspace clone a name by adding an underscore ("_") and your name. For example, \"workspacename_Firstname_Lastname\".
+    a. Select the Billing Project provided by your instructor.
     a. Leave the bottom two boxes as-is.
     a. Click “CLONE WORKSPACE”.
     
