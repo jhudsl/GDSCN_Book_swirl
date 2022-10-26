@@ -29,18 +29,18 @@ Next you will need to access the required materials and software.
 ```
 
 ```{r, include = FALSE}
-if (!exists(workspace_name)) {
+if (!exists("workspace_name")) {
   workspace_name <- "specified by your instructor"
   clone_name <- paste0("workspace_name", "_first_last")
 } else {
   clone_name <- paste0(workspace_name, "_first_last")
 }
 
-if (!exists(workspace_link)) {
+if (!exists("workspace_link")) {
   workspace_link <- "ask your instructor"
 }
 
-if (!exists(billing_project)) {
+if (!exists("billing_project")) {
   billing_project <- "provided by your instructor"
 }
 ```
