@@ -23,7 +23,7 @@
 
 
 
-<meta name="date" content="2022-10-26" />
+<meta name="date" content="2022-10-27" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -74,8 +74,10 @@
 <li class="divider"></li>
 <li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>About this Course</a>
 <ul>
+<li class="chapter" data-level="0.1" data-path="index.html"><a href="index.html#summary"><i class="fa fa-check"></i><b>0.1</b> Summary</a></li>
 <li class="chapter" data-level="" data-path="index.html"><a href="index.html#skills-level"><i class="fa fa-check"></i>Skills Level</a></li>
-<li class="chapter" data-level="" data-path="index.html"><a href="index.html#learning-objectives"><i class="fa fa-check"></i>Learning Objectives</a></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html#learning-goals"><i class="fa fa-check"></i>Learning Goals</a></li>
+<li class="chapter" data-level="0.2" data-path="index.html"><a href="index.html#audience-and-context"><i class="fa fa-check"></i><b>0.2</b> Audience and Context</a></li>
 </ul></li>
 <li class="part"><span><b>Instructor Guide</b></span></li>
 <li class="part"><span><b>Student Guide</b></span></li>
@@ -136,11 +138,22 @@
 </div>
 <div id="header">
 <h1 class="title">GDSCN: Intro R with swirl</h1>
-<p class="date"><em>October 26, 2022</em></p>
+<p class="date"><em>October 27, 2022</em></p>
 </div>
 <div id="about-this-course" class="section level1 unnumbered">
 <h1>About this Course</h1>
 <p>This book is part of a series of books for the <a href="https://www.gdscn.org/home">The Genomic Data Science Community Network (GDSCN)</a>. GDSCN is a group of educators gathered with the aim to bring genomic data science education to students at diverse institutions.</p>
+<div id="summary" class="section level2" number="0.1">
+<h2><span class="header-section-number">0.1</span> Summary</h2>
+<p>In this exercise, students are introduced to the basics of R using the <code>swirl</code> package (<a href="https://swirlstats.com" class="uri">https://swirlstats.com</a>), which teach students R from within the R console.</p>
+<p>The primary goal of this exercise is to get students comfortable interacting with the R console. Students will complete several <code>swirl</code> lessons introducing basic R concepts, and then apply their new skills by conducting a brief exploration of a dataframe.</p>
+<p>This exercise is intended to be used either</p>
+<ol style="list-style-type: decimal">
+<li><p>As a stand-alone “taste of R”, to introduce students to the field of data science, give them an idea of what a data scientist’s day-to-day work looks like, and help students see it as something they could do.</p></li>
+<li><p>As an entry point for a more in-depth course or workshop. In this case we recommend following up on important topics using additional resources (such as <a href="https://r4ds.had.co.nz/">R for Data Science</a>). The <code>swirl</code> lessons are great for letting students work through the basics in a “real” R environment where they get immediate feedback, but they are hard for students to refer back to later. We find swirl most useful for giving students a first look at the big ideas, along with practice typing commands into the console. This sets them up well for a more in-depth treatment over the subsequent course/workshop sessions.</p></li>
+</ol>
+<p>The <code>swirl</code> lessons cover several additional R commands and concepts beyond those mentioned in the learning objectives and provide a useful starting point for going deeper if you desire. Additional <code>swirl</code> lessons can be found at the <a href="http://swirlstats.com/scn/"><code>swirl</code> Course Network</a>.</p>
+</div>
 <div id="skills-level" class="section level2 unnumbered">
 <h2>Skills Level</h2>
 <div class="notice">
@@ -150,21 +163,20 @@
 <strong>Novice</strong>: no programming experience needed</p>
 </div>
 </div>
-<div id="learning-objectives" class="section level2 unnumbered">
-<h2>Learning Objectives</h2>
+<div id="learning-goals" class="section level2 unnumbered">
+<h2>Learning Goals</h2>
+<p>This activity addresses the following core competencies, as described by the associated societies and working groups:</p>
+<p><strong>Vision and Change</strong></p>
 <ul>
-<li>Start up RStudio and run commands in the R console</li>
-<li>Explain what vectors and dataframes are in R</li>
-<li>Use basic commands to manipulate R objects (e.g. assigning, printing, subsetting, mathematical operations)</li>
-<li>Conduct basic exploration of a dataframe</li>
+<li>competency 1</li>
 </ul>
-<p>The primary goal of this exercise is to get students comfortable interacting with the R console. The majority of the student activity consists of lessons using <code>swirl</code> (<a href="https://swirlstats.com" class="uri">https://swirlstats.com</a>), which teach students R from within the R console.</p>
-<p>This exercise is intended to be used either</p>
-<ol style="list-style-type: decimal">
-<li><p>As a stand-alone “taste of R”, to introduce students to the field of data science, give them an idea of what a data scientist’s day-to-day work looks like, and help students see it as something they could do.</p></li>
-<li><p>As an entry point for a more in-depth course or workshop. In this case we recommend following up on important topics using additional resources (such as <a href="https://r4ds.had.co.nz/">R for Data Science</a>). The <code>swirl</code> lessons are great for letting students work through the basics in a “real” R environment where they get immediate feedback, but they are hard for students to refer back to later. We find swirl most useful for giving students a first look at the big ideas, along with practice typing commands into the console. This sets them up well for a more in-depth treatment over the subsequent course/workshop sessions.</p></li>
-</ol>
-<p>The <code>swirl</code> lessons cover several additional R commands and concepts beyond those mentioned in the learning objectives and provide a useful starting point for going deeper if you desire. Additional <code>swirl</code> lessons can be found at the <a href="http://swirlstats.com/scn/"><code>swirl</code> Course Network</a>.</p>
+<p><strong>Bioinformatics</strong> (NIBLSE)</p>
+<ul>
+<li>competency 1</li>
+</ul>
+</div>
+<div id="audience-and-context" class="section level2" number="0.2">
+<h2><span class="header-section-number">0.2</span> Audience and Context</h2>
 <!-- Learning objectives for this activity come from the [Genetics Core Competencies](https://genetics-gsa.org/education/genetics-learning-framework/): -->
 <!-- - Objective 1 -->
 <!-- - Objective 2 -->
