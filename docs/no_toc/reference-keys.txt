@@ -1,4 +1,3 @@
-audience-and-context
 setup
 introduction
 exercises

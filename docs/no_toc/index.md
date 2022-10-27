@@ -42,7 +42,7 @@ The `swirl` lessons cover several additional R commands and concepts beyond thos
 
 This activity addresses the following core concepts and competencies, as described by the associated societies and working groups:
 
-**Vision and Change**
+**[Vision and Change in Undergraduate Biology Education](https://visionandchange.org/)**
 
 Core Competencies:
 
@@ -53,7 +53,7 @@ Core Competencies:
 
 - competency 1
 
-## Audience and Context
+## Audience and Context {-}
 
 **Audience**  
 
@@ -87,6 +87,10 @@ Core Competencies:
 
 - Short answer questions at each lab stage
 
+**Lesson Length**
+
+- One class period
+
 
 Course Level
 o	Introductory
@@ -105,11 +109,6 @@ o	2-year College
 o	4-year College
 o	University 
 o	Other
-
-Class Size
-o	1 – 50
-o	51 – 100
-o	101+
 
 Assessment Type
 o	Assessment of individual student performance
@@ -148,14 +147,6 @@ o	Written assignment: Essay
 o	Written assignment: Figure/figure legend
 o	Written assignment: Lab report
 o	Written assignment: Literature review
-o	Other
-
-Lesson Length
-o	Portion of one class period
-o	One class period
-o	Multiple class periods
-o	One term (semester or quarter)
-o	One year
 o	Other
 
 Key Scientific Process Skills
