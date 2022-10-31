@@ -1,9 +1,9 @@
 setup
-set-up-your-computer
-create-google-account
-log-in-to-terra
-share-username
+set-up-account
 access-materials
+start-rstudio
+rstudio
+launch-rstudio-cloud-environment
 introduction
 exercises
 complete-your-first-swirl-lesson
