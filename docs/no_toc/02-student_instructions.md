@@ -17,17 +17,37 @@ Welcome!  This lab will introduce you to some basic data analysis using the [R p
 
 ## Start RStudio
 
-Note that, in order to use RStudio, you must have access to a Terra Workspace with permission to compute (i.e. you must be a "Writer" or "Owner" of the Workspace).
+
+
+
+
+
+
+1. Open Terra - use a web browser to go to [`anvil.terra.bio`](https://anvil.terra.bio/)
+
+1. In the drop-down menu on the left, navigate to "Workspaces". Click the triple bar in the top left corner to access the menu. Click "Workspaces".
+
+    <img src="resources/images/02-student_instructions_files/figure-html//1a35Mb8f0M-bQkBcHa1cyQc6YxXoBLtExCz96nv08vkA_g117989bd49c_0_150.png" title="Screenshot of Terra drop-down menu.  The &quot;hamburger&quot; button to extend the drop-down menu is highlighted, and the menu item &quot;Workspaces&quot; is highlighted." alt="Screenshot of Terra drop-down menu.  The &quot;hamburger&quot; button to extend the drop-down menu is highlighted, and the menu item &quot;Workspaces&quot; is highlighted." width="100%" />
 
 1. Click on the name of your Workspace. You should be routed to a link that looks like: `https://anvil.terra.bio/#workspaces/<billing-project>/<workspace-name>`.
 
-1. On the top right, click the gear icon to access your Cloud Environment options.
+1. Click on the cloud icon on the far right to access your Cloud Environment options.
 
-    <img src="resources/images/02-student_instructions_files/figure-html//1eypYLLqD11-NwHLs4adGpcuSB07dYEJfAaALSMvgzqw_gdde5ec9a4d_1_34.png" title="Screenshot of the newly created Workspace. The gear icon to create a new cloud environment is highlighted." alt="Screenshot of the newly created Workspace. The gear icon to create a new cloud environment is highlighted." width="480" />
+    <img src="resources/images/02-student_instructions_files/figure-html//1a35Mb8f0M-bQkBcHa1cyQc6YxXoBLtExCz96nv08vkA_g14ea2db115d_0_22.png" title="Screenshot of a Workspace. The cloud icon to create a new cloud environment is highlighted." alt="Screenshot of a Workspace. The cloud icon to create a new cloud environment is highlighted." width="480" />
 
-1. You will see a list of costs because it costs a small amount of money to use cloud computing. Click "CUSTOMIZE".
+1. In the dialogue box, click the "Settings" button under RStudio
 
-    <img src="resources/images/02-student_instructions_files/figure-html//1eypYLLqD11-NwHLs4adGpcuSB07dYEJfAaALSMvgzqw_gdde5ec9a4d_1_50.png" title="Screenshot of the cloud environment popout menu. The &quot;Customize&quot; button is highlighted." alt="Screenshot of the cloud environment popout menu. The &quot;Customize&quot; button is highlighted." width="480" />
+    <img src="resources/images/02-student_instructions_files/figure-html//1a35Mb8f0M-bQkBcHa1cyQc6YxXoBLtExCz96nv08vkA_g14ea2db115d_0_18.png" title="Screenshot of the Cloud Environment Details dialogue box. The Settings button under RStudio is highlighted." alt="Screenshot of the Cloud Environment Details dialogue box. The Settings button under RStudio is highlighted." width="480" />
+
+1. You will see some details about the cloud environment, and a list of costs because it costs a small amount of money to use cloud computing.
+
+    <img src="resources/images/02-student_instructions_files/figure-html//1a35Mb8f0M-bQkBcHa1cyQc6YxXoBLtExCz96nv08vkA_g14ea2db115d_0_35.png" title="Screenshot of the RStudio Cloud Environment dialogue box. The cost to run the environment is highlighted." alt="Screenshot of the RStudio Cloud Environment dialogue box. The cost to run the environment is highlighted." width="480" />
+    
+```{r, results='as-is', echo=all( is.null(c(rstudio_docker_image, rstudio_startup_script)))
+"1. Note that, in order to use RStudio, you must have access to a Terra Workspace with permission to compute (i.e. you must be a "Writer" or "Owner" of the Workspace)."
+```
+
+    <img src="resources/images/02-student_instructions_files/figure-html//1a35Mb8f0M-bQkBcHa1cyQc6YxXoBLtExCz96nv08vkA_g14ea2db115d_0_35.png" title="Screenshot of the RStudio Cloud Environment dialogue box. The cost to run the environment is highlighted." alt="Screenshot of the RStudio Cloud Environment dialogue box. The cost to run the environment is highlighted." width="480" />
 
 1. Click on the first drop down menu to see what other software configurations are available.
 
@@ -86,14 +106,14 @@ Once you have created a Workspace, you can create an RStudio cloud environment. 
 *Estimated time: 20 min*
 
 1. Open RStudio.
-1. In the R console window, type the following commands to load the swirl package:
+1. In the R console window, type the following commands to load the `swirl` package:
 
     ```
     library(swirl)
     swirl()
     ```
 
-1. Install the course “**R Programming: The basics of programming in R**”, by following the instructions provided by swirl.
+1. Install the course “**R Programming: The basics of programming in R**”, by following the instructions provided by `swirl`.
     a. Enter your name.
     a. Press `ENTER`.
     a. Enter `1`, `2`, or `3`.
@@ -101,23 +121,23 @@ Once you have created a Workspace, you can create an RStudio cloud environment. 
 1. Complete your first lesson.
     a. Select “**R Programming**”.
     a. Select “**Basic Building Blocks**”, by entering `1` ( i.e. the corresponding lesson number ).
-    a. Follow the instructions provided by swirl to complete your first lesson.
-    a. At the end, when swirl asks if you would like to receive Coursera credit, select “No”.
+    a. Follow the instructions provided by `swirl` to complete your first lesson.
+    a. At the end, when `swirl` asks if you would like to receive Coursera credit, select “No”.
 
 
 ## Complete additional `swirl` lessons
 
 *Estimated time: 80 min*
 
-1. Complete additional swirl lessons. 
+1. Complete additional `swirl` lessons. 
     a. Select “**R Programming**”
     a. Compete each of the following lessons:
         - **4: Vectors**
         - **5: Missing_Values**
         - **6: Subsetting_Vectors**
         - **12: Looking_at_Data**
-1. Once you have completed all the lessons listed above, exit swirl.
-    a. To exit swirl, type `bye()` in the R console, press `ESC` on your keyboard, or enter `0` in response to the swirl course menu prompt.
+1. Once you have completed all the lessons listed above, exit `swirl`.
+    a. To exit `swirl`, type `bye()` in the R console, press `ESC` on your keyboard, or enter `0` in response to the `swirl` course menu prompt.
 
 # Project: Explore dataframe
 
