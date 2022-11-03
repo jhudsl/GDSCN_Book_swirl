@@ -81,7 +81,7 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/1a35Mb8f0M-bQkBcH
 ottrpal::include_slide("https://docs.google.com/presentation/d/1a35Mb8f0M-bQkBcHa1cyQc6YxXoBLtExCz96nv08vkA/edit#slide=id.g14ea2db115d_0_35")
     ```
     
-```{echo=FALSE, results='asis', eval=all( is.null(c(rstudio_docker_image, rstudio_startup_script)))
+```{echo=FALSE, results='asis', eval=all( is.null(c(rstudio_docker_image, rstudio_startup_script)))}
 1. Note that, in order to use RStudio, you must have access to a Terra Workspace with permission to compute (i.e. you must be a "Writer" or "Owner" of the Workspace).
 ```
 
