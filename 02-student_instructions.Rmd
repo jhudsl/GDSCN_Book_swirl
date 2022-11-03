@@ -34,11 +34,11 @@ billing_project <- "provided by your instructor"
 
 ## Start RStudio
 
-``{`r, include=FALSE}
+```{r, include=FALSE}
 AnVIL_module_audience <- "student"
 ```
 
-``{`r, include=FALSE}
+```{r, include=FALSE}
 # prevent "object not found" errors
 if (!exists("AnVIL_module_audience")) {
   AnVIL_module_audience <- NULL
