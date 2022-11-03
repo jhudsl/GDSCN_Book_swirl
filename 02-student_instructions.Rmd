@@ -43,6 +43,12 @@ AnVIL_module_audience <- "student"
 if (!exists("AnVIL_module_audience")) {
   AnVIL_module_audience <- NULL
 }
+if (!exists("rstudio_docker_image")) {
+  rstudio_docker_image <- NULL
+}
+if (!exists("rstudio_startup_script")) {
+  rstudio_startup_script <- NULL
+}
 ```
 
 `r if( !(AnVIL_module_audience == "student") ) {"Note that, in order to use RStudio, you must have access to a Terra Workspace with permission to compute (i.e. you must be a "Writer" or "Owner" of the Workspace)."}`
@@ -63,10 +69,24 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/1a35Mb8f0M-bQkBcH
 ottrpal::include_slide("https://docs.google.com/presentation/d/1a35Mb8f0M-bQkBcHa1cyQc6YxXoBLtExCz96nv08vkA/edit#slide=id.g14ea2db115d_0_22")
     ```
 
-1. You will see a list of costs because it costs a small amount of money to use cloud computing. Click "CUSTOMIZE".
+1. In the dialogue box, click the "Settings" button under RStudio
 
-    ```{r, echo=FALSE, fig.alt='Screenshot of the cloud environment popout menu. The "Customize" button is highlighted.'}
-ottrpal::include_slide("https://docs.google.com/presentation/d/1eypYLLqD11-NwHLs4adGpcuSB07dYEJfAaALSMvgzqw/edit#slide=id.gdde5ec9a4d_1_50")
+    ```{r, echo=FALSE, fig.alt='Screenshot of the Cloud Environment Details dialogue box. The Settings button under RStudio is highlighted.'}
+ottrpal::include_slide("https://docs.google.com/presentation/d/1a35Mb8f0M-bQkBcHa1cyQc6YxXoBLtExCz96nv08vkA/edit#slide=id.g14ea2db115d_0_18")
+    ```
+
+1. You will see some details about the cloud environment, and a list of costs because it costs a small amount of money to use cloud computing.
+
+    ```{r, echo=FALSE, fig.alt='Screenshot of the RStudio Cloud Environment dialogue box. The cost to run the environment is highlighted.'}
+ottrpal::include_slide("https://docs.google.com/presentation/d/1a35Mb8f0M-bQkBcHa1cyQc6YxXoBLtExCz96nv08vkA/edit#slide=id.g14ea2db115d_0_35")
+    ```
+    
+```{r, results='as-is', echo=if( all( is.null(c(rstudio_docker_image, rstudio_startup_script)))) 
+"1. Note that, in order to use RStudio, you must have access to a Terra Workspace with permission to compute (i.e. you must be a "Writer" or "Owner" of the Workspace)."
+```
+
+    ```{r, echo=FALSE, eval=if( all( is.null(c(rstudio_docker_image, rstudio_startup_script)))), fig.alt='Screenshot of the RStudio Cloud Environment dialogue box. The cost to run the environment is highlighted.'}
+ottrpal::include_slide("https://docs.google.com/presentation/d/1a35Mb8f0M-bQkBcHa1cyQc6YxXoBLtExCz96nv08vkA/edit#slide=id.g14ea2db115d_0_35")
     ```
 
 1. Click on the first drop down menu to see what other software configurations are available.
