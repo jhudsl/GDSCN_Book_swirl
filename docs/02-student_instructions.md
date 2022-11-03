@@ -43,8 +43,8 @@ Welcome!  This lab will introduce you to some basic data analysis using the [R p
 
     <img src="resources/images/02-student_instructions_files/figure-html//1a35Mb8f0M-bQkBcHa1cyQc6YxXoBLtExCz96nv08vkA_g14ea2db115d_0_35.png" title="Screenshot of the RStudio Cloud Environment dialogue box. The cost to run the environment is highlighted." alt="Screenshot of the RStudio Cloud Environment dialogue box. The cost to run the environment is highlighted." width="480" />
     
-```{r, results='as-is', echo=all( is.null(c(rstudio_docker_image, rstudio_startup_script)))
-"1. Note that, in order to use RStudio, you must have access to a Terra Workspace with permission to compute (i.e. you must be a "Writer" or "Owner" of the Workspace)."
+```{r, results='as-is', eval=all( is.null(c(rstudio_docker_image, rstudio_startup_script)))
+1. Note that, in order to use RStudio, you must have access to a Terra Workspace with permission to compute (i.e. you must be a "Writer" or "Owner" of the Workspace).
 ```
 
     <img src="resources/images/02-student_instructions_files/figure-html//1a35Mb8f0M-bQkBcHa1cyQc6YxXoBLtExCz96nv08vkA_g14ea2db115d_0_35.png" title="Screenshot of the RStudio Cloud Environment dialogue box. The cost to run the environment is highlighted." alt="Screenshot of the RStudio Cloud Environment dialogue box. The cost to run the environment is highlighted." width="480" />
