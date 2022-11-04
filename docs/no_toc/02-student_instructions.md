@@ -39,19 +39,59 @@ Welcome!  This lab will introduce you to some basic data analysis using the [R p
 
     <img src="resources/images/02-student_instructions_files/figure-html//1a35Mb8f0M-bQkBcHa1cyQc6YxXoBLtExCz96nv08vkA_g14ea2db115d_0_18.png" title="Screenshot of the Cloud Environment Details dialogue box. The Settings button under RStudio is highlighted." alt="Screenshot of the Cloud Environment Details dialogue box. The Settings button under RStudio is highlighted." width="480" />
 
+1. You will see some details about the default RStudio cloud environment, and a list of costs because it costs a small amount of money to use cloud computing.
+
+    <img src="resources/images/02-student_instructions_files/figure-html//1a35Mb8f0M-bQkBcHa1cyQc6YxXoBLtExCz96nv08vkA_g14ea2db115d_0_35.png" title="Screenshot of the RStudio Cloud Environment dialogue box. The cost to run the environment is highlighted." alt="Screenshot of the RStudio Cloud Environment dialogue box. The cost to run the environment is highlighted." width="480" />
+-----
+
+
+
 1. You will see some details about the cloud environment, and a list of costs because it costs a small amount of money to use cloud computing.
 
-    <img src="resources/images/02-student_instructions_files/figure-html//1a35Mb8f0M-bQkBcHa1cyQc6YxXoBLtExCz96nv08vkA_g14ea2db115d_0_35.png" title="Screenshot of the RStudio Cloud Environment dialogue box. The cost to run the environment is highlighted." alt="Screenshot of the RStudio Cloud Environment dialogue box. The cost to run the environment is highlighted." width="480" />
+    <img src="resources/images/02-student_instructions_files/figure-html/unnamed-chunk-11-1.png" title="Screenshot of the RStudio Cloud Environment dialogue box. The cost to run the environment is highlighted." alt="Screenshot of the RStudio Cloud Environment dialogue box. The cost to run the environment is highlighted." width="672" />
+
+
+
+
+
     
-```{echo=FALSE, results='asis', eval=all( is.null(c(rstudio_docker_image, rstudio_startup_script)))}
-1. Note that, in order to use RStudio, you must have access to a Terra Workspace with permission to compute (i.e. you must be a "Writer" or "Owner" of the Workspace).
-```
 
-    <img src="resources/images/02-student_instructions_files/figure-html//1a35Mb8f0M-bQkBcHa1cyQc6YxXoBLtExCz96nv08vkA_g14ea2db115d_0_35.png" title="Screenshot of the RStudio Cloud Environment dialogue box. The cost to run the environment is highlighted." alt="Screenshot of the RStudio Cloud Environment dialogue box. The cost to run the environment is highlighted." width="480" />
 
-1. Click on the first drop down menu to see what other software configurations are available.
 
-    <img src="resources/images/02-student_instructions_files/figure-html//1eypYLLqD11-NwHLs4adGpcuSB07dYEJfAaALSMvgzqw_gdde5ec9a4d_1_11.png" title="Screenshot of the cloud environment popout menu. The first dropdown menu for options, the Application configuration menu, is highlighted." alt="Screenshot of the cloud environment popout menu. The first dropdown menu for options, the Application configuration menu, is highlighted." width="480" />
+1. Click "CUSTOMIZE".
+
+    <img src="resources/images/02-student_instructions_files/figure-html/unnamed-chunk-17-1.png" width="672" />
+
+
+
+1. Under "Application configuration" you will see a dropdown menu.  While this looks like a dropdown menu, you can also enter text yourself.  Copy the following link into the box:
+
+    `test docker`
+
+    <img src="resources/images/02-student_instructions_files/figure-html/unnamed-chunk-20-1.png" width="672" />
+
+
+
+1. Under "Startup script" you will see textbox.  Copy the following link into the box:
+
+    `test startup script`
+
+    <img src="resources/images/02-student_instructions_files/figure-html/unnamed-chunk-23-1.png" width="672" />
+
+
+
+1. Click "CREATE".
+
+    <img src="resources/images/02-student_instructions_files/figure-html/unnamed-chunk-26-1.png" width="672" />
+
+1. The dialogue box will close and you will be returned to your Workspace.  You can see the status of your cloud environment by hovering over the RStudio logo.  It will take a few minutes to create your environment.  When your environment is ready, its status will change to “Running”.  Click on the RStudio logo to open a new dialogue box that will let you launch RStudio.
+
+
+    <img src="resources/images/02-student_instructions_files/figure-html//1a35Mb8f0M-bQkBcHa1cyQc6YxXoBLtExCz96nv08vkA_g14ea2db115d_0_95.png" title="Screenshot of Terra drop-down menu.  The &quot;hamburger&quot; button to extend the drop-down menu is highlighted, and the menu item &quot;Workspaces&quot; is highlighted." alt="Screenshot of Terra drop-down menu.  The &quot;hamburger&quot; button to extend the drop-down menu is highlighted, and the menu item &quot;Workspaces&quot; is highlighted." width="100%" />
+
+-----
+
+
 
 1. Scroll down and select RStudio from the Community-Maintained RStudio Environments section. **NOTE**: AnVIL is very versatile and can scale up to use very powerful cloud computers. It's very important that you select a cloud computing environment appropriate to your needs to avoid runaway costs.  If you are uncertain, start with the default settings; it is fairly easy to increase your compute resources later, if needed, but harder to scale down.
 
