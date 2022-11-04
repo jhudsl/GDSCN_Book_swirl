@@ -1,3 +1,5 @@
 word	file	lines
+disp	02-student_instructions.Rmd	100
 Jupyter	_child_student_create_account.Rmd	7
+mtcars	02-student_instructions.Rmd	100
 px	_child_student_workspace_clone.Rmd	59
