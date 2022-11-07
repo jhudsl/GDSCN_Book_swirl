@@ -225,7 +225,7 @@ if (AnVIL_module_settings$audience == "student") {
   # if there *are* custom settings, include this slide
   else {
     AnVIL_module_settings$include <- TRUE
-    AnVIL_module_settings$text <- '1. Click "CREATE".'
+    AnVIL_module_settings$text <- '1. Leave everything else as-is. To create your RStudio Cloud Environment, click on the “CREATE” button.'
   }
 }
 ```
@@ -238,11 +238,15 @@ cat(AnVIL_module_settings$text)
 ottrpal::include_slide("https://docs.google.com/presentation/d/1a35Mb8f0M-bQkBcHa1cyQc6YxXoBLtExCz96nv08vkA/edit#slide=id.g14ea2db115d_0_84")
     ```
 
-1. The dialogue box will close and you will be returned to your Workspace.  You can see the status of your cloud environment by hovering over the RStudio logo.  It will take a few minutes to create your environment.  When your environment is ready, its status will change to “Running”.  Click on the RStudio logo to open a new dialogue box that will let you launch RStudio.
-
+1. The dialogue box will close and you will be returned to your Workspace.  You can see the status of your cloud environment by hovering over the RStudio logo.  It will take a few minutes for Terra to request computers and install software.  When your environment is ready, its status will change to “Running”.  Click on the RStudio logo to open a new dialogue box that will let you launch RStudio.
 
     ```{r, echo=FALSE, out.width = '100%', fig.alt='Screenshot of Terra drop-down menu.  The "hamburger" button to extend the drop-down menu is highlighted, and the menu item "Workspaces" is highlighted.'}
 ottrpal::include_slide("https://docs.google.com/presentation/d/1a35Mb8f0M-bQkBcHa1cyQc6YxXoBLtExCz96nv08vkA/edit#slide=id.g14ea2db115d_0_95")
+    ```
+1. Click the launch icon to open RStudio.  This is also where you can pause, modify, or delete your environment when needed.
+
+    ```{r, echo=FALSE, out.width = '100%', fig.alt='Screenshot of Terra drop-down menu.  The "hamburger" button to extend the drop-down menu is highlighted, and the menu item "Workspaces" is highlighted.'}
+ottrpal::include_slide("https://docs.google.com/presentation/d/1a35Mb8f0M-bQkBcHa1cyQc6YxXoBLtExCz96nv08vkA/edit#slide=id.g14ea2db115d_0_99")
     ```
 
 -----
@@ -251,21 +255,7 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/1a35Mb8f0M-bQkBcH
 
 1. Scroll down and select RStudio from the Community-Maintained RStudio Environments section. **NOTE**: AnVIL is very versatile and can scale up to use very powerful cloud computers. It's very important that you select a cloud computing environment appropriate to your needs to avoid runaway costs.  If you are uncertain, start with the default settings; it is fairly easy to increase your compute resources later, if needed, but harder to scale down.
 
-    ```{r, echo=FALSE, fig.alt='Screenshot of the Application configuration menu. The community maintained RStudio environment is highlighted.'}
-ottrpal::include_slide("https://docs.google.com/presentation/d/1eypYLLqD11-NwHLs4adGpcuSB07dYEJfAaALSMvgzqw/edit#slide=id.ge08067d6e2_0_0")
-    ```
-
-1. Leave everything else as-is. To create your RStudio Cloud Environment, click on the “CREATE” button.
-
-    ```{r, echo=FALSE, fig.alt='Screenshot of the Application configuration menu. The "Create" button is highlighted.'}
-ottrpal::include_slide("https://docs.google.com/presentation/d/1eypYLLqD11-NwHLs4adGpcuSB07dYEJfAaALSMvgzqw/edit#slide=id.ge08067d6e2_0_34")
-    ```
-
 1. Your Cloud Environment will be available in a few minutes after the cloud resources are provisioned and your software starts up. The upper right corner displays the status and should say “Creating” while resources are being provisioned.
-
-    ```{r, echo=FALSE, fig.alt='Screenshot of the Workspace page. A cloud environment for RStudio is being created. The loading icon on the top right of the page is highlighted.'}
-ottrpal::include_slide("https://docs.google.com/presentation/d/1eypYLLqD11-NwHLs4adGpcuSB07dYEJfAaALSMvgzqw/edit#slide=id.ge08067d6e2_0_6")
-    ```
 
 1. After a few minutes, you will see the status change to “Running”.
 
