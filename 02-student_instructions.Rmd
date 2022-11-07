@@ -75,13 +75,6 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/1a35Mb8f0M-bQkBcH
     ```{r, echo=FALSE, fig.alt='Screenshot of the RStudio Cloud Environment dialogue box. The cost to run the environment is highlighted.'}
 ottrpal::include_slide("https://docs.google.com/presentation/d/1a35Mb8f0M-bQkBcHa1cyQc6YxXoBLtExCz96nv08vkA/edit#slide=id.g14ea2db115d_0_35")
     ```
------
-
-1. You will see some details about the cloud environment, and a list of costs because it costs a small amount of money to use cloud computing.
-
-    ```{r, echo=FALSE, fig.alt='Screenshot of the RStudio Cloud Environment dialogue box. The cost to run the environment is highlighted.'}
-hist(mtcars$disp)
-    ```
 
 ```{r, include=FALSE}
 # settings for instructions about using the default RStudio configuration
@@ -111,8 +104,8 @@ if (AnVIL_module_settings$audience == "student") {
 cat(AnVIL_module_settings$text)
 ```
 
-    ```{r, echo=FALSE, eval=AnVIL_module_settings$include}
-     hist(mtcars$cyl)
+    ```{r, echo=FALSE, eval=AnVIL_module_settings$include, fig.alt='Screenshot of the RStudio Cloud Environment dialogue box. The "CREATE" button is highlighted.'}
+ottrpal::include_slide("https://docs.google.com/presentation/d/1a35Mb8f0M-bQkBcHa1cyQc6YxXoBLtExCz96nv08vkA/edit#slide=id.g14ea2db115d_0_41")
     ```
 
 ```{r, include=FALSE}
@@ -143,8 +136,9 @@ if (AnVIL_module_settings$audience == "student") {
 cat(AnVIL_module_settings$text)
 ```
 
-    ```{r, echo=FALSE, eval=AnVIL_module_settings$include}
-     hist(mtcars$cyl)
+
+    ```{r, echo=FALSE, eval=AnVIL_module_settings$include, fig.alt='Screenshot of the RStudio Cloud Environment dialogue box. The "CUSTOMIZE" button is highlighted.'}
+ottrpal::include_slide("https://docs.google.com/presentation/d/1a35Mb8f0M-bQkBcHa1cyQc6YxXoBLtExCz96nv08vkA/edit#slide=id.g14ea2db115d_0_48")
     ```
 
 ```{r, include=FALSE}
