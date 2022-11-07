@@ -136,7 +136,6 @@ if (AnVIL_module_settings$audience == "student") {
 cat(AnVIL_module_settings$text)
 ```
 
-
     ```{r, echo=FALSE, eval=AnVIL_module_settings$include, fig.alt='Screenshot of the RStudio Cloud Environment dialogue box. The "CUSTOMIZE" button is highlighted.'}
 ottrpal::include_slide("https://docs.google.com/presentation/d/1a35Mb8f0M-bQkBcHa1cyQc6YxXoBLtExCz96nv08vkA/edit#slide=id.g14ea2db115d_0_48")
     ```
@@ -170,8 +169,8 @@ cat(AnVIL_module_settings$text)
 
     ``r if(AnVIL_module_settings$include){AnVIL_module_settings$docker_image}``
 
-    ```{r, echo=FALSE, eval=AnVIL_module_settings$include}
-     hist(mtcars$cyl)
+    ```{r, echo=FALSE, eval=AnVIL_module_settings$include, fig.alt='Screenshot of the RStudio Cloud Environment customization dialogue box. The dropdown menu labeled "Application configuration" is highlighted.'}
+ottrpal::include_slide("https://docs.google.com/presentation/d/1a35Mb8f0M-bQkBcHa1cyQc6YxXoBLtExCz96nv08vkA/edit#slide=id.g14ea2db115d_0_65")
     ```
 
 ```{r, include=FALSE}
@@ -203,8 +202,8 @@ cat(AnVIL_module_settings$text)
 
     ``r if(AnVIL_module_settings$include){AnVIL_module_settings$startup_script}``
 
-    ```{r, echo=FALSE, eval=AnVIL_module_settings$include}
-     hist(mtcars$cyl)
+    ```{r, echo=FALSE, eval=AnVIL_module_settings$include, fig.alt='Screenshot of the RStudio Cloud Environment customization dialogue box. The textbox labeled "Startup script" is highlighted.'}
+ottrpal::include_slide("https://docs.google.com/presentation/d/1a35Mb8f0M-bQkBcHa1cyQc6YxXoBLtExCz96nv08vkA/edit#slide=id.g14ea2db115d_0_78")
     ```
 
 ```{r, include=FALSE}
@@ -235,8 +234,8 @@ if (AnVIL_module_settings$audience == "student") {
 cat(AnVIL_module_settings$text)
 ```
 
-    ```{r, echo=FALSE, eval=AnVIL_module_settings$include}
-     hist(mtcars$cyl)
+    ```{r, echo=FALSE, eval=AnVIL_module_settings$include, fig.alt='Screenshot of the RStudio Cloud Environment customization dialogue box. The "CREATE" button is highlighted.'}
+ottrpal::include_slide("https://docs.google.com/presentation/d/1a35Mb8f0M-bQkBcHa1cyQc6YxXoBLtExCz96nv08vkA/edit#slide=id.g14ea2db115d_0_84")
     ```
 
 1. The dialogue box will close and you will be returned to your Workspace.  You can see the status of your cloud environment by hovering over the RStudio logo.  It will take a few minutes to create your environment.  When your environment is ready, its status will change to “Running”.  Click on the RStudio logo to open a new dialogue box that will let you launch RStudio.
