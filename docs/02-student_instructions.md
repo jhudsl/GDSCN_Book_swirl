@@ -51,7 +51,6 @@ Welcome!  This lab will introduce you to some basic data analysis using the [R p
 
 1. Click "CUSTOMIZE".
 
-
     <img src="resources/images/02-student_instructions_files/figure-html//1a35Mb8f0M-bQkBcHa1cyQc6YxXoBLtExCz96nv08vkA_g14ea2db115d_0_48.png" title="Screenshot of the RStudio Cloud Environment dialogue box. The &quot;CUSTOMIZE&quot; button is highlighted." alt="Screenshot of the RStudio Cloud Environment dialogue box. The &quot;CUSTOMIZE&quot; button is highlighted." width="480" />
 
 
@@ -60,7 +59,7 @@ Welcome!  This lab will introduce you to some basic data analysis using the [R p
 
     `test docker`
 
-    <img src="resources/images/02-student_instructions_files/figure-html/unnamed-chunk-17-1.png" width="672" />
+    <img src="resources/images/02-student_instructions_files/figure-html//1a35Mb8f0M-bQkBcHa1cyQc6YxXoBLtExCz96nv08vkA_g14ea2db115d_0_65.png" title="Screenshot of the RStudio Cloud Environment customization dialogue box. The dropdown menu labeled &quot;Application configuration&quot; is highlighted." alt="Screenshot of the RStudio Cloud Environment customization dialogue box. The dropdown menu labeled &quot;Application configuration&quot; is highlighted." width="480" />
 
 
 
@@ -68,13 +67,13 @@ Welcome!  This lab will introduce you to some basic data analysis using the [R p
 
     `test startup script`
 
-    <img src="resources/images/02-student_instructions_files/figure-html/unnamed-chunk-20-1.png" width="672" />
+    <img src="resources/images/02-student_instructions_files/figure-html//1a35Mb8f0M-bQkBcHa1cyQc6YxXoBLtExCz96nv08vkA_g14ea2db115d_0_78.png" title="Screenshot of the RStudio Cloud Environment customization dialogue box. The textbox labeled &quot;Startup script&quot; is highlighted." alt="Screenshot of the RStudio Cloud Environment customization dialogue box. The textbox labeled &quot;Startup script&quot; is highlighted." width="480" />
 
 
 
 1. Click "CREATE".
 
-    <img src="resources/images/02-student_instructions_files/figure-html/unnamed-chunk-23-1.png" width="672" />
+    <img src="resources/images/02-student_instructions_files/figure-html//1a35Mb8f0M-bQkBcHa1cyQc6YxXoBLtExCz96nv08vkA_g14ea2db115d_0_84.png" title="Screenshot of the RStudio Cloud Environment customization dialogue box. The &quot;CREATE&quot; button is highlighted." alt="Screenshot of the RStudio Cloud Environment customization dialogue box. The &quot;CREATE&quot; button is highlighted." width="480" />
 
 1. The dialogue box will close and you will be returned to your Workspace.  You can see the status of your cloud environment by hovering over the RStudio logo.  It will take a few minutes to create your environment.  When your environment is ready, its status will change to “Running”.  Click on the RStudio logo to open a new dialogue box that will let you launch RStudio.
 
