@@ -241,7 +241,7 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/1a35Mb8f0M-bQkBcH
 1. The dialogue box will close and you will be returned to your Workspace.  You can see the status of your cloud environment by hovering over the RStudio logo.  It will take a few minutes for Terra to request computers and install software.
 
     ```{r, echo=FALSE, out.width = '100%', fig.alt='Screenshot of a Terra Workspace. The hovertext for the RStudio icon is highlighted, and indicates that the status of the environment is "Creating".'}
-ottrpal::include_slide("[https://docs.google.com/presentation/d/1a35Mb8f0M-bQkBcHa1cyQc6YxXoBLtExCz96nv08vkA/edit#slide=id.g14ea2db115d_0_95](https://docs.google.com/presentation/d/1a35Mb8f0M-bQkBcHa1cyQc6YxXoBLtExCz96nv08vkA/edit#slide=id.g14ea2db115d_0_91)")
+ottrpal::include_slide("https://docs.google.com/presentation/d/1a35Mb8f0M-bQkBcHa1cyQc6YxXoBLtExCz96nv08vkA/edit#slide=id.g14ea2db115d_0_91")
     ```
 
 1. When your environment is ready, its status will change to “Running”.  Click on the RStudio logo to open a new dialogue box that will let you launch RStudio.
