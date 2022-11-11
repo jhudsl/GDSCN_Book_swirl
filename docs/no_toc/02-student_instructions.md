@@ -173,19 +173,6 @@ AnVIL is very versatile and can scale up to use very powerful cloud computers. I
 
     <img src="resources/images/02-student_instructions_files/figure-html//1a35Mb8f0M-bQkBcHa1cyQc6YxXoBLtExCz96nv08vkA_g14ea2db115d_0_103.png" title="Screenshot of the RStudio environment interface." alt="Screenshot of the RStudio environment interface." width="100%" />
 
-
------
-
-1. Click on the name of a Workspace to open it.  Opening and viewing a Workspace does not cost anything.
-
-    <img src="resources/images/02-student_instructions_files/figure-html//1ioYY0n3CcrP934WRKEsQ1aKocPqfswdWWHxYCf76BCg_g10f3888d99c_0_163.png" title="Screenshot of Terra Workspaces page with the &quot;My Workspaces&quot; tab selected.  The name of one of the Workspaces is highlighted." alt="Screenshot of Terra Workspaces page with the &quot;My Workspaces&quot; tab selected.  The name of one of the Workspaces is highlighted." width="480" />
-
-1. When you open a Workspace, you are directed to the Workspace Dashboard.  This generally has a description of the Workspace contents, as well as some useful details about the Workspace itself.
-
-    <img src="resources/images/02-student_instructions_files/figure-html//1ioYY0n3CcrP934WRKEsQ1aKocPqfswdWWHxYCf76BCg_g10f3888d99c_0_170.png" title="Screenshot of a Terra Workspace.  The &quot;Dashboard&quot; is highlighted." alt="Screenshot of a Terra Workspace.  The &quot;Dashboard&quot; is highlighted." width="480" />
-
-Once you have created a Workspace, you can create an RStudio cloud environment. This will allow you to interface with data and perform genomics-based analyses with add on packages from the Bioconductor community.
-
 # Introduction
 
 # Exercises
