@@ -23,7 +23,7 @@
 
 
 
-<meta name="date" content="2022-10-27" />
+<meta name="date" content="2022-11-11" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -76,7 +76,8 @@
 <ul>
 <li class="chapter" data-level="" data-path="index.html"><a href="index.html#skills-level"><i class="fa fa-check"></i>Skills Level</a></li>
 <li class="chapter" data-level="" data-path="index.html"><a href="index.html#summary"><i class="fa fa-check"></i>Summary</a></li>
-<li class="chapter" data-level="" data-path="index.html"><a href="index.html#learning-goals"><i class="fa fa-check"></i>Learning Goals</a></li>
+<li class="chapter" data-level="0.1" data-path="index.html"><a href="index.html#learning-objectives"><i class="fa fa-check"></i><b>0.1</b> Learning Objectives</a></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html#core-concepts-and-competencies"><i class="fa fa-check"></i>Core Concepts and Competencies</a></li>
 <li class="chapter" data-level="" data-path="index.html"><a href="index.html#audience-and-context"><i class="fa fa-check"></i>Audience and Context</a></li>
 </ul></li>
 <li class="part"><span><b>Instructor Guide</b></span></li>
@@ -138,7 +139,7 @@
 </div>
 <div id="header">
 <h1 class="title">GDSCN: Intro R with swirl</h1>
-<p class="date"><em>October 27, 2022</em></p>
+<p class="date"><em>November 11, 2022</em></p>
 </div>
 <div id="about-this-course" class="section level1 unnumbered">
 <h1>About this Course</h1>
@@ -159,12 +160,22 @@
 <p>This exercise is intended to be used either</p>
 <ol style="list-style-type: decimal">
 <li><p>As a stand-alone “taste of R”, to introduce students to the field of data science, give them an idea of what a data scientist’s day-to-day work looks like, and help students see it as something they could do.</p></li>
-<li><p>As an entry point for a more in-depth course or workshop. In this case we recommend following up on important topics using additional resources (such as <a href="https://r4ds.had.co.nz/">R for Data Science</a>). The <code>swirl</code> lessons are great for letting students work through the basics in a “real” R environment where they get immediate feedback, but they are hard for students to refer back to later. We find swirl most useful for giving students a first look at the big ideas, along with practice typing commands into the console. This sets them up well for a more in-depth treatment over the subsequent course/workshop sessions.</p></li>
+<li><p>As an entry point for a more in-depth course or workshop. In this case we recommend following up on important topics using additional resources (such as <a href="https://r4ds.had.co.nz/">R for Data Science</a>). The <code>swirl</code> lessons are great for letting students work through the basics in a “real” R environment where they get immediate feedback, but they are hard for students to refer back to later. We find <code>swirl</code> most useful for giving students a first look at the big ideas, along with practice typing commands into the console. This sets them up well for a more in-depth treatment over the subsequent course/workshop sessions.</p></li>
 </ol>
 <p>The <code>swirl</code> lessons cover several additional R commands and concepts beyond those mentioned in the learning objectives and provide a useful starting point for going deeper if you desire. Additional <code>swirl</code> lessons can be found at the <a href="http://swirlstats.com/scn/">swirl Course Network</a>.</p>
 </div>
-<div id="learning-goals" class="section level2 unnumbered">
-<h2>Learning Goals</h2>
+<div id="learning-objectives" class="section level2" number="0.1">
+<h2><span class="header-section-number">0.1</span> Learning Objectives</h2>
+<ul>
+<li>Open RStudio and locate important panels (R console, Help)</li>
+<li>Run commands in the R console</li>
+<li>Explain what vectors and dataframes are in R</li>
+<li>Use common commands to manipulate R objects (e.g. assigning, printing, subsetting, mathematical operations)</li>
+<li>Carry out a basic exploration of rectangular data using R commands (e.g. <code>dim</code>, <code>summary</code>, <code>str</code>)</li>
+</ul>
+</div>
+<div id="core-concepts-and-competencies" class="section level2 unnumbered">
+<h2>Core Concepts and Competencies</h2>
 <p>This activity addresses the following core concepts and competencies, as described by the associated societies and working groups:</p>
 <p><strong><a href="https://visionandchange.org/">Vision and Change in Undergraduate Biology Education</a></strong></p>
 <p>Core Competencies:</p>
@@ -213,98 +224,107 @@
 <ul>
 <li>One class period</li>
 </ul>
-<p>Course Level
-o Introductory
-o Upper Level
-o Graduate
-o High School
-o Other</p>
-<p>Audience
-o Life Sciences Major
-o Physics or Engineering Major
-o Non-Life Sciences Major
-o Non-Physics/Engineering Major
-o Non-Traditional Student
-o 2-year College
-o 4-year College
-o University
-o Other</p>
-<p>Assessment Type
-o Assessment of individual student performance
-o Assessment of student groups/teams
-o Assignment
-o Exam/quiz, in class
-o Exam/quiz, take home
-o Homework
-o Answer clicker-type question(s)
-o Answer essay question(s)
-o Answer fill in the blank question(s)
-o Answer multiple choice question(s)
-o Answer short answer questions(s)
-o Answer true/false question(s)
-o Create a concept map
-o Create a diagram, drawing, figure, etc.
-o Create a website
-o Create graph, table etc. to present data
-o Design an experiment or research study
-o Design/present a poster
-o Give an oral presentation
-o Informal in-class report
-o Interpret data
-o Order items (e.g., strip sequence)
-o Participate in discussion
-o Peer evaluation
-o Post-test
-o Pre-test
-o Produce a video or video response
-o Respond to metacognition/reflection prompt
-o Self-evaluation
-o Solve problem(s)
-o Written assignment: One minute paper
-o Written assignment: Brochure
-o Written assignment: Essay
-o Written assignment: Figure/figure legend
-o Written assignment: Lab report
-o Written assignment: Literature review
-o Other</p>
-<p>Key Scientific Process Skills
-o Reading research papers
-o Reviewing prior research
-o Asking a question
-o Formulating hypotheses
-o Designing/conducting experiments
-o Predicting outcomes
-o Gathering data/making observations
-o Analyzing data
-o Interpreting results/data
-o Displaying/modeling results/data
-o Communicating results</p>
-<p>Pedagogical Approaches
-o Think-Pair-Share
-o Brainstorming
-o Case Study
-o Clicker Question
-o Collaborative Work
-o One Minute Paper
-o Reflective Writing
-o Concept Maps
-o Strip Sequence
-o Computer Model
-o Physical Model
-o Interactive Lecture
-o Pre/Post Questions
-o Other</p>
-<p>Bloom’s Cognitive Level (based on learning objectives &amp; assessments)
-o Foundational: factual knowledge &amp; comprehension
-o Application &amp; Analysis
-o Synthesis/Evaluation/Creation</p>
-<p>Principles of how people learn
-o Motivates student to learn material
-o Focuses student on the material to be learned
-o Develops supportive community of learners
-o Leverages differences among learners
-o Reveals prior knowledge
-o Requires student to do the bulk of the work</p>
+<!--
+
+Course Level
+o   Introductory
+o   Upper Level
+o   Graduate
+o   High School
+o   Other
+
+Audience
+o   Life Sciences Major
+o   Physics or Engineering Major
+o   Non-Life Sciences Major
+o   Non-Physics/Engineering Major
+o   Non-Traditional Student
+o   2-year College
+o   4-year College
+o   University 
+o   Other
+
+Assessment Type
+o   Assessment of individual student performance
+o   Assessment of student groups/teams
+o   Assignment
+o   Exam/quiz, in class
+o   Exam/quiz, take home
+o   Homework
+o   Answer clicker-type question(s)
+o   Answer essay question(s)
+o   Answer fill in the blank question(s)
+o   Answer multiple choice question(s)
+o   Answer short answer questions(s)
+o   Answer true/false question(s)
+o   Create a concept map
+o   Create a diagram, drawing, figure, etc.
+o   Create a website
+o   Create graph, table etc. to present data
+o   Design an experiment or research study
+o   Design/present a poster
+o   Give an oral presentation
+o   Informal in-class report
+o   Interpret data
+o   Order items (e.g., strip sequence)
+o   Participate in discussion
+o   Peer evaluation
+o   Post-test
+o   Pre-test
+o   Produce a video or video response
+o   Respond to metacognition/reflection prompt
+o   Self-evaluation
+o   Solve problem(s)
+o   Written assignment: One minute paper
+o   Written assignment: Brochure
+o   Written assignment: Essay
+o   Written assignment: Figure/figure legend
+o   Written assignment: Lab report
+o   Written assignment: Literature review
+o   Other
+
+Key Scientific Process Skills
+o   Reading research papers
+o   Reviewing prior research
+o   Asking a question
+o   Formulating hypotheses
+o   Designing/conducting experiments
+o   Predicting outcomes
+o   Gathering data/making observations
+o   Analyzing data
+o   Interpreting results/data
+o   Displaying/modeling results/data
+o   Communicating results
+
+Pedagogical Approaches
+o   Think-Pair-Share
+o   Brainstorming
+o   Case Study
+o   Clicker Question
+o   Collaborative Work
+o   One Minute Paper
+o   Reflective Writing
+o   Concept Maps
+o   Strip Sequence
+o   Computer Model
+o   Physical Model
+o   Interactive Lecture
+o   Pre/Post Questions
+o   Other 
+
+Bloom’s Cognitive Level (based on learning objectives & assessments)
+o   Foundational: factual knowledge & comprehension
+o   Application & Analysis
+
+Principles of how people learn 
+o   Motivates student to learn material
+o   Focuses student on the material to be learned
+o   Develops supportive community of learners
+o   Leverages differences among learners
+o   Reveals prior knowledge
+o   Requires student to do the bulk of the work
+
+-->
 <!-- Learning objectives for this activity come from the [Genetics Core Competencies](https://genetics-gsa.org/education/genetics-learning-framework/): -->
 <!-- - Objective 1 -->
 <!-- - Objective 2 -->
