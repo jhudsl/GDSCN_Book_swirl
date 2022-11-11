@@ -57,7 +57,7 @@ Core Competencies:
 
 - competency 1
 
-## GDSCN Collection
+## GDSCN Collection {-}
 
 This book is part of a series of books for the [The Genomic Data Science Community Network (GDSCN)](https://www.gdscn.org/home).  GDSCN is a group of educators gathered with the aim to bring genomic data science education to students at diverse institutions.
 
@@ -86,12 +86,10 @@ This book is part of a series of books for the [The Genomic Data Science Communi
 
 **Lesson Duration**  
 
-<--
 - 20-30 minute pre-lab lecture 
 - 3 hour lab for undergraduate students
 - 1 hour lab for graduate students
 - Additional short lecture modules
---->
 
 **Assessment Type**  
 
