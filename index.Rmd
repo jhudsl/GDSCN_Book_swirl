@@ -40,7 +40,7 @@ _Programming skills_
 - Run commands in the R console
 - Explain what vectors and dataframes are in R
 - Use common commands to manipulate R objects (e.g. assigning, printing, subsetting, mathematical operations)
-- Carry out a basic exploration of rectangular data using R commands (e.g. `dim`, `summary`, `str`)
+- Carry out a basic exploration of rectangular data using base R commands (e.g. `dim`, `summary`, `str`)
 
 ## Core Concepts and Competencies {-}
 
@@ -57,7 +57,7 @@ Core Competencies:
 
 ### Bioinformatics Core Competencies {-}
 
-From [Bioinformatics core competencies for undergraduate life sciences education](https://doi.org/10.1371/journal.pone.0196878) by ([NIBLSE](https://qubeshub.org/community/groups/niblse))
+From [Bioinformatics core competencies for undergraduate life sciences education](https://doi.org/10.1371/journal.pone.0196878) by [NIBLSE](https://qubeshub.org/community/groups/niblse)
 
 - Use command-line bioinformatics tools and write simple computer scripts
 
