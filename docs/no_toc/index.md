@@ -46,14 +46,18 @@ _Programming skills_
 
 This activity addresses the following core concepts and competencies, as described by the associated societies and working groups:
 
-### [Vision and Change in Undergraduate Biology Education](https://visionandchange.org/) {-}
+### Vision and Change {-}
+
+From the [Vision and Change in Undergraduate Biology Education](https://visionandchange.org/) AAAS report
 
 Core Competencies:
 
 - Ability to use quantitative reasoning
 - Ability to tap into the interdisciplinary nature of science
 
-### [Bioinformatics core competencies for undergraduate life sciences education](https://doi.org/10.1371/journal.pone.0196878) ([NIBLSE](https://qubeshub.org/community/groups/niblse)) {-}
+### Bioinformatics Core Competencies {-}
+
+From [Bioinformatics core competencies for undergraduate life sciences education](https://doi.org/10.1371/journal.pone.0196878) by ([NIBLSE](https://qubeshub.org/community/groups/niblse))
 
 - Use command-line bioinformatics tools and write simple computer scripts
 
