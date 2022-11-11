@@ -46,23 +46,6 @@ cow::borrow_chapter(
 )
 ```
 
-
------
-
-1. Click on the name of a Workspace to open it.  Opening and viewing a Workspace does not cost anything.
-
-    ```{r, echo=FALSE, fig.alt='Screenshot of Terra Workspaces page with the "My Workspaces" tab selected.  The name of one of the Workspaces is highlighted.'}
-ottrpal::include_slide("https://docs.google.com/presentation/d/1ioYY0n3CcrP934WRKEsQ1aKocPqfswdWWHxYCf76BCg/edit#slide=id.g10f3888d99c_0_163")
-    ```
-
-1. When you open a Workspace, you are directed to the Workspace Dashboard.  This generally has a description of the Workspace contents, as well as some useful details about the Workspace itself.
-
-    ```{r, echo=FALSE, fig.alt='Screenshot of a Terra Workspace.  The "Dashboard" is highlighted.'}
-ottrpal::include_slide("https://docs.google.com/presentation/d/1ioYY0n3CcrP934WRKEsQ1aKocPqfswdWWHxYCf76BCg/edit#slide=id.g10f3888d99c_0_170")
-    ```
-
-Once you have created a Workspace, you can create an RStudio cloud environment. This will allow you to interface with data and perform genomics-based analyses with add on packages from the Bioconductor community.
-
 # Introduction
 
 # Exercises
