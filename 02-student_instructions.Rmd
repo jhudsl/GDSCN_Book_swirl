@@ -34,7 +34,7 @@ cow::borrow_chapter(
 
 ## Start RStudio
 
-```{r, include=FALSE}
+```{r, echo = FALSE, results='asis'}
 AnVIL_module_settings <- list(
   audience = "student",
 #   docker_image = "example docker image link",
