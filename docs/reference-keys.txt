@@ -1,4 +1,3 @@
-gdscn-collection
 setup
 introduction
 exercises
