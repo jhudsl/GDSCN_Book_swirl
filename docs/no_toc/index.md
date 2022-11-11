@@ -12,20 +12,6 @@ favicon: assets/GDSCN_style/gdscn_favicon.ico
 
 # About this Course {-}
 
-This book is part of a series of books for the [The Genomic Data Science Community Network (GDSCN)](https://www.gdscn.org/home).  GDSCN is a group of educators gathered with the aim to bring genomic data science education to students at diverse institutions.
-
-## Skills Level {-} 
-
-::: {.notice}
-_Genetics_
-**Novice**: no genetics knowledge needed
-
-_Programming skills_
-**Novice**: no programming experience needed
-:::
-
-## Summary {-}
-
 In this exercise, students are introduced to the basics of R using the `swirl` package (https://swirlstats.com), which teach students R from within the R console.
 
 The primary goal of this exercise is to get students comfortable interacting with the R console.  Students will complete several `swirl` lessons introducing basic R concepts, and then apply their new skills by conducting a brief exploration of a dataframe.
@@ -38,7 +24,17 @@ This exercise is intended to be used either
 
 The `swirl` lessons cover several additional R commands and concepts beyond those mentioned in the learning objectives and provide a useful starting point for going deeper if you desire.  Additional `swirl` lessons can be found at the [swirl Course Network](http://swirlstats.com/scn/).
 
-## Learning Objectives
+## Skills Level {-} 
+
+::: {.notice}
+_Genetics_
+**Novice**: no genetics knowledge needed
+
+_Programming skills_
+**Novice**: no programming experience needed
+:::
+
+## Learning Objectives {-}
 
 - Open RStudio and locate important panels (R console, Help)
 - Run commands in the R console
@@ -61,8 +57,11 @@ Core Competencies:
 
 - competency 1
 
+## GDSCN Collection
 
+This book is part of a series of books for the [The Genomic Data Science Community Network (GDSCN)](https://www.gdscn.org/home).  GDSCN is a group of educators gathered with the aim to bring genomic data science education to students at diverse institutions.
 
+<!--
 
 ## Audience and Context {-}
 
@@ -101,6 +100,8 @@ Core Competencies:
 **Lesson Length**
 
 - One class period
+
+-->
 
 <!--
 

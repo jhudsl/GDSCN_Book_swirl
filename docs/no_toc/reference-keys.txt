@@ -1,4 +1,4 @@
-learning-objectives
+gdscn-collection
 setup
 introduction
 exercises
