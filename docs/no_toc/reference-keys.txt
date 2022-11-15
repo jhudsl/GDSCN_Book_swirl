@@ -1,3 +1,4 @@
+teaching-recommendations
 setup
 introduction
 exercises
