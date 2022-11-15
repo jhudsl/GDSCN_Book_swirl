@@ -27,6 +27,8 @@ _Programming skills_
 
 ## Learning Objectives {-}
 
+Does adding text here fix the weird headings?
+
 <!-- Learning objectives for this activity come from the [Genetics Core Competencies](https://genetics-gsa.org/education/genetics-learning-framework/): -->
 
 <!-- - Objective 1 -->
