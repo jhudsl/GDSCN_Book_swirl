@@ -51,13 +51,13 @@ ottrpal::set_knitr_image_path()
 
 # Project: Explore dataframe
 
-Now we will use your new R skills to explore a data.frame!
+Now we will use your new R skills to explore a data.frame.
 
 <br>
 
 ## R tips
 
-Don't worry if you can't remember everything!  Data scientists and computer programmers don't memorize everything either.  That's why there's a help function built in to R!
+Don't worry if you can't remember everything - data scientists and computer programmers don't memorize everything either.  That's why there's a help function built in to R!
 
 As a reminder, here are a few useful commands for exploring dataframes:
 ```
@@ -75,11 +75,12 @@ If you need help remembering how to use a command, use `?`
 
 If you start using R frequently, you'll naturally start to remember some of the common commands.  But don't hesitate to look things up, or ask if you get stuck!
 
-## Explore the ??? dataframe
+## Explore dataframe
 
 ```{r, echo = FALSE, results='asis'}
 cow::borrow_chapter(
-  doc_path = "child/dataset/awesomedata/_child_explore_awesomedata.Rmd",
+  doc_path = "child/dataset/us_contagious_diseases/_child_explore_us_contagious_diseases.Rmd",
+  branch = "dslabs-contagious-disease"
   repo_name = "jhudsl/GDSCN_Book_swirl"
 )
 ```
