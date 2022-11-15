@@ -1,6 +1,6 @@
 # (PART\*) Instructor Guide {-}
 
-## Teaching Recommendations
+## Teaching Recommendations {-}
 
 This exercise is designed to be used either
 
