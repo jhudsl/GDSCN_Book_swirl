@@ -51,7 +51,7 @@ ottrpal::set_knitr_image_path()
 
 # Project: Explore dataframe
 
-Now we will use your new R skills to explore a data.frame.
+Now we will use your R skills to explore a dataframe.
 
 <br>
 
@@ -102,17 +102,18 @@ It can be a bit annoying to have to type out the whole dataset name, and it's ea
 Take a minute to look at the first few rows of this dataset.
 
 :::{.reflection}
-1. How many columns are there?
-1. What's in each column?
+**Q1.** How many columns are there?
+**Q2.** What's in each column?
 :::
 
-Now use some R commands dig a little deeper into the data.
+Now use some R commands to dig a little deeper into the data.
 
 :::{.reflection}
-1. What diseases are reported in this dataset?  (Hint: there are 7)
-1. What time period does this dataset cover?  In other words
-    a. What's the earliest year reported?
-    b. What's the latest year reported?
+**Q3.** What diseases are reported in this dataset?  (Hint: there are 7)
+**Q4.** What time period does this dataset cover?  In other words
+
+a. What's the earliest year reported?
+b. What's the latest year reported?
 :::
 
 Now let's investigate something more specific: what's the average case count for a particular disease in a particular state?
@@ -124,12 +125,14 @@ hepatitis_md <- dplyr::filter(us_contagious_diseases, disease=="Hepatitis A", st
 head(hepatitis_md)
 ```
 
-Using this new, filtered dataframe, find the average case count.
+Using this new, filtered dataframe, find the average case count:
 
 :::{.reflection}
-1. What is the average case count for Hepatitis A in Maryland?
-    a. Copy the above command, and run it in RStudio.  Then use an R command to find the average of the `count` column in the `hepatitis_md` dataframe.
-1. Now modify the above command to select a different disease and state, and find the average count.
+**Q5.** What is the average case count for Hepatitis A in Maryland?
+
+a. Copy the above command, and run it in RStudio.  Then use an R command to find the average of the `count` column in the `hepatitis_md` dataframe.
+
+**Q6.** Modify the above command to select a different disease and state, and find the average count.
 :::
 
 # Wrap-up
