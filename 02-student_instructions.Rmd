@@ -115,6 +115,15 @@ Now use some R commands dig a little deeper into the data.
     b. What's the latest year reported?
 :::
 
+Now let's investigate something more specific: what's the average case count for a particular disease in a particular state?
+
+The following command will extract all the rows where the `disease` column is equal to "Hepatitis A" and the `state` column is equal to "Maryland".  It stores that (much smaller) dataset in a dataframe named `hepatitis_md`.
+
+```{r}
+hepatitis_md <- dplyr::filter(us_contagious_diseases, disease=="Hepatitis A", state=="Maryland")
+head(hepatitis_md)
+```
+
 # Wrap-up
 
 Cloud computing costs are based on the amount of time you use the computing resources, so it's important to clean up after yourself when you're done, and not just leave the computers running.
