@@ -87,13 +87,29 @@ cow::borrow_chapter(
 
 To start, you will need to load the `dslabs` package, which contains the dataset.  Type the following commands to load the package and confirm that you can view the dataset.  You should see a printout of the first few rows of data, as shown below.
 
-    ```{r}
-    library(dslabs)
-    head(us_contagious_diseases)
-    ```
+```{r}
+library(dslabs)
+head(us_contagious_diseases)
+```
  
 :::{.notice}
 It can be a bit annoying to have to type out the whole dataset name, and it's easy to make errors.  Remember that you can use "tab completion" to make the computer do the work for you!  Start typing the first few letters (i.e. `us`), then hit the `TAB` key on your keyboard and you should see a list of autocomplete possibilities.  Use your mouse or the arrow keys to select the one you want, or just keep typing until it's the only one left, then hit `ENTER` and it will autocomplete for you.
+:::
+
+Take a minute to look at the first few rows of this dataset.
+
+:::{.reflection}
+1. How many columns are there?
+1. What's in each column?
+:::
+
+Now use some R commands dig a little deeper into the data.
+
+:::{.reflection}
+1. What diseases are reported in this dataset?  (Hint: there are 7)
+1. What time period does this dataset cover?  In other words
+    a. What's the earliest year reported?
+    b. What's the latest year reported?
 :::
 
 # Wrap-up
