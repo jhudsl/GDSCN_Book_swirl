@@ -124,6 +124,14 @@ hepatitis_md <- dplyr::filter(us_contagious_diseases, disease=="Hepatitis A", st
 head(hepatitis_md)
 ```
 
+Using this new, filtered dataframe, find the average case count.
+
+:::{.reflection}
+1. What is the average case count for Hepatitis A in Maryland?
+    a. Copy the above command, and run it in RStudio.  Then use an R command to find the average of the `count` column in the `hepatitis_md` dataframe.
+1. Now modify the above command to select a different disease and state, and find the average count.
+:::
+
 # Wrap-up
 
 Cloud computing costs are based on the amount of time you use the computing resources, so it's important to clean up after yourself when you're done, and not just leave the computers running.
