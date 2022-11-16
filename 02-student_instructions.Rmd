@@ -80,7 +80,7 @@ If you start using R frequently, you'll naturally start to remember some of the 
 ```{r, echo = FALSE, results='asis'}
 cow::borrow_chapter(
   doc_path = "child/dataset/us_contagious_diseases/_child_explore_us_contagious_diseases.Rmd",
-  branch = "dslabs-contagious-disease"
+  branch = "dslabs-contagious-disease",
   repo_name = "jhudsl/GDSCN_Book_swirl"
 )
 ```
