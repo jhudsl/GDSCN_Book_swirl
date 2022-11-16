@@ -93,7 +93,10 @@ head(us_contagious_diseases)
 ```
  
 :::{.notice}
-It can be a bit annoying to have to type out the whole dataset name, and it's easy to make errors.  Remember that you can use "tab completion" to make the computer do the work for you!  Start typing the first few letters (i.e. `us`), then hit the `TAB` key on your keyboard and you should see a list of autocomplete possibilities.  Use your mouse or the arrow keys to select the one you want, or just keep typing until it's the only one left, then hit `ENTER` and it will autocomplete for you.
+It can be a bit annoying to have to type out the whole dataset name, and it's easy to make errors.  Remember that you can use "tab completion" to make the computer do the work for you!
+
+- Start typing the first few letters (i.e. `us`), then hit the `TAB` key on your keyboard and you should see a list of autocomplete possibilities.
+- Use your mouse or the arrow keys to select the one you want, or just keep typing until it's the only one left, then hit `ENTER` and it will autocomplete for you.
 :::
 
 Take a minute to look at the first few rows of this dataset.
