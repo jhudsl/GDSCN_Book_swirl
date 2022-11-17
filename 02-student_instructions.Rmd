@@ -164,7 +164,7 @@ Some tips and reminders:
 
 So, to get the disease frequencies:
 
-:::{style="background-color: white; padding-top: 1em;"}
+:::{style="background-color: white; padding: 1em 1em 0.15em; margin-bottom: 0.85em;"}
 1. Extract the `count` and `population` columns from the Vermont Polio data.
 1. Divide `count` by `population`.
 1. Multiply the result by `100000` (don't use commas, R will be confused if you try to use `100,000`).
