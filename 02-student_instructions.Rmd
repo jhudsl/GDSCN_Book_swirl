@@ -158,9 +158,9 @@ This will take a few steps, and you'll need to use multiple R commands to transf
 
 Some tips and reminders:
 
-    - You can get individual columns from a dataframe using `$`. For example, `us_contagious_diseases$count` will give you a vector containing the whole `counts` column.
-    - If you have multiple vectors, you can do mathematical operations with them.
-    - You don't have to do everything in one command (although you can!).  You can store any intermediate results using `<-`.  Just make sure to use a name that helps you remember what you stored.
+- You can get individual columns from a dataframe using `$`. For example, `us_contagious_diseases$count` will give you a vector containing the whole `counts` column.
+- If you have multiple vectors, you can do mathematical operations with them.
+- You don't have to do everything in one command (although you can!).  You can store any intermediate results using `<-`.  Just make sure to use a name that helps you remember what you stored.
 
 So, to get the disease frequencies:
 
