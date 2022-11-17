@@ -112,7 +112,7 @@ Now use some R commands to dig a little deeper into the data.
 :::{.reflection}
 **Q3.** What diseases are reported in this dataset?  (Hint: there are 7)
 
-**Q4.** What time period does this dataset cover?  In other words
+**Q4.** What time period does this dataset cover?
 
 a. What's the earliest year reported?
 b. What's the latest year reported?
