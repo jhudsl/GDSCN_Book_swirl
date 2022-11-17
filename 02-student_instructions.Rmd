@@ -164,11 +164,13 @@ Some tips and reminders:
 
 So, to get the disease frequencies:
 
-    1. Extract the `count` and `population` columns from the Vermont Polio data
-    1. Divide `count` by population
-    1. Multiply the result by `100000` (don't use commas, R will be confused if you try to use `100,000`)
-    1. Find the median of this new vector.
-    1. Repeat these steps for the New York Polio data.
+:::{style="background-color: #f7f7f7;"}
+1. Extract the `count` and `population` columns from the Vermont Polio data
+1. Divide `count` by population
+1. Multiply the result by `100000` (don't use commas, R will be confused if you try to use `100,000`)
+1. Find the median of this new vector.
+1. Repeat these steps for the New York Polio data.
+:::
 
 Finally, answer the question:
 
