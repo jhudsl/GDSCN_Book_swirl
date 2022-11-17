@@ -148,19 +148,16 @@ Using this new, filtered dataframe, find the average case count:
 
 It's difficult to make comparisons across states with this data as is.  A case count of, say, 500 is much more concerning if it happens in a state with a small population, because it means a greater percentage of the people are getting sick.
 
-For example, the median case count for Polio in New York is 685.  That's much higher than Vermont!
-
-But let's use the data to see whether the case counts are comparable when we adjust for the number of people in each state.
+For example, the median case count for Polio in New York is 685.  That's much higher than Vermont!  But let's use the data to see whether the case counts are comparable when we adjust for the number of people in each state.
 
 This will take a few steps, and you'll need to use multiple R commands to transform the data and extract the information you want.
 
-:::{.reflection}
-
-First, extract the New York Polio data, just like you did for the Vermont data, and store it in a new dataframe.
-
-Then, for each of these dataframes calculate the case count per 100,000 people (this is a common way to report disease frequencies), and then find the median for each state.
+1. First, **extract the New York Polio data**, just like you did for the Vermont data, and store it in a new dataframe.
+1. Then, for each of these dataframes **calculate the case count per 100,000 people** (this is a common way to report disease frequencies)
+1. Then **find the median** for each state.
 
 Some tips and reminders:
+
     - You can get individual columns from a dataframe using `$`. For example, `us_contagious_diseases$count` will give you a vector containing the whole `counts` column.
     - If you have multiple vectors, you can do mathematical operations with them.
     - You don't have to do everything in one command (although you can!).  You can store any intermediate results using `<-`.  Just make sure to use a name that helps you remember what you stored.
@@ -176,8 +173,6 @@ So, to get the disease frequencies:
 Finally, answer the question:
 
 **C1.** Is the median case count per 100000 people higher in New York or Vermont?
-
-:::
 
 :::
 
