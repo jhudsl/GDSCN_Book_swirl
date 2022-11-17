@@ -135,7 +135,7 @@ Using this new, filtered dataframe, find the average case count:
 - Copy the above command, and run it in RStudio.
 - Then use an R command to find the average of the `count` column in the `hepatitis_md` dataframe.
 
-**Q6.** Modify the above command to select a different disease and state, and find the average count.
+**Q6.** Modify the above command to select for Polio cases in California, and find the average count.
 :::
 
 # Wrap-up
