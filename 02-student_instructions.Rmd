@@ -130,12 +130,12 @@ head(hepatitis_md)
 Using this new, filtered dataframe, find the average case count:
 
 :::{.reflection}
-**Q5.** What is the average case count for Hepatitis A in Maryland?
+**Q5.** What is the median case count for Hepatitis A in Maryland?
 
 - Copy the above command, and run it in RStudio.
-- Then use an R command to find the average of the `count` column in the `hepatitis_md` dataframe.
+- Then use an R command to find the median of the `count` column in the `hepatitis_md` dataframe.
 
-**Q6.** Modify the above command to select for Polio cases in Vermont, and find the average count.
+**Q6.** Modify the above command to select for Polio cases in Vermont, and find the median case count.
 
 - Remember that you can use the up arrow to cycle through previous commands. Tap the up arrow until you get back to the command that extracted the data for Hepatitis A in Maryland.
 - Modify the command to select for Polio in Vermont.
