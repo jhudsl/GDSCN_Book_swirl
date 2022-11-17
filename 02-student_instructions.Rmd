@@ -103,6 +103,7 @@ Take a minute to look at the first few rows of this dataset.
 
 :::{.reflection}
 **Q1.** How many columns are there?
+
 **Q2.** What's in each column?
 :::
 
@@ -110,6 +111,7 @@ Now use some R commands to dig a little deeper into the data.
 
 :::{.reflection}
 **Q3.** What diseases are reported in this dataset?  (Hint: there are 7)
+
 **Q4.** What time period does this dataset cover?  In other words
 
 a. What's the earliest year reported?
@@ -130,7 +132,8 @@ Using this new, filtered dataframe, find the average case count:
 :::{.reflection}
 **Q5.** What is the average case count for Hepatitis A in Maryland?
 
-a. Copy the above command, and run it in RStudio.  Then use an R command to find the average of the `count` column in the `hepatitis_md` dataframe.
+- Copy the above command, and run it in RStudio.
+- Then use an R command to find the average of the `count` column in the `hepatitis_md` dataframe.
 
 **Q6.** Modify the above command to select a different disease and state, and find the average count.
 :::
