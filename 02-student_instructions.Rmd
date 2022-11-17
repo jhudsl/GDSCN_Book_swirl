@@ -164,7 +164,7 @@ Some tips and reminders:
 
 So, to get the disease frequencies:
 
-:::{style="background-color: #f7f7f7;"}
+:::{style="background-color: #f7f7f7; padding: 1em;"}
 1. Extract the `count` and `population` columns from the Vermont Polio data
 1. Divide `count` by population
 1. Multiply the result by `100000` (don't use commas, R will be confused if you try to use `100,000`)
@@ -174,7 +174,9 @@ So, to get the disease frequencies:
 
 Finally, answer the question:
 
+:::{.reflection}
 **C1.** Is the median case count per 100000 people higher in New York or Vermont?
+:::
 
 :::
 
