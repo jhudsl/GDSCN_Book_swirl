@@ -1,4 +1,4 @@
-# Wrap-up on AnVIL
+# Wrap-up on AnVIL {-}
 
 Cloud computing costs are based on the amount of time you use the computing resources, so it's important to clean up after yourself when you're done, and not just leave the computers running.
 
