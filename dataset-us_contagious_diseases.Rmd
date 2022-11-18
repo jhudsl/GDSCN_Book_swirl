@@ -1,5 +1,7 @@
 # Explore `us_contagious_diseases` dataframe
 
+*Estimated time: 20 min*
+
 ```{r, include=FALSE}
 install.packages("dslabs")
 ```
@@ -90,6 +92,8 @@ Using this new, filtered dataframe, find the average case count:
 :::{.warning}
 
 **Challenge**:
+
+*Estimated time: 20 min*
 
 It's difficult to make comparisons across states with this data as is.  A case count of, say, 500 is much more concerning if it happens in a state with a small population, because it means a greater percentage of the people are getting sick.
 
