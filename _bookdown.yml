@@ -6,6 +6,8 @@ rmd_files: ["index.Rmd",
             "02-student_instructions.Rmd",
             "04-dataset_exploration.Rmd",
             "dataset-us_contagious_diseases.Rmd",
+            "05-wrapup.Rmd",
+            "wrapup-AnVIL.Rmd",
             "About.Rmd",
             "References.Rmd"]
 new_session: yes
