@@ -1,15 +1,16 @@
-# (PART\*) Student Guide {-}
-
-
 ```{r, include = FALSE}
 ottrpal::set_knitr_image_path()
 ```
 
-# Setup
+# (PART) Setup {-}
 
-# Introduction
+# (PART) Introduction {-}
 
-# Exercises
+# (PART) Lab Exercises {-}
+
+# R Programming with `swirl`
+
+This exercise will have you utilize an R tutorial package called `swirl`, which will allow you to learn R from within R. Using `swirl`, you will complete a series of lessons that will teach you the fundamentals of R programming.
 
 ## Complete your first `swirl` lesson
 
