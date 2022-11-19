@@ -1,4 +1,5 @@
 AnVIL
+autocomplete
 BIPOC
 Bloomberg
 callout
@@ -8,6 +9,7 @@ dropdown
 GDSCN
 Gmail
 impactful
+Irizarry
 mentorship
 NCI
 NHGRI
