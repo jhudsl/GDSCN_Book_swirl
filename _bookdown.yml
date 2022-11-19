@@ -4,6 +4,8 @@ repo: https://github.com/jhudsl/AnVIL_Template/
 rmd_files: ["index.Rmd",
             "01-instructor_guide.Rmd",
             "02-student_instructions.Rmd",
+            "03-exercises.Rmd",
+            "exercises_swirl_01_04_05_06_12.Rmd",
             "04-dataset_exploration.Rmd",
             "dataset-us_contagious_diseases.Rmd",
             "05-wrapup.Rmd",
