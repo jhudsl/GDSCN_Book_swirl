@@ -1,3 +1,10 @@
+setup
+set-up-account
+create-google-account
+log-in-to-terra
+share-username
+access-materials
+start-rstudio
 r-programming-with-swirl
 complete-your-first-swirl-lesson
 complete-additional-swirl-lessons
