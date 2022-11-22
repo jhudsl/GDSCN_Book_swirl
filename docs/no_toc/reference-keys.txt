@@ -1,4 +1,4 @@
-setup
+setup-on-anvil
 set-up-account
 create-google-account
 log-in-to-terra
