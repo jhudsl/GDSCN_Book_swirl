@@ -1,0 +1,8 @@
+```{r, include=FALSE}
+install.packages("dslabs")
+```
+
+Now we will take a look at the [*US Contagious Diseases*](https://www.rdocumentation.org/packages/dslabs/versions/0.7.3/topics/us_contagious_diseases){target="_blank"} dataset.
+
+This dataset is part of [`dslabs`](https://www.rdocumentation.org/packages/dslabs/versions/0.7.3), a collection of datasets for practicing data analysis assembled by Rafael Irizarry and Amy Gill.  You can use the help (`?us_contagious_diseases`) feature in RStudio to find out more about this dataset.
+
