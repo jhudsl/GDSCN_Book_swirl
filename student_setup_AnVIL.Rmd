@@ -1,4 +1,4 @@
-# Setup
+# Setup on AnVIL
 
 Welcome!  This lab will introduce you to some basic data analysis using the [R programming language](https://www.r-project.org/).  In order to do this, there are a few steps you need to complete so that you can access the material.
 
