@@ -1,4 +1,6 @@
 teaching-recommendations
+lesson-plan
+computing-requirements
 setup
 introduction
 exercises

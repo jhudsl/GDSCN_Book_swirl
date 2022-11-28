@@ -152,3 +152,14 @@ o	Reveals prior knowledge
 o	Requires student to do the bulk of the work
 
 -->
+
+## Lesson Plan
+
+## Computing Requirements
+
+- RStudio
+- R packages
+  - `swirl`
+  - `dplyr`
+
+This book provides instructions on how to set these up in the cloud using the [AnVIL platform](https://anvil.terra.bio/), so that your students will not need to install anything.  Depending on your needs, you might decide to run this activity on a different cloud provider, such [Posit Cloud](https://posit.cloud/) (formerly RStudio Cloud), or have your students install RStudio themselves.
