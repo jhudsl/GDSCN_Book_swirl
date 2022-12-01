@@ -14,6 +14,8 @@ favicon: assets/GDSCN_style/gdscn_favicon.ico
 
 In this exercise, students are introduced to the basics of R using the `swirl` package (https://swirlstats.com), which teaches students R from within the R console.  The primary goal of this exercise is to get students comfortable interacting with the R console.
 
+![swirl logo](assets/swirl_logo.png)
+
 ## Skills Level {-} 
 
 ::: {.notice}
