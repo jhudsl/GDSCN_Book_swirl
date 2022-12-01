@@ -47,7 +47,7 @@ competencies <- tibble::tribble(
   "**Vision and Change**",  paste(
                               #"None",
                               
-                              "Core Competencies\n",
+                              "Competencies\n",
                               # "- Ability to apply the process of science",
                               "- Ability to use quantitative reasoning",
                               # "- Ability to use modeling and simulation",
@@ -57,9 +57,8 @@ competencies <- tibble::tribble(
                             sep="\n"),
 
 
-  "**Genetics**",            paste(
-                               "None",
-                             sep="\n"),
+#   "**Genetics**",            paste(
+#                              sep="\n"),
 
 
   "**Bioinformatics**",      paste(
