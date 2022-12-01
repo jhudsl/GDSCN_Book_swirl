@@ -55,6 +55,20 @@ From [Bioinformatics core competencies for undergraduate life sciences education
 
 - Use command-line bioinformatics tools and write simple computer scripts
 
+
+```r
+competencies <- tribble(
+  ~colA, ~colB,
+  "**VC**",   1,
+  "b",   2,
+  "c",   3
+)
+competencies <- column_to_rownames(competencies, var = "colA")
+
+kable(competencies, col.names = NULL, format = "html")
+
+```
+
 ## GDSCN Collection {-}
 
 This exercise is part of a collection of teaching resources developed through the *Genomic Data Science Community Network* (GDSCN). GDSCN works towards a vision where researchers, educators, and students from diverse backgrounds are able to fully participate in genomic data science research.  Learn more about GDSCN by visiting https://www.gdscn.org/home or reading the [article in Genome Research](https://doi.org/10.1101/gr.276496.121).
