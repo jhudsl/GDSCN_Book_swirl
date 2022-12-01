@@ -50,6 +50,10 @@ This activity addresses the following core concepts and competencies:
 - Ability to tap into the interdisciplinary nature of science </td>
   </tr>
   <tr>
+   <td style="text-align:left;"> **Genetics** </td>
+   <td style="text-align:left;"> None </td>
+  </tr>
+  <tr>
    <td style="text-align:left;"> **Bioinformatics** </td>
    <td style="text-align:left;"> - Use command-line bioinformatics tools and write simple computer scripts </td>
   </tr>
