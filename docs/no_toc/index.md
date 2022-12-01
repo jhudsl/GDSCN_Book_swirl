@@ -56,18 +56,42 @@ From [Bioinformatics core competencies for undergraduate life sciences education
 - Use command-line bioinformatics tools and write simple computer scripts
 
 
+
 ```r
-competencies <- tribble(
-  ~colA, ~colB,
-  "**VC**",   1,
-  "b",   2,
-  "c",   3
+competencies <- tibble::tribble(
+  ~source, ~competencies,
+  "Vision and Change",  paste(
+                          "Core Competencies\n",
+                          "- Ability to use quantitative reasoning",
+                          "- Ability to tap into the interdisciplinary nature of science",
+                          sep="\n"),
+  "Genetics",   "2",
+  "Bioinformatics",   "3"
 )
-competencies <- column_to_rownames(competencies, var = "colA")
+competencies <- tibble::column_to_rownames(competencies, var = "source")
 
-kable(competencies, col.names = NULL, format = "html")
-
+knitr::kable(competencies, col.names = NULL, format = "html")
 ```
+
+<table>
+<tbody>
+  <tr>
+   <td style="text-align:left;"> Vision and Change </td>
+   <td style="text-align:left;"> Core Competencies
+
+- Ability to use quantitative reasoning
+- Ability to tap into the interdisciplinary nature of science </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Genetics </td>
+   <td style="text-align:left;"> 2 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Bioinformatics </td>
+   <td style="text-align:left;"> 3 </td>
+  </tr>
+</tbody>
+</table>
 
 ## GDSCN Collection {-}
 
