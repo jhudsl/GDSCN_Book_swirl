@@ -10,13 +10,9 @@ description: "This book provides a lab exercise that introduces students to the 
 favicon: assets/GDSCN_style/gdscn_favicon.ico
 ---
 
-# About this Course {-}
+# About {-}
 
-In this exercise, students are introduced to the basics of R using the `swirl` package (https://swirlstats.com), which teaches students R from within the R console.
-
-The primary goal of this exercise is to get students comfortable interacting with the R console.  Students will complete several `swirl` lessons introducing basic R concepts, and then apply their new skills by conducting a brief exploration of a dataframe.
-
-The `swirl` lessons touch on several additional R commands and concepts beyond those mentioned in the learning objectives and provide a useful starting point for going deeper if you desire.  Additional `swirl` lessons can be found at the [swirl Course Network](http://swirlstats.com/scn/).
+In this exercise, students are introduced to the basics of R using the `swirl` package (https://swirlstats.com), which teaches students R from within the R console.  The primary goal of this exercise is to get students comfortable interacting with the R console.
 
 ## Skills Level {-} 
 
