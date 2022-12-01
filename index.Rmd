@@ -38,7 +38,7 @@ _Programming skills_
 
 ## Core Concepts and Competencies {-}
 
-This activity addresses the following core concepts and competencies, as described by the associated societies and working groups:
+This activity addresses the following core concepts and competencies:
 
 ```{r, echo=FALSE}
 competencies <- tibble::tribble(
@@ -75,9 +75,11 @@ competencies <- tibble::tribble(
 knitr::kable(competencies, col.names = NULL, format = "html")
 ```
 
+Core concepts and competencies are described in the following publications:
+
   - **Vision and Change**: [Vision and Change in Undergraduate Biology Education](https://visionandchange.org/) AAAS report
   - **Genetics**:
-  - **Bioinformatics: [Bioinformatics core competencies for undergraduate life sciences education](https://doi.org/10.1371/journal.pone.0196878) by [NIBLSE](https://qubeshub.org/community/groups/niblse)
+  - **Bioinformatics**: [Bioinformatics core competencies for undergraduate life sciences education](https://doi.org/10.1371/journal.pone.0196878) by [NIBLSE](https://qubeshub.org/community/groups/niblse)
 
 ## GDSCN Collection {-}
 
