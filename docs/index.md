@@ -40,11 +40,6 @@ _Programming skills_
 
 This activity addresses the following core concepts and competencies, as described by the associated societies and working groups:
 
-  - **Vision and Change**: [Vision and Change in Undergraduate Biology Education](https://visionandchange.org/) AAAS report
-  - **Genetics**:
-  - **Bioinformatics: [Bioinformatics core competencies for undergraduate life sciences education](https://doi.org/10.1371/journal.pone.0196878) by [NIBLSE](https://qubeshub.org/community/groups/niblse)
-
-
 <table>
 <tbody>
   <tr>
@@ -60,6 +55,10 @@ This activity addresses the following core concepts and competencies, as describ
   </tr>
 </tbody>
 </table>
+
+  - **Vision and Change**: [Vision and Change in Undergraduate Biology Education](https://visionandchange.org/) AAAS report
+  - **Genetics**:
+  - **Bioinformatics: [Bioinformatics core competencies for undergraduate life sciences education](https://doi.org/10.1371/journal.pone.0196878) by [NIBLSE](https://qubeshub.org/community/groups/niblse)
 
 ## GDSCN Collection {-}
 
