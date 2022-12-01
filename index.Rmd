@@ -36,7 +36,7 @@ _Programming skills_
 - Use common commands to manipulate R objects (e.g. assigning, printing, subsetting, mathematical operations)
 - Carry out a basic exploration of rectangular data using base R commands (e.g. `dim`, `summary`, `str`)
 
-## Core Concepts and Competencies {-}
+## Core Competencies {-}
 
 This activity addresses the following core concepts and competencies:
 
