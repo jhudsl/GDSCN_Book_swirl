@@ -40,45 +40,10 @@ _Programming skills_
 
 This activity addresses the following core concepts and competencies, as described by the associated societies and working groups:
 
-### Vision and Change {-}
+  - **Vision and Change**: [Vision and Change in Undergraduate Biology Education](https://visionandchange.org/) AAAS report
+  - **Genetics**:
+  - **Bioinformatics: [Bioinformatics core competencies for undergraduate life sciences education](https://doi.org/10.1371/journal.pone.0196878) by [NIBLSE](https://qubeshub.org/community/groups/niblse)
 
-From the [Vision and Change in Undergraduate Biology Education](https://visionandchange.org/) AAAS report
-
-Core Competencies:
-
-- Ability to use quantitative reasoning
-- Ability to tap into the interdisciplinary nature of science
-
-### Bioinformatics Core Competencies {-}
-
-From [Bioinformatics core competencies for undergraduate life sciences education](https://doi.org/10.1371/journal.pone.0196878) by [NIBLSE](https://qubeshub.org/community/groups/niblse)
-
-- Use command-line bioinformatics tools and write simple computer scripts
-
-
-
-```r
-competencies <- tibble::tribble(
-  ~source, ~competencies,
-  
-  "**Vision and Change**",  paste(
-                              "Core Competencies\n",
-                              "- Ability to use quantitative reasoning",
-                              "- Ability to tap into the interdisciplinary nature of science",
-                            sep="\n"),
-
-
-#  "**Genetics**",           paste(
-#                            sep="\n"),
-
-
-  "**Bioinformatics**",      paste(
-                               "- Use command-line bioinformatics tools and write simple computer scripts",
-                             sep="\n")
-)
-
-knitr::kable(competencies, col.names = NULL, format = "html")
-```
 
 <table>
 <tbody>
