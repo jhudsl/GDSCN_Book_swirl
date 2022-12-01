@@ -251,22 +251,29 @@ code span.wa { color: #8f5902; font-weight: bold; font-style: italic; } /* Warni
 </ul>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb1-1"><a href="index.html#cb1-1" aria-hidden="true" tabindex="-1"></a>competencies <span class="ot">&lt;-</span> tibble<span class="sc">::</span><span class="fu">tribble</span>(</span>
 <span id="cb1-2"><a href="index.html#cb1-2" aria-hidden="true" tabindex="-1"></a>  <span class="sc">~</span>source, <span class="sc">~</span>competencies,</span>
-<span id="cb1-3"><a href="index.html#cb1-3" aria-hidden="true" tabindex="-1"></a>  <span class="st">&quot;Vision and Change&quot;</span>,  <span class="fu">paste</span>(</span>
-<span id="cb1-4"><a href="index.html#cb1-4" aria-hidden="true" tabindex="-1"></a>                          <span class="st">&quot;Core Competencies</span><span class="sc">\n</span><span class="st">&quot;</span>,</span>
-<span id="cb1-5"><a href="index.html#cb1-5" aria-hidden="true" tabindex="-1"></a>                          <span class="st">&quot;- Ability to use quantitative reasoning&quot;</span>,</span>
-<span id="cb1-6"><a href="index.html#cb1-6" aria-hidden="true" tabindex="-1"></a>                          <span class="st">&quot;- Ability to tap into the interdisciplinary nature of science&quot;</span>,</span>
-<span id="cb1-7"><a href="index.html#cb1-7" aria-hidden="true" tabindex="-1"></a>                          <span class="at">sep=</span><span class="st">&quot;</span><span class="sc">\n</span><span class="st">&quot;</span>),</span>
-<span id="cb1-8"><a href="index.html#cb1-8" aria-hidden="true" tabindex="-1"></a>  <span class="st">&quot;Genetics&quot;</span>,   <span class="st">&quot;2&quot;</span>,</span>
-<span id="cb1-9"><a href="index.html#cb1-9" aria-hidden="true" tabindex="-1"></a>  <span class="st">&quot;Bioinformatics&quot;</span>,   <span class="st">&quot;3&quot;</span></span>
-<span id="cb1-10"><a href="index.html#cb1-10" aria-hidden="true" tabindex="-1"></a>)</span>
-<span id="cb1-11"><a href="index.html#cb1-11" aria-hidden="true" tabindex="-1"></a>competencies <span class="ot">&lt;-</span> tibble<span class="sc">::</span><span class="fu">column_to_rownames</span>(competencies, <span class="at">var =</span> <span class="st">&quot;source&quot;</span>)</span>
-<span id="cb1-12"><a href="index.html#cb1-12" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-13"><a href="index.html#cb1-13" aria-hidden="true" tabindex="-1"></a>knitr<span class="sc">::</span><span class="fu">kable</span>(competencies, <span class="at">col.names =</span> <span class="cn">NULL</span>, <span class="at">format =</span> <span class="st">&quot;html&quot;</span>)</span></code></pre></div>
+<span id="cb1-3"><a href="index.html#cb1-3" aria-hidden="true" tabindex="-1"></a>  </span>
+<span id="cb1-4"><a href="index.html#cb1-4" aria-hidden="true" tabindex="-1"></a>  <span class="st">&quot;**Vision and Change**&quot;</span>,  <span class="fu">paste</span>(</span>
+<span id="cb1-5"><a href="index.html#cb1-5" aria-hidden="true" tabindex="-1"></a>                              <span class="st">&quot;Core Competencies</span><span class="sc">\n</span><span class="st">&quot;</span>,</span>
+<span id="cb1-6"><a href="index.html#cb1-6" aria-hidden="true" tabindex="-1"></a>                              <span class="st">&quot;- Ability to use quantitative reasoning&quot;</span>,</span>
+<span id="cb1-7"><a href="index.html#cb1-7" aria-hidden="true" tabindex="-1"></a>                              <span class="st">&quot;- Ability to tap into the interdisciplinary nature of science&quot;</span>,</span>
+<span id="cb1-8"><a href="index.html#cb1-8" aria-hidden="true" tabindex="-1"></a>                            <span class="at">sep=</span><span class="st">&quot;</span><span class="sc">\n</span><span class="st">&quot;</span>),</span>
+<span id="cb1-9"><a href="index.html#cb1-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-10"><a href="index.html#cb1-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-11"><a href="index.html#cb1-11" aria-hidden="true" tabindex="-1"></a><span class="co">#  &quot;**Genetics**&quot;,           paste(</span></span>
+<span id="cb1-12"><a href="index.html#cb1-12" aria-hidden="true" tabindex="-1"></a><span class="co">#                            sep=&quot;\n&quot;),</span></span>
+<span id="cb1-13"><a href="index.html#cb1-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-14"><a href="index.html#cb1-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-15"><a href="index.html#cb1-15" aria-hidden="true" tabindex="-1"></a>  <span class="st">&quot;**Bioinformatics**&quot;</span>,      <span class="fu">paste</span>(</span>
+<span id="cb1-16"><a href="index.html#cb1-16" aria-hidden="true" tabindex="-1"></a>                               <span class="st">&quot;- Use command-line bioinformatics tools and write simple computer scripts&quot;</span>,</span>
+<span id="cb1-17"><a href="index.html#cb1-17" aria-hidden="true" tabindex="-1"></a>                             <span class="at">sep=</span><span class="st">&quot;</span><span class="sc">\n</span><span class="st">&quot;</span>)</span>
+<span id="cb1-18"><a href="index.html#cb1-18" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb1-19"><a href="index.html#cb1-19" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-20"><a href="index.html#cb1-20" aria-hidden="true" tabindex="-1"></a>knitr<span class="sc">::</span><span class="fu">kable</span>(competencies, <span class="at">col.names =</span> <span class="cn">NULL</span>, <span class="at">format =</span> <span class="st">&quot;html&quot;</span>)</span></code></pre></div>
 <table>
 <tbody>
 <tr>
 <td style="text-align:left;">
-Vision and Change
+<strong>Vision and Change</strong>
 </td>
 <td style="text-align:left;">
 <p>Core Competencies</p>
@@ -277,22 +284,16 @@ Vision and Change
 </tr>
 <tr>
 <td style="text-align:left;">
-Genetics
+<strong>Bioinformatics</strong>
 </td>
 <td style="text-align:left;">
-2
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Bioinformatics
-</td>
-<td style="text-align:left;">
-3
+<ul>
+<li>Use command-line bioinformatics tools and write simple computer scripts
 </td>
 </tr>
 </tbody>
 </table></li>
+</ul></li>
 </ul>
 </div>
 </div>
