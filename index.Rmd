@@ -56,17 +56,16 @@ From [Bioinformatics core competencies for undergraduate life sciences education
 - Use command-line bioinformatics tools and write simple computer scripts
 
 
-```r
+```{r}
 competencies <- tribble(
-  ~colA, ~colB,
-  "**VC**",   1,
-  "b",   2,
-  "c",   3
+  ~source, ~competencies,
+  "Vision and Change",   1,
+  "Genetics",   2,
+  "Bioinformatics",   3
 )
-competencies <- column_to_rownames(competencies, var = "colA")
+competencies <- column_to_rownames(competencies, var = "source")
 
-kable(competencies, col.names = NULL, format = "html")
-
+knitr::kable(competencies, col.names = NULL, format = "html")
 ```
 
 ## GDSCN Collection {-}
