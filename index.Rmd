@@ -57,13 +57,18 @@ From [Bioinformatics core competencies for undergraduate life sciences education
 
 
 ```{r}
-competencies <- tribble(
+competencies <- tibble::tribble(
   ~source, ~competencies,
-  "Vision and Change",   1,
+  "Vision and Change",  paste(
+                          "Core Competencies",
+                          "\n",
+                          "- Ability to use quantitative reasoning",
+                          "- Ability to tap into the interdisciplinary nature of science",
+                          sep="\n"),
   "Genetics",   2,
   "Bioinformatics",   3
 )
-competencies <- column_to_rownames(competencies, var = "source")
+competencies <- tibble::column_to_rownames(competencies, var = "source")
 
 knitr::kable(competencies, col.names = NULL, format = "html")
 ```
