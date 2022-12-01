@@ -44,14 +44,10 @@ This activity addresses the following core concepts and competencies:
 <tbody>
   <tr>
    <td style="text-align:left;"> **Vision and Change** </td>
-   <td style="text-align:left;"> Core Competencies
+   <td style="text-align:left;"> Competencies
 
 - Ability to use quantitative reasoning
 - Ability to tap into the interdisciplinary nature of science </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> **Genetics** </td>
-   <td style="text-align:left;"> None </td>
   </tr>
   <tr>
    <td style="text-align:left;"> **Bioinformatics** </td>
