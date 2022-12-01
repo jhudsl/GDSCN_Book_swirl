@@ -60,13 +60,12 @@ From [Bioinformatics core competencies for undergraduate life sciences education
 competencies <- tibble::tribble(
   ~source, ~competencies,
   "Vision and Change",  paste(
-                          "Core Competencies",
-                          "\n",
+                          "Core Competencies\n",
                           "- Ability to use quantitative reasoning",
                           "- Ability to tap into the interdisciplinary nature of science",
                           sep="\n"),
-  "Genetics",   2,
-  "Bioinformatics",   3
+  "Genetics",   "2",
+  "Bioinformatics",   "3"
 )
 competencies <- tibble::column_to_rownames(competencies, var = "source")
 
