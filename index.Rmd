@@ -77,7 +77,7 @@ competencies <- tibble::tribble(
 knitr::kable(competencies, col.names = NULL, format = "html")
 ```
 
-Core concepts and competencies are described in the following publications:
+Core concepts and competencies are taken from the following sources:
 
   - [Vision and Change in Undergraduate Biology Education](https://visionandchange.org/) AAAS report
   - [Genetics Core Competencies](https://genetics-gsa.org/education/genetics-learning-framework/) by [GSA](https://genetics-gsa.org/)
