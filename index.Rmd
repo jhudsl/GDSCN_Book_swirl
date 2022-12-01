@@ -60,7 +60,15 @@ competencies <- tibble::tribble(
 
 
   "**Bioinformatics**",      paste(
+                               # "- Explain the role of computation and data mining in addressing hypothesis-driven and hypothesis-generating questions within the life sciences",
+                               # "- Summarize key computational concepts, such as algorithms and relational databases, and their applications in the life sciences",
+                               # "- Apply statistical concepts used in bioinformatics",
+                               # "- Use bioinformatics tools to examine complex biological problems in evolution, information flow, and other important areas of biology",
+                               # "- Find, retrieve, and organize various types of biological data",
+                               # "- Explore and/or model biological interactions, networks and data integration using bioinformatics",
                                "- Use command-line bioinformatics tools and write simple computer scripts",
+                               # "- Describe and manage biological data types, structure, and reproducibility",
+                               # "- Interpret the ethical, legal, medical, and social implications of biological data",
                              sep="\n")
 )
 
