@@ -24,8 +24,6 @@ This is simpler, particularly if you are new to AnVIL, but has some disadvantage
     - With this setup, it is impossible to tell which students are running up compute costs - expenses are only reported for the class as a whole.
     - Students will each get their own cloud environment (i.e. their own RStudio session), and some temporary storage space to go with it.  But they will all share the same permanent storage, so if they need to save files, they may end up overwriting each others' files.
 
-This setup does have the advantage of being easier to shut down.  Once your class is done, you can easily disable billing for the Workspace and prevent any further costs.
-
 **Option 2: Each student creates their own copy of the Workspace**
 
 This is a bit more work up to set up and to shut down, but is generally preferable for longer-term (i.e. multi-session) courses, especially if your students will need to save or share files.
