@@ -2,6 +2,10 @@
 
 # Teaching Recommendations
 
+The primary goal of this exercise is to get students comfortable interacting with the R console.  Students will complete several `swirl` lessons introducing basic R concepts, and then apply their new skills by conducting a brief exploration of a dataframe.
+
+The `swirl` lessons touch on several additional R commands and concepts beyond those mentioned in the learning objectives and provide a useful starting point for going deeper if you desire.  Additional `swirl` lessons can be found at the [swirl Course Network](http://swirlstats.com/scn/).
+
 This exercise is designed to be used either
 
 <br>
