@@ -45,7 +45,13 @@ competencies <- tibble::tribble(
   ~source, ~competencies,
   
   "**Vision and Change**",  paste(
-                              #"None",
+                              #"Concepts\n",
+                              # "- EVOLUTION: The diversity of life evolved over time by processes of mutation, selection, and genetic change",
+                              # "- STRUCTURE AND FUNCTION: Basic units of structure define the function of all living things",
+                              # "- INFORMATION FLOW, EXCHANGE, AND STORAGE: The growth and behavior of organisms are activated through the expression of genetic information in context",
+                              # "- PATHWAYS AND TRANSFORMATIONS OF ENERGY AND MATTER: Biological systems grow and change by processes based upon chemical transformation pathways and are
+governed by the laws of thermodynamics",
+                              # "- SYSTEMS: Living systems are interconnected and interacting.",
                               
                               "Competencies\n",
                               # "- Ability to apply the process of science",
