@@ -1,5 +1,5 @@
 ---
-title: "GDSCN: Intro R with swirl "
+title: "Intro R with swirl "
 date: "`r format(Sys.time(), '%B %d, %Y')`"
 site: bookdown::bookdown_site
 documentclass: book
@@ -10,10 +10,13 @@ description: "This book provides a lab exercise that introduces students to the 
 favicon: assets/GDSCN_style/gdscn_favicon.ico
 ---
 
-# About this Course {-}
+# About {-}
 
-This book is part of a series of books for the [The Genomic Data Science Community Network (GDSCN)](https://www.gdscn.org/home).  GDSCN is a group of educators gathered with the aim to bring genomic data science education to students at diverse institutions.
+In this exercise, students are introduced to the basics of R using the `swirl` package (https://swirlstats.com), which teaches students R from within the R console.  The primary goal of this exercise is to get students comfortable interacting with the R console.
 
+```{r, echo=FALSE, fig.alt="swirl logo"}
+knitr::include_graphics("assets/swirl_logo.png")
+```
 
 ## Skills Level {-} 
 
@@ -27,10 +30,32 @@ _Programming skills_
 
 ## Learning Objectives {-}
 
-<!-- Learning objectives for this activity come from the [Genetics Core Competencies](https://genetics-gsa.org/education/genetics-learning-framework/): -->
+- Open RStudio and locate important panels (R console, Help)
+- Run commands in the R console
+- Explain what vectors and dataframes are in R
+- Use common commands to manipulate R objects (e.g. assigning, printing, subsetting, mathematical operations)
+- Carry out a basic exploration of rectangular data using base R commands (e.g. `dim`, `summary`, `str`)
 
-<!-- - Objective 1 -->
-<!-- - Objective 2 -->
-<!-- - Objective 3 -->
+## Core Concepts and Competencies {-}
 
-<!-- Please also see the Bioinformatics core competencies for undergraduate life sciences education from NIBLSE: https://journals.plos.org/plosone/article/figure?id=10.1371/journal.pone.0196878.t002 -->
+This activity addresses the following core concepts and competencies, as described by the associated societies and working groups:
+
+### Vision and Change {-}
+
+From the [Vision and Change in Undergraduate Biology Education](https://visionandchange.org/) AAAS report
+
+Core Competencies:
+
+- Ability to use quantitative reasoning
+- Ability to tap into the interdisciplinary nature of science
+
+### Bioinformatics Core Competencies {-}
+
+From [Bioinformatics core competencies for undergraduate life sciences education](https://doi.org/10.1371/journal.pone.0196878) by [NIBLSE](https://qubeshub.org/community/groups/niblse)
+
+- Use command-line bioinformatics tools and write simple computer scripts
+
+## GDSCN Collection {-}
+
+This exercise is part of a collection of teaching resources developed through the *Genomic Data Science Community Network* (GDSCN). GDSCN works towards a vision where researchers, educators, and students from diverse backgrounds are able to fully participate in genomic data science research.  Learn more about GDSCN by visiting https://www.gdscn.org/home or reading the [article in Genome Research](https://doi.org/10.1101/gr.276496.121).
+
