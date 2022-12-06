@@ -1,5 +1,11 @@
 # Setup on AnVIL
 
+## Why use AnVIL in your classroom?
+
+## AnVIL Instructor guide
+
+If this is your first time using AnVIL (or first time using it for a course), we recommend checking out the [AnVIL Instructor Guide](https://jhudatascience.org/AnVIL_Book_Instructor_Guide).  Several of the instructions below link out to the Instructor Guide for details.
+
 ## Workspace
 
 On AnVIL, all computing is done within "Workspaces".
@@ -13,9 +19,16 @@ This is a public AnVIL Workspace, which is similar to "view only" mode for a doc
 
 ## Class Setup
 
-In order to make your own copy of the Workspace (so that you and your students can run RStudio), you must first set up Billing.
+In order to make your own copy of the Workspace (so that you and your students can run RStudio), you must first:
 
-There are two ways you can organize your class:
+1. **Set up Billing** to fund your students' activities.
+    a. [Set up a Google Account](https://jhudatascience.org/AnVIL_Book_Instructor_Guide/creating-an-instructor-account.html) (AnVIL is powered by Google Cloud behind the scenes).
+    b. [Create a Google Billing Account]() (this is how Google charges you for your students' activities).
+    c. [Create Terra Billing Project(s)]() (this is how you manage students and give them permission to compute on AnVIL).
+3. **Collect usernames**:  You will need to know the usernames that your students will be using to access AnVIL.
+4. **Set up Groups**: [Creating "Groups"]() makes it much easier manage your students and TAs/co-instructors on AnVIL.
+
+Once you have set up Billing and Groups, there are two ways you can organize your class and give students access to the material:
 
 **Option 1: Instructor creates a single clone of the Workspace, and shares it with the whole class.**
 

@@ -1,4 +1,6 @@
 setup-on-anvil
+why-use-anvil-in-your-classroom
+anvil-instructor-guide
 workspace
 class-setup
 r-programming-with-swirl
