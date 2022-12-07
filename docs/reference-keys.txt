@@ -1,8 +1,11 @@
 setup-on-anvil
 why-use-anvil-in-your-classroom
 anvil-instructor-guide
-workspace
 class-setup
+workspace
+clone-workspace
+option-1-instructor-clones
+option-2-students-clone
 r-programming-with-swirl
 complete-your-first-swirl-lesson
 complete-additional-swirl-lessons
