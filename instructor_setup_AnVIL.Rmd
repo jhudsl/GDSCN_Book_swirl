@@ -29,9 +29,7 @@ To make things easy for you and your students, we have created an AnVIL Workspac
 
 This is a public AnVIL Workspace, which is similar to "view only" mode for a document - you and your students can view it freely, but you will need to "clone" your own copy of it in order to do your own work (i.e. start up RStudio, Galaxy, or Jupyter Notebooks, or run a Workflow).
 
-## Clone Workspace
-
-Once you have set up Billing and Groups, there are two ways you can organize your class and give students access to the material:
+There are two ways you can organize your class and give students access to the material:
 
 ### Option 1: Instructor clones
 
@@ -46,10 +44,16 @@ This is simpler, particularly if you are new to AnVIL, but has some disadvantage
 
 **Each student creates their own copy of the Workspace**
 
-This is a bit more work up to set up and to shut down, but is generally preferable for longer-term (i.e. multi-session) courses, especially if your students will need to save or share files.
+This is a bit more work up to set up, but is generally preferable for longer-term (i.e. multi-session) courses, especially if your students will need to save or share files.
 
     - Costs will be reported per student (i.e. per Workspace)
     - Students will have their own permanent storage, and can't overwrite each other's files.
         - This is essential for any activities in which they need to save and share a file, either to collaborate with peers or to submit for a grade.
         - This is also necessary if they will be passing files between different cloud environments (e.g. creating a file in Galaxy, then analyzing it in RStudio).
     - This setup gives students more power (they are able to create additional Workspaces and invite others to use them, charging to your Billing Account).  But it provides transparency about *who* is carrying out activities, enabling you to address any problems with individual students.
+    
+:::{.warning}
+
+If you are new to AnVIL, you will need to request a "Project Quota Increase".  In order to prevent abuse, Google has limits that restrict the number of Workspaces that can be created by new accounts (as of Dec 2022, new users are limited to 5 Workspaces).
+
+:::
