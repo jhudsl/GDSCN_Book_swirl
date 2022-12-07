@@ -146,11 +146,10 @@ code span.wa { color: #8f5902; font-weight: bold; font-style: italic; } /* Warni
 <li class="chapter" data-level="1.1" data-path="setup-on-anvil.html"><a href="setup-on-anvil.html#why-use-anvil-in-your-classroom"><i class="fa fa-check"></i><b>1.1</b> Why use AnVIL in your classroom?</a></li>
 <li class="chapter" data-level="1.2" data-path="setup-on-anvil.html"><a href="setup-on-anvil.html#anvil-instructor-guide"><i class="fa fa-check"></i><b>1.2</b> AnVIL Instructor guide</a></li>
 <li class="chapter" data-level="1.3" data-path="setup-on-anvil.html"><a href="setup-on-anvil.html#class-setup"><i class="fa fa-check"></i><b>1.3</b> Class Setup</a></li>
-<li class="chapter" data-level="1.4" data-path="setup-on-anvil.html"><a href="setup-on-anvil.html#workspace"><i class="fa fa-check"></i><b>1.4</b> Workspace</a></li>
-<li class="chapter" data-level="1.5" data-path="setup-on-anvil.html"><a href="setup-on-anvil.html#clone-workspace"><i class="fa fa-check"></i><b>1.5</b> Clone Workspace</a>
+<li class="chapter" data-level="1.4" data-path="setup-on-anvil.html"><a href="setup-on-anvil.html#workspace"><i class="fa fa-check"></i><b>1.4</b> Workspace</a>
 <ul>
-<li class="chapter" data-level="1.5.1" data-path="setup-on-anvil.html"><a href="setup-on-anvil.html#option-1-instructor-clones"><i class="fa fa-check"></i><b>1.5.1</b> Option 1: Instructor clones</a></li>
-<li class="chapter" data-level="1.5.2" data-path="setup-on-anvil.html"><a href="setup-on-anvil.html#option-2-students-clone"><i class="fa fa-check"></i><b>1.5.2</b> Option 2: Students clone</a></li>
+<li class="chapter" data-level="1.4.1" data-path="setup-on-anvil.html"><a href="setup-on-anvil.html#option-1-instructor-clones"><i class="fa fa-check"></i><b>1.4.1</b> Option 1: Instructor clones</a></li>
+<li class="chapter" data-level="1.4.2" data-path="setup-on-anvil.html"><a href="setup-on-anvil.html#option-2-students-clone"><i class="fa fa-check"></i><b>1.4.2</b> Option 2: Students clone</a></li>
 </ul></li>
 </ul></li>
 <li class="part"><span><b>I Setup</b></span></li>
@@ -239,26 +238,26 @@ code span.wa { color: #8f5902; font-weight: bold; font-style: italic; } /* Warni
 <p>On AnVIL, all computing is done within “Workspaces”.</p>
 <p>To make things easy for you and your students, we have created an AnVIL Workspace that contains all the files necessary for this exercise, which can be accessed at the following link:</p>
 <p>This is a public AnVIL Workspace, which is similar to “view only” mode for a document - you and your students can view it freely, but you will need to “clone” your own copy of it in order to do your own work (i.e. start up RStudio, Galaxy, or Jupyter Notebooks, or run a Workflow).</p>
-</div>
-<div id="clone-workspace" class="section level2" number="1.5">
-<h2><span class="header-section-number">1.5</span> Clone Workspace</h2>
-<p>Once you have set up Billing and Groups, there are two ways you can organize your class and give students access to the material:</p>
-<div id="option-1-instructor-clones" class="section level3" number="1.5.1">
-<h3><span class="header-section-number">1.5.1</span> Option 1: Instructor clones</h3>
+<p>There are two ways you can organize your class and give students access to the material:</p>
+<div id="option-1-instructor-clones" class="section level3" number="1.4.1">
+<h3><span class="header-section-number">1.4.1</span> Option 1: Instructor clones</h3>
 <p><strong>Instructor creates a single clone of the Workspace, and shares it with the whole class.</strong></p>
 <p>This is simpler, particularly if you are new to AnVIL, but has some disadvantages:</p>
 <pre><code>- With this setup, it is impossible to tell which students are running up compute costs - expenses are only reported for the class as a whole.
 - Students will each get their own cloud environment (i.e. their own RStudio session), and some temporary storage space to go with it.  But they will all share the same permanent storage, so if they need to save files, they may end up overwriting each others&#39; files.</code></pre>
 </div>
-<div id="option-2-students-clone" class="section level3" number="1.5.2">
-<h3><span class="header-section-number">1.5.2</span> Option 2: Students clone</h3>
+<div id="option-2-students-clone" class="section level3" number="1.4.2">
+<h3><span class="header-section-number">1.4.2</span> Option 2: Students clone</h3>
 <p><strong>Each student creates their own copy of the Workspace</strong></p>
-<p>This is a bit more work up to set up and to shut down, but is generally preferable for longer-term (i.e. multi-session) courses, especially if your students will need to save or share files.</p>
+<p>This is a bit more work up to set up, but is generally preferable for longer-term (i.e. multi-session) courses, especially if your students will need to save or share files.</p>
 <pre><code>- Costs will be reported per student (i.e. per Workspace)
 - Students will have their own permanent storage, and can&#39;t overwrite each other&#39;s files.
     - This is essential for any activities in which they need to save and share a file, either to collaborate with peers or to submit for a grade.
     - This is also necessary if they will be passing files between different cloud environments (e.g. creating a file in Galaxy, then analyzing it in RStudio).
 - This setup gives students more power (they are able to create additional Workspaces and invite others to use them, charging to your Billing Account).  But it provides transparency about *who* is carrying out activities, enabling you to address any problems with individual students.</code></pre>
+<div class="warning">
+<p>If you are new to AnVIL, you will need to request a “Project Quota Increase”. In order to prevent abuse, Google has limits that restrict the number of Workspaces that can be created by new accounts (as of Dec 2022, new users are limited to 5 Workspaces).</p>
+</div>
 
 </div>
 </div>
