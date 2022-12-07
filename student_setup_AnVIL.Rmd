@@ -19,7 +19,6 @@ cow::borrow_chapter(
 billing_project <- "provided by your instructor"
 cow::borrow_chapter(
   doc_path = "child/_child_student_workspace_clone.Rmd",
-  branch = "student-clone",
   repo_name = "jhudsl/AnVIL_Template"
 )
 ```
