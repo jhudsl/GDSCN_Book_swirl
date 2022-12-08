@@ -26,8 +26,9 @@ If this is your first time using AnVIL (or first time using it for a course), we
 In order for your students to be able to compute on AnVIL, you must first:
 
 1. **Set up Billing** to fund your students' activities.
-    a. [Set up a Google Account](https://jhudatascience.org/AnVIL_Book_Instructor_Guide/creating-an-instructor-account.html) - AnVIL is powered by Google Cloud behind the scenes.
-    b. (Some users) [Set up Google Billing Account]() - This is how Google charges you for your students' activities.  Depending on how you are being funded, this may be taken care of for you. If your funding is being managed by a third party (e.g. through a funding mechanism such as [STRIDES](https://datascience.nih.gov/strides), or through your institution), contact them to determine whether you need to do any Billing administration through Google.
+    a. [Set up a Google Account](https://jhudatascience.org/AnVIL_Book_Instructor_Guide/creating-an-instructor-account.html) - You need a Google account to access AnVIL
+    b. (Some users) [Set up Google Billing Account]() - This is how Google charges you for your students' activities.
+        - Depending on how you are being funded, this may be taken care of for you. If your funding is being managed by a third party (e.g. through a funding mechanism such as [STRIDES](https://datascience.nih.gov/strides), or through your institution), contact them to determine whether you need to do any billing administration through Google.
     c. [Create Terra Billing Project(s)]() - This is how you manage students and give them permission to compute on AnVIL.
 3. **Collect usernames**:  You will need to know the usernames that your students will be using to access AnVIL.
 4. **Set up Groups**: [Creating Terra "Groups"]() makes it much easier manage your students and TAs/co-instructors on AnVIL.
