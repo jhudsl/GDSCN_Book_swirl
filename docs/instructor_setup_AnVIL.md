@@ -1,5 +1,19 @@
 # Setup on AnVIL
 
+## What is AnVIL?
+
+The [AnVIL (Analysis Visualization and Informatics Lab-space) platform](https://anvilproject.org/) is a cloud computing platform specially designed for analyzing biological data, and is used by scientists doing all sorts of biological research.
+
+<iframe width="560" height="315" src="https://www.youtube.com/watch?v=7qvQ8DZHC9w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+:::{.notice}
+**AnVIL in a nutshell**
+
+- Behind the scenes, AnVIL relies on Google Cloud Platform to provide computing infrastructure.  Basically, AnVIL lets you "rent" computers from Google (remotely).  Whenever you run an analyses on AnVIL, it actually runs on one of Google's computers, and AnVIL lets you see the results in your browser.
+- AnVIL uses [Terra](https://anvil.terra.bio/) to provide many computational tools useful for biological data analysis, such as [RStudio](https://www.rstudio.com/products/rstudio/), [Galaxy](https://usegalaxy.org/), and [Jupyter Notebooks](https://jupyter.org/).  Terra takes care of installing these tools on Google's computers, so that you can just start using them.
+- AnVIL and Terra provide their services for free (managing software, data, and users).  You just need to pay Google for the computational resources that you use.
+:::
+
 ## Why use AnVIL in your classroom?
 
 ## AnVIL Instructor guide
@@ -12,11 +26,11 @@ If this is your first time using AnVIL (or first time using it for a course), we
 In order for your students to be able to compute on AnVIL, you must first:
 
 1. **Set up Billing** to fund your students' activities.
-    a. [Set up a Google Account](https://jhudatascience.org/AnVIL_Book_Instructor_Guide/creating-an-instructor-account.html) (AnVIL is powered by Google Cloud behind the scenes).
-    b. [Create a Google Billing Account]() (this is how Google charges you for your students' activities).
-    c. [Create Terra Billing Project(s)]() (this is how you manage students and give them permission to compute on AnVIL).
+    a. [Set up a Google Account](https://jhudatascience.org/AnVIL_Book_Instructor_Guide/creating-an-instructor-account.html) - AnVIL is powered by Google Cloud behind the scenes.
+    b. (Some users) [Set up Google Billing Account]() - This is how Google charges you for your students' activities.  Depending on how you are being funded, this may be taken care of for you. If your funding is being managed by a third party (e.g. through a funding mechanism such as [STRIDES](https://datascience.nih.gov/strides), or through your institution), contact them to determine whether you need to do any Billing administration through Google.
+    c. [Create Terra Billing Project(s)]() - This is how you manage students and give them permission to compute on AnVIL.
 3. **Collect usernames**:  You will need to know the usernames that your students will be using to access AnVIL.
-4. **Set up Groups**: [Creating "Groups"]() makes it much easier manage your students and TAs/co-instructors on AnVIL.
+4. **Set up Groups**: [Creating Terra "Groups"]() makes it much easier manage your students and TAs/co-instructors on AnVIL.
 
 
 ## Workspace
