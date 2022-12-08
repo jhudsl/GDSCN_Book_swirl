@@ -4,7 +4,7 @@
 
 The [AnVIL (Analysis Visualization and Informatics Lab-space) platform](https://anvilproject.org/) is a cloud computing platform specially designed for analyzing biological data, and is used by scientists doing all sorts of biological research.
 
-<iframe width="560" height="315" src="https://www.youtube.com/watch?v=7qvQ8DZHC9w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/7qvQ8DZHC9w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 :::{.notice}
 **AnVIL in a nutshell**
