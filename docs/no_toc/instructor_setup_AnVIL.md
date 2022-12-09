@@ -4,18 +4,11 @@
 
 
 <table>
- <thead>
-  <tr>
-   <th style="text-align:left;"> When </th>
-   <th style="text-align:left;"> What </th>
-  </tr>
- </thead>
 <tbody>
   <tr>
    <td style="text-align:left;"> 2+ weeks before </td>
    <td style="text-align:left;"> - **Set up billing**
-    - If you're handling the billing yourself, this can be done in &lt; 1 hr with a credit card.
-    - But if your funding is being managed by a third party (e.g. through a funding mechanism such as [STRIDES](https://datascience.nih.gov/strides), or through your institution), it may take a little while to get everything set up.
+- **Request Quota Increase** so that you have permission to create enough Workspaces for your whole class
 - **Notify Terra** of the date(s) of your class, so they can ensure AnVIL is not down for maintenance.
 - **Add TAs and coinstructors**
 - **Run through material** - make sure you're able to
@@ -26,11 +19,8 @@
   </tr>
   <tr>
    <td style="text-align:left;"> ~1 week before </td>
-   <td style="text-align:left;"> **Collect student usernames** so you can grant them access </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> Day of </td>
-   <td style="text-align:left;">  </td>
+   <td style="text-align:left;"> - **Collect student usernames**
+- **Add students to class group** </td>
   </tr>
 </tbody>
 </table>
