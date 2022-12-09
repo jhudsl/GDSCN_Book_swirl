@@ -1,5 +1,40 @@
 # Setup on AnVIL
 
+## Suggested Timeline
+
+
+<table>
+ <thead>
+  <tr>
+   <th style="text-align:left;"> When </th>
+   <th style="text-align:left;"> What </th>
+  </tr>
+ </thead>
+<tbody>
+  <tr>
+   <td style="text-align:left;"> 2+ weeks before </td>
+   <td style="text-align:left;"> - **Set up billing**
+    - If you're handling the billing yourself, this can be done in &lt; 1 hr with a credit card.
+    - But if your funding is being managed by a third party (e.g. through a funding mechanism such as [STRIDES](https://datascience.nih.gov/strides), or through your institution), it may take a little while to get everything set up.
+- **Notify Terra** of the date(s) of your class, so they can ensure AnVIL is not down for maintenance.
+- **Add TAs and coinstructors**
+- **Run through material** - make sure you're able to
+    - Clone the Workspace
+    - Start up RStudio, load swirl, and start the first lesson
+    - Load the dataset for the project
+    - Use `dplyr` commands, such as `dplyr::filter()` </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> ~1 week before </td>
+   <td style="text-align:left;"> **Collect student usernames** so you can grant them access </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Day of </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+</tbody>
+</table>
+
 ## What is AnVIL?
 
 The [AnVIL (Analysis Visualization and Informatics Lab-space) platform](https://anvilproject.org/) is a cloud computing platform specially designed for analyzing biological data, and is used by scientists doing all sorts of biological research.
@@ -22,6 +57,10 @@ If this is your first time using AnVIL (or first time using it for a course), we
 
 
 ## Class Setup
+
+:::{.notice}
+**Tip**:  It's helpful to have your students sign into AnVIL and provide you with their username ahead of time, so that you can grant permissions to them before the class begins.
+:::
 
 In order for your students to be able to compute on AnVIL, you must first:
 
