@@ -8,9 +8,8 @@ timeline <- tibble::tribble(
   ~When, ~What,
   
   "2+ weeks before",  paste(
-                        "- **Set up billing**",
-                        "    - If you're handling the billing yourself, this can be done in < 1 hr with a credit card.",
-                        "    - But if your funding is being managed by a third party (e.g. through a funding mechanism such as [STRIDES](https://datascience.nih.gov/strides), or through your institution), it may take a little while to get everything set up.",
+                        "- **Set up billing**,
+                        "- **Request Quota Increase** so that you have permission to create enough Workspaces for your whole class
                         "- **Notify Terra** of the date(s) of your class, so they can ensure AnVIL is not down for maintenance.",
                         "- **Add TAs and coinstructors**",
                         "- **Run through material** - make sure you're able to",
