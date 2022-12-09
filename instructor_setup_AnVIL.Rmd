@@ -9,7 +9,7 @@ timeline <- tibble::tribble(
   
   "2+ weeks before",  paste(
                         "- **Set up billing**",
-                        "- **Request Quota Increase** so that you have permission to create enough Workspaces for your whole class
+                        "- **Request Quota Increase** so that you have permission to create enough Workspaces for your whole class",
                         "- **Notify Terra** of the date(s) of your class, so they can ensure AnVIL is not down for maintenance.",
                         "- **Add TAs and coinstructors**",
                         "- **Run through material** - make sure you're able to",
