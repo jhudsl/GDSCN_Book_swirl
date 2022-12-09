@@ -18,7 +18,10 @@ timeline <- tibble::tribble(
                         "    - Load the dataset for the project",
                         "    - Use `dplyr` commands, such as `dplyr::filter()`",
                         sep="\n"),
-  "~1 week before",   "**Collect student usernames** so you can grant them access",
+  "~1 week before",   paste(
+                        "- **Collect student usernames**",
+                        "- **Add students to class group**,
+                        sep="\n"),
   "Day of",           ""
 )
 knitr::kable(timeline, col.names = NULL, format = "html")
