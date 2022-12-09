@@ -20,7 +20,7 @@ timeline <- tibble::tribble(
                         sep="\n"),
   "~1 week before",   paste(
                         "- **Collect student usernames**",
-                        "- **Add students to class group**,
+                        "- **Add students to class group**",
                         sep="\n")
 )
 knitr::kable(timeline, col.names = NULL, format = "html")
