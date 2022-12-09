@@ -21,7 +21,7 @@ timeline <- tibble::tribble(
   "~1 week before",   "**Collect student usernames** so you can grant them access",
   "Day of",           ""
 )
-knitr::kable(timeline, format = "html")
+knitr::kable(timeline, col.names = NULL, format = "html")
 ```
 
 ## What is AnVIL?
