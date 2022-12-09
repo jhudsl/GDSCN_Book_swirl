@@ -9,14 +9,15 @@ timeline <- tibble::tribble(
   
   "2+ weeks before",  paste(
                         "- **Set up billing**",
-                        "    - If you're handling the billing yourself, this can be done in < 1 hr with a credit card.
-                        "    - But if your funding is being managed by a third party (e.g. through a funding mechanism such as [STRIDES](https://datascience.nih.gov/strides), or through your institution), it may take a little while to get everything set up.
+                        "    - If you're handling the billing yourself, this can be done in < 1 hr with a credit card.",
+                        "    - But if your funding is being managed by a third party (e.g. through a funding mechanism such as [STRIDES](https://datascience.nih.gov/strides), or through your institution), it may take a little while to get everything set up.",
+                        "- **Notify Terra** of the date(s) of your class, so they can ensure AnVIL is not down for maintenance.",
                         "- **Add TAs and coinstructors**",
-                        "- **Run through material** - make sure you're able to"
-                        "    - Clone the Workspace"
-                        "    - Start up RStudio, load swirl, and start the first lesson"
-                        "    - Load the dataset for the project,"
-                        "    - Use `dplyr` commands, such as `dplyr::filter()`
+                        "- **Run through material** - make sure you're able to",
+                        "    - Clone the Workspace",
+                        "    - Start up RStudio, load swirl, and start the first lesson",
+                        "    - Load the dataset for the project",
+                        "    - Use `dplyr` commands, such as `dplyr::filter()`",
                         sep="\n"),
   "~1 week before",   "**Collect student usernames** so you can grant them access",
   "Day of",           ""
