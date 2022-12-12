@@ -1,5 +1,9 @@
 # Setup on AnVIL
 
+## AnVIL Instructor guide
+
+If this is your first time using AnVIL (or first time using it for a course), we recommend checking out the [AnVIL Instructor Guide](https://jhudatascience.org/AnVIL_Book_Instructor_Guide).  Several of the instructions below link out to the Instructor Guide for details.
+
 ## Suggested Timeline
 
 
@@ -19,33 +23,26 @@ timeline <- tibble::tribble(
                         "    - Use `dplyr` commands, such as `dplyr::filter()`",
                         sep="\n"),
   "**~1 week before**",   paste(
-                        "1. **Collect student usernames**",
-                        "1. **Add students to class group**",
+                        "1. **Set up billing**",
+                        "1. **Set up billing**",
                         sep="\n")
 )
 knitr::kable(timeline, col.names = NULL, format = "html")
 ```
 
-## What is AnVIL?
+## About AnVIL
 
 The [AnVIL (Analysis Visualization and Informatics Lab-space) platform](https://anvilproject.org/) is a cloud computing platform specially designed for analyzing biological data, and is used by scientists doing all sorts of biological research.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/7qvQ8DZHC9w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-:::{.notice}
 **AnVIL in a nutshell**
 
 - Behind the scenes, AnVIL relies on Google Cloud Platform to provide computing infrastructure.  Basically, AnVIL lets you "rent" computers from Google (remotely).  Whenever you run an analyses on AnVIL, it actually runs on one of Google's computers, and AnVIL lets you see the results in your browser.
 - AnVIL uses [Terra](https://anvil.terra.bio/) to provide many computational tools useful for biological data analysis, such as [RStudio](https://www.rstudio.com/products/rstudio/), [Galaxy](https://usegalaxy.org/), and [Jupyter Notebooks](https://jupyter.org/).  Terra takes care of installing these tools on Google's computers, so that you can just start using them.
 - AnVIL and Terra provide their services for free (managing software, data, and users).  You just need to pay Google for the computational resources that you use.
-:::
 
-## Why use AnVIL in your classroom?
-
-## AnVIL Instructor guide
-
-If this is your first time using AnVIL (or first time using it for a course), we recommend checking out the [AnVIL Instructor Guide](https://jhudatascience.org/AnVIL_Book_Instructor_Guide).  Several of the instructions below link out to the Instructor Guide for details.
-
+### Why use AnVIL in your classroom?
 
 ## Class Setup
 
