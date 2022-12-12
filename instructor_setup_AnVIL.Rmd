@@ -22,10 +22,17 @@ timeline <- tibble::tribble(
                         "    - Load the dataset for the project",
                         "    - Use `dplyr` commands, such as `dplyr::filter()`",
                         sep="\n"),
-  "**~1 week before**",   paste(
+  "**2+ weeks before**",  paste(
                         "1. **Set up billing**",
-                        "1. **Set up billing**",
-                        sep="\n")
+                        "1. **Request Quota Increase** so that you have permission to create enough Workspaces for your whole class",
+                        "1. **Notify Terra** of the date(s) of your class, so they can ensure AnVIL is not down for maintenance.",
+                        "1. **Add TAs and coinstructors**",
+                        "1. **Run through material** - make sure you're able to",
+                        "    - Clone the Workspace",
+                        "    - Start up RStudio, load swirl, and start the first lesson",
+                        "    - Load the dataset for the project",
+                        "    - Use `dplyr` commands, such as `dplyr::filter()`",
+                        sep="\n"),
 )
 knitr::kable(timeline, col.names = NULL, format = "html")
 ```
