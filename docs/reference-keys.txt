@@ -1,6 +1,8 @@
 setup-on-anvil
 anvil-instructor-guide
 suggested-timeline
+weeks-before
+week-before
 about-anvil
 why-use-anvil-in-your-classroom
 class-setup

@@ -6,35 +6,26 @@ If this is your first time using AnVIL (or first time using it for a course), we
 
 ## Suggested Timeline
 
+### 2+ weeks before
 
-<table>
-<tbody>
-  <tr>
-   <td style="text-align:left;"> **2+ weeks before** </td>
-   <td style="text-align:left;"> 1. **Set up billing**
-1. **Request Quota Increase** so that you have permission to create enough Workspaces for your whole class
-1. **Notify Terra** of the date(s) of your class, so they can ensure AnVIL is not down for maintenance.
-1. **Add TAs and coinstructors**
-1. **Run through material** - make sure you're able to
+1. [**Set up a Google Account**](https://jhudatascience.org/AnVIL_Book_Instructor_Guide/creating-an-instructor-account.html) - You need a Google account to access AnVIL]
+1. **Set up billing**
+    a. (Some users) [Set up Google Billing Account]() - Depending on how you are being funded, this may be taken care of for you. If your funding is being managed by a third party (e.g. through a funding mechanism such as [STRIDES](https://datascience.nih.gov/strides), or through your institution), contact them to determine whether you need to do any billing administration through Google.
+    b. [Create Terra Billing Project(s)]() - This is how you manage students and give them permission to compute on AnVIL.
+3. **Request Quota Increase** so that you have permission to create enough Workspaces for your whole class
+4. **Notify Terra** of the date(s) of your class, so they can ensure AnVIL is not down for maintenance.
+5. **Add TAs and coinstructors**
+6. **Run through material** - make sure you're able to
     - Clone the Workspace
     - Start up RStudio, load swirl, and start the first lesson
     - Load the dataset for the project
-    - Use `dplyr` commands, such as `dplyr::filter()` </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> **2+ weeks before** </td>
-   <td style="text-align:left;"> 1. **Set up billing**
-1. **Request Quota Increase** so that you have permission to create enough Workspaces for your whole class
-1. **Notify Terra** of the date(s) of your class, so they can ensure AnVIL is not down for maintenance.
-1. **Add TAs and coinstructors**
-1. **Run through material** - make sure you're able to
-    - Clone the Workspace
-    - Start up RStudio, load swirl, and start the first lesson
-    - Load the dataset for the project
-    - Use `dplyr` commands, such as `dplyr::filter()` </td>
-  </tr>
-</tbody>
-</table>
+    - Use `dplyr` commands, such as `dplyr::filter()`
+    
+### 1 week before
+
+1. **Collect student usernames** - have students log in to AnVIL
+1. **Add students to class group**
+
 
 ## About AnVIL
 
@@ -57,10 +48,6 @@ The [AnVIL (Analysis Visualization and Informatics Lab-space) platform](https://
 In order for your students to be able to compute on AnVIL, you must first:
 
 1. **Set up Billing** to fund your students' activities.
-    a. [Set up a Google Account](https://jhudatascience.org/AnVIL_Book_Instructor_Guide/creating-an-instructor-account.html) - You need a Google account to access AnVIL
-    b. (Some users) [Set up Google Billing Account]() - This is how Google charges you for your students' activities.
-        - Depending on how you are being funded, this may be taken care of for you. If your funding is being managed by a third party (e.g. through a funding mechanism such as [STRIDES](https://datascience.nih.gov/strides), or through your institution), contact them to determine whether you need to do any billing administration through Google.
-    c. [Create Terra Billing Project(s)]() - This is how you manage students and give them permission to compute on AnVIL.
 3. **Collect usernames**:  You will need to know the usernames that your students will be using to access AnVIL.
 4. **Set up Groups**: [Creating Terra "Groups"]() makes it much easier manage your students and TAs/co-instructors on AnVIL.
 
