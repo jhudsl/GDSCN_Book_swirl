@@ -6,7 +6,7 @@ If this is your first time using AnVIL (or first time using it for a course), we
 
 ## Suggested Timeline
 
-### 2+ weeks before
+### 2+ weeks before {-}
 
 1. [**Set up a Google Account**](https://jhudatascience.org/AnVIL_Book_Instructor_Guide/creating-an-instructor-account.html) - You need a Google account to access AnVIL]
 1. **Set up billing**
@@ -21,11 +21,10 @@ If this is your first time using AnVIL (or first time using it for a course), we
     - Load the dataset for the project
     - Use `dplyr` commands, such as `dplyr::filter()`
     
-### 1 week before
+### 1 week before {-}
 
-1. **Collect student usernames** - have students log in to AnVIL
-1. **Add students to class group**
-
+1. **Collect student usernames** - have students log in to AnVIL and then provide you with their username
+1. **Set up Groups**: [Creating Terra "Groups"]() makes it much easier manage your students and TAs/co-instructors on AnVIL.
 
 ## About AnVIL
 
@@ -45,11 +44,6 @@ The [AnVIL (Analysis Visualization and Informatics Lab-space) platform](https://
 **Tip**:  It's helpful to have your students sign into AnVIL and provide you with their username ahead of time, so that you can grant permissions to them before the class begins.
 :::
 
-In order for your students to be able to compute on AnVIL, you must first:
-
-1. **Set up Billing** to fund your students' activities.
-3. **Collect usernames**:  You will need to know the usernames that your students will be using to access AnVIL.
-4. **Set up Groups**: [Creating Terra "Groups"]() makes it much easier manage your students and TAs/co-instructors on AnVIL.
 
 
 ## Workspace
