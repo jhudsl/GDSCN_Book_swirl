@@ -1,8 +1,8 @@
 setup-on-anvil
-suggested-timeline
-what-is-anvil
-why-use-anvil-in-your-classroom
 anvil-instructor-guide
+suggested-timeline
+about-anvil
+why-use-anvil-in-your-classroom
 class-setup
 workspace
 option-1-instructor-clones
