@@ -22,9 +22,16 @@ If this is your first time using AnVIL (or first time using it for a course), we
     - Use `dplyr` commands, such as `dplyr::filter()` </td>
   </tr>
   <tr>
-   <td style="text-align:left;"> **~1 week before** </td>
+   <td style="text-align:left;"> **2+ weeks before** </td>
    <td style="text-align:left;"> 1. **Set up billing**
-1. **Set up billing** </td>
+1. **Request Quota Increase** so that you have permission to create enough Workspaces for your whole class
+1. **Notify Terra** of the date(s) of your class, so they can ensure AnVIL is not down for maintenance.
+1. **Add TAs and coinstructors**
+1. **Run through material** - make sure you're able to
+    - Clone the Workspace
+    - Start up RStudio, load swirl, and start the first lesson
+    - Load the dataset for the project
+    - Use `dplyr` commands, such as `dplyr::filter()` </td>
   </tr>
 </tbody>
 </table>
