@@ -62,8 +62,24 @@ competencies <- tibble::tribble(
                             sep="\n"),
 
 
-#   "**Genetics**",            paste(
-#                              sep="\n"),
+#   "**Genetics**",         paste(
+                              #"Concepts\n",
+                              # "- How is DNA organized?",
+                              # "- What are the molecular components and mechanisms necessary to preserve and duplicate an organism’s genome?",
+                              # "- What are the mechanisms by which an organism’s genome is passed on to the next generation?",
+                              # "- How can one deduce information about genes, alleles, and gene functions from analysis of genetic crosses and patterns of inheritance?",
+                              # "- How does the phenomenon of linkage affect the assortment of alleles during meiosis?",
+                              # "- How is genetic information expressed so it affects an organism’s structure and function?",
+                              # "- How can gene activity be altered in the absence of DNA changes?",
+                              # "- How do genes and genomes control changes in an organism’s structure and function throughout its life cycle?",
+                              # "- How do different types of mutations affect genes and the corresponding mRNAs and proteins?",
+                              # "- What are the processes that can affect the frequency of genotypes and phenotypes in a population over time?",
+                              # "- How do the results of molecular genetic studies in model organisms help us understand aspects of human genetics and genetic diseases?",
+                              # "- What experimental methods are commonly used to analyze gene structure, gene expression, gene function, and genetic variants?",
+                              
+                              "Competencies\n",
+                              # "- **1** Ability to apply the process of science",
+#                           sep="\n"),
 
 
   "**Bioinformatics**",      paste(
