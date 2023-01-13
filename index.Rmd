@@ -46,19 +46,19 @@ competencies <- tibble::tribble(
   
   "**Vision and Change**",  paste(
                               #"Concepts\n",
-                              # "- EVOLUTION: The diversity of life evolved over time by processes of mutation, selection, and genetic change",
-                              # "- STRUCTURE AND FUNCTION: Basic units of structure define the function of all living things",
-                              # "- INFORMATION FLOW, EXCHANGE, AND STORAGE: The growth and behavior of organisms are activated through the expression of genetic information in context",
-                              # "- PATHWAYS AND TRANSFORMATIONS OF ENERGY AND MATTER: Biological systems grow and change by processes based upon chemical transformation pathways and are governed by the laws of thermodynamics",
-                              # "- SYSTEMS: Living systems are interconnected and interacting.",
+                              # "- **1** EVOLUTION: The diversity of life evolved over time by processes of mutation, selection, and genetic change",
+                              # "- **2** STRUCTURE AND FUNCTION: Basic units of structure define the function of all living things",
+                              # "- **3** INFORMATION FLOW, EXCHANGE, AND STORAGE: The growth and behavior of organisms are activated through the expression of genetic information in context",
+                              # "- **4** PATHWAYS AND TRANSFORMATIONS OF ENERGY AND MATTER: Biological systems grow and change by processes based upon chemical transformation pathways and are governed by the laws of thermodynamics",
+                              # "- **5** SYSTEMS: Living systems are interconnected and interacting.",
                               
                               "Competencies\n",
-                              # "- Ability to apply the process of science",
-                              "- Ability to use quantitative reasoning",
-                              # "- Ability to use modeling and simulation",
-                              "- Ability to tap into the interdisciplinary nature of science",
-                              # "- Ability to communicate and collaborate with other disciplines",
-                              # "- Ability to understand the relationship between science and society",
+                              # "- **1** Ability to apply the process of science",
+                              "- **2** Ability to use quantitative reasoning",
+                              # "- **3** Ability to use modeling and simulation",
+                              "- **4** Ability to tap into the interdisciplinary nature of science",
+                              # "- **5** Ability to communicate and collaborate with other disciplines",
+                              # "- **6** Ability to understand the relationship between science and society",
                             sep="\n"),
 
 
@@ -67,15 +67,15 @@ competencies <- tibble::tribble(
 
 
   "**Bioinformatics**",      paste(
-                               # "- Explain the role of computation and data mining in addressing hypothesis-driven and hypothesis-generating questions within the life sciences",
-                               # "- Summarize key computational concepts, such as algorithms and relational databases, and their applications in the life sciences",
-                               # "- Apply statistical concepts used in bioinformatics",
-                               # "- Use bioinformatics tools to examine complex biological problems in evolution, information flow, and other important areas of biology",
-                               # "- Find, retrieve, and organize various types of biological data",
-                               # "- Explore and/or model biological interactions, networks and data integration using bioinformatics",
-                               "- Use command-line bioinformatics tools and write simple computer scripts",
-                               # "- Describe and manage biological data types, structure, and reproducibility",
-                               # "- Interpret the ethical, legal, medical, and social implications of biological data",
+                               # "- **C1** Explain the role of computation and data mining in addressing hypothesis-driven and hypothesis-generating questions within the life sciences",
+                               # "- **C2** Summarize key computational concepts, such as algorithms and relational databases, and their applications in the life sciences",
+                               # "- **C3** Apply statistical concepts used in bioinformatics",
+                               # "- **C4** Use bioinformatics tools to examine complex biological problems in evolution, information flow, and other important areas of biology",
+                               # "- **C5** Find, retrieve, and organize various types of biological data",
+                               # "- **C6** Explore and/or model biological interactions, networks and data integration using bioinformatics",
+                               "- **C7** Use command-line bioinformatics tools and write simple computer scripts",
+                               # "- **C8** Describe and manage biological data types, structure, and reproducibility",
+                               # "- **C9** Interpret the ethical, legal, medical, and social implications of biological data",
                              sep="\n")
 )
 
