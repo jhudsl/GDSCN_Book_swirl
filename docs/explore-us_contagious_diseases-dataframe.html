@@ -4,11 +4,11 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>GDSCN: Intro R with swirl</title>
+  <title>Chapter 2 Explore us_contagious_diseases dataframe | GDSCN: Intro R with swirl</title>
   <meta name="description" content="This book provides a lab exercise that introduces students to the basics of R programming." />
   <meta name="generator" content="bookdown 0.24 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="GDSCN: Intro R with swirl" />
+  <meta property="og:title" content="Chapter 2 Explore us_contagious_diseases dataframe | GDSCN: Intro R with swirl" />
   <meta property="og:type" content="book" />
   
   
@@ -16,7 +16,7 @@
   
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="GDSCN: Intro R with swirl" />
+  <meta name="twitter:title" content="Chapter 2 Explore us_contagious_diseases dataframe | GDSCN: Intro R with swirl" />
   
   <meta name="twitter:description" content="This book provides a lab exercise that introduces students to the basics of R programming." />
   
@@ -30,8 +30,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   
   <link rel="shortcut icon" href="assets/GDSCN_style/gdscn_favicon.ico" type="image/x-icon" />
-
-<link rel="next" href="r-programming-with-swirl.html"/>
+<link rel="prev" href="r-programming-with-swirl.html"/>
+<link rel="next" href="wrap-up-on-anvil.html"/>
 <script src="libs/header-attrs-2.10/header-attrs.js"></script>
 <script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
@@ -199,42 +199,116 @@ code span.wa { color: #8f5902; font-weight: bold; font-style: italic; } /* Warni
 <div class="hero-image-container">
   <img class= "hero-image" src="assets/GDSCN_style/dasl_thin_main_image.png">
 </div>
-<div id="header">
-<h1 class="title">GDSCN: Intro R with swirl</h1>
-<p class="date"><em>November 28, 2022</em></p>
+<div id="explore-us_contagious_diseases-dataframe" class="section level1" number="2">
+<h1><span class="header-section-number">Chapter 2</span> Explore <code>us_contagious_diseases</code> dataframe</h1>
+<p>Now we will use your R skills to explore the <a href="https://www.rdocumentation.org/packages/dslabs/versions/0.7.3/topics/us_contagious_diseases" target="_blank"><em>US Contagious Diseases</em></a> dataset.</p>
+<p>This dataset is part of <a href="https://www.rdocumentation.org/packages/dslabs/versions/0.7.3"><code>dslabs</code></a>, a collection of datasets for practicing data analysis assembled by Rafael Irizarry and Amy Gill. You can use the help function (<code>?us_contagious_diseases</code>) in RStudio to find out more about this dataset.</p>
+<div id="r-tips" class="section level2" number="2.1">
+<h2><span class="header-section-number">2.1</span> R tips</h2>
+<p>Don’t worry if you can’t remember everything - data scientists and computer programmers don’t memorize everything either. That’s why there’s a help function built in to R!</p>
+<p>As a reminder, here are a few useful commands for exploring dataframes:</p>
+<pre><code>dim()
+head()
+tail()
+summary()
+str()</code></pre>
+<p>If you need help remembering how to use a command, use <code>?</code></p>
+<pre><code>?dim</code></pre>
+<p>If you start using R frequently, you’ll naturally start to remember some of the common commands. But don’t hesitate to look things up, or ask if you get stuck!</p>
 </div>
-<div id="about-this-course" class="section level1 unnumbered">
-<h1>About this Course</h1>
-<p>This book is part of a series of books for the <a href="https://www.gdscn.org/home">The Genomic Data Science Community Network (GDSCN)</a>. GDSCN is a group of educators gathered with the aim to bring genomic data science education to students at diverse institutions.</p>
-<div id="skills-level" class="section level2 unnumbered">
-<h2>Skills Level</h2>
+<div id="explore-dataframe" class="section level2" number="2.2">
+<h2><span class="header-section-number">2.2</span> Explore dataframe</h2>
+<p><em>Estimated time: 20 min</em></p>
+<p>To start, you will need to load the <code>dslabs</code> package, which contains the dataset. Type the following commands to load the package and confirm that you can view the dataset. You should see a printout of the first few rows of data, as shown below.</p>
+<div class="sourceCode" id="cb4"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb4-1"><a href="explore-us_contagious_diseases-dataframe.html#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(dslabs)</span>
+<span id="cb4-2"><a href="explore-us_contagious_diseases-dataframe.html#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="fu">head</span>(us_contagious_diseases)</span></code></pre></div>
+<pre><code>##       disease   state year weeks_reporting count population
+## 1 Hepatitis A Alabama 1966              50   321    3345787
+## 2 Hepatitis A Alabama 1967              49   291    3364130
+## 3 Hepatitis A Alabama 1968              52   314    3386068
+## 4 Hepatitis A Alabama 1969              49   380    3412450
+## 5 Hepatitis A Alabama 1970              51   413    3444165
+## 6 Hepatitis A Alabama 1971              51   378    3481798</code></pre>
 <div class="notice">
-<p><em>Genetics</em>
-<strong>Novice</strong>: no genetics knowledge needed</p>
-<p><em>Programming skills</em>
-<strong>Novice</strong>: no programming experience needed</p>
+<p>It can be a bit annoying to have to type out the whole dataset name, and it’s easy to make errors. Remember that you can use “tab completion” to make the computer do the work for you!</p>
+<ul>
+<li>Start typing the first few letters (i.e. <code>us</code>), then hit the <code>TAB</code> key on your keyboard and you should see a list of autocomplete possibilities.</li>
+<li>Use your mouse or the arrow keys to select the one you want, or just keep typing until it’s the only one left, then hit <code>ENTER</code> and it will autocomplete for you.</li>
+</ul>
+</div>
+<p>Take a minute to look at the first few rows of this dataset.</p>
+<div class="reflection">
+<p><strong>Q1.</strong> How many columns are there?</p>
+<p><strong>Q2.</strong> What’s in each column?</p>
+</div>
+<p>Now use some R commands to dig a little deeper into the data.</p>
+<div class="reflection">
+<p><strong>Q3.</strong> What diseases are reported in this dataset? (Hint: there are 7)</p>
+<p><strong>Q4.</strong> What time period does this dataset cover?</p>
+<ol style="list-style-type: lower-alpha">
+<li>What’s the earliest year reported?</li>
+<li>What’s the latest year reported?</li>
+</ol>
+</div>
+<p>Now let’s investigate something more specific: what’s the average case count for a particular disease in a particular state?</p>
+<p>The following command will extract all the rows where the <code>disease</code> column is equal to “Hepatitis A” and the <code>state</code> column is equal to “Maryland”. It stores that (much smaller) dataset in a dataframe named <code>hepatitis_md</code>.</p>
+<div class="sourceCode" id="cb6"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb6-1"><a href="explore-us_contagious_diseases-dataframe.html#cb6-1" aria-hidden="true" tabindex="-1"></a>hepatitis_md <span class="ot">&lt;-</span> dplyr<span class="sc">::</span><span class="fu">filter</span>(us_contagious_diseases, disease<span class="sc">==</span><span class="st">&quot;Hepatitis A&quot;</span>, state<span class="sc">==</span><span class="st">&quot;Maryland&quot;</span>)</span>
+<span id="cb6-2"><a href="explore-us_contagious_diseases-dataframe.html#cb6-2" aria-hidden="true" tabindex="-1"></a><span class="fu">head</span>(hepatitis_md)</span></code></pre></div>
+<pre><code>##       disease    state year weeks_reporting count population
+## 1 Hepatitis A Maryland 1966              52   812    3635161
+## 2 Hepatitis A Maryland 1967              52   854    3717154
+## 3 Hepatitis A Maryland 1968              52   741    3793418
+## 4 Hepatitis A Maryland 1969              49   704    3862374
+## 5 Hepatitis A Maryland 1970              51   907    3922399
+## 6 Hepatitis A Maryland 1971              51  1082    3972358</code></pre>
+<p>Using this new, filtered dataframe, find the average case count:</p>
+<div class="reflection">
+<p><strong>Q5.</strong> What is the median case count for Hepatitis A in Maryland?</p>
+<ul>
+<li>Copy the above command, and run it in RStudio.</li>
+<li>Then use an R command to find the median of the <code>count</code> column in the <code>hepatitis_md</code> dataframe.</li>
+</ul>
+<p><strong>Q6.</strong> Modify the above command to select for Polio cases in Vermont, and find the median case count.</p>
+<ul>
+<li>Remember that you can use the up arrow to cycle through previous commands. Tap the up arrow until you get back to the command that extracted the data for Hepatitis A in Maryland.</li>
+<li>Modify the command to select for Polio in Vermont.</li>
+<li>Don’t forget to store this data using a different name! It would be confusing to have the Vermont Polio data stored in an object named <code>hepatitis_md</code>.</li>
+</ul>
+</div>
+<div class="warning">
+<p><strong>Challenge</strong>:</p>
+<p><em>Estimated time: 20 min</em></p>
+<p>It’s difficult to make comparisons across states with this data as is. A case count of, say, 500 is much more concerning if it happens in a state with a small population, because it means a greater percentage of the people are getting sick.</p>
+<p>For example, the median case count for Polio in New York is 685. That’s much higher than Vermont! But let’s use the data to see whether the case counts are comparable when we adjust for the number of people in each state.</p>
+<p>This will take a few steps, and you’ll need to use multiple R commands to transform the data and extract the information you want.</p>
+<ol style="list-style-type: decimal">
+<li>First, <strong>extract the New York Polio data</strong>, just like you did for the Vermont data, and store it in a new dataframe.</li>
+<li>Then, for each of these dataframes <strong>calculate the case count per 100,000 people</strong> (this is a common way to report disease frequencies)</li>
+<li>Then <strong>find the median</strong> for each state.</li>
+</ol>
+<p>Some tips and reminders:</p>
+<ul>
+<li>You can get individual columns from a dataframe using <code>$</code>. For example, <code>us_contagious_diseases$count</code> will give you a vector containing the whole <code>counts</code> column.</li>
+<li>If you have multiple vectors, you can do mathematical operations with them.</li>
+<li>You don’t have to do everything in one command (although you can!). You can store any intermediate results using <code>&lt;-</code>. Just make sure to use a name that helps you remember what you stored.</li>
+</ul>
+<p>So, to get the disease frequencies:</p>
+<div style="background-color: white; padding: 1em 1em 0.15em; margin-bottom: 0.85em;">
+<ol style="list-style-type: decimal">
+<li>Extract the <code>count</code> and <code>population</code> columns from the Vermont Polio data.</li>
+<li>Divide <code>count</code> by <code>population</code>.</li>
+<li>Multiply the result by <code>100000</code> (don’t use commas, R will be confused if you try to use <code>100,000</code>).</li>
+<li>Find the median of this new vector.</li>
+<li>Repeat these steps for the New York Polio data.</li>
+</ol>
+</div>
+<p>Finally, answer the question:</p>
+<div class="reflection">
+<p><strong>C1.</strong> Is the median case count per 100000 people higher in New York or Vermont?</p>
 </div>
 </div>
-<div id="learning-objectives" class="section level2 unnumbered">
-<h2>Learning Objectives</h2>
-<!-- Learning objectives for this activity come from the [Genetics Core Competencies](https://genetics-gsa.org/education/genetics-learning-framework/): -->
-<!-- - Objective 1 -->
-<!-- - Objective 2 -->
-<!-- - Objective 3 -->
-<!-- Please also see the Bioinformatics core competencies for undergraduate life sciences education from NIBLSE: https://journals.plos.org/plosone/article/figure?id=10.1371/journal.pone.0196878.t002 -->
 
 </div>
-</div>
-
-
-
-</div>
-
-
-
-
-
-
 </div>
 
 
@@ -253,8 +327,8 @@ code span.wa { color: #8f5902; font-weight: bold; font-style: italic; } /* Warni
           </div>
         </div>
       </div>
-
-<a href="r-programming-with-swirl.html" class="navigation navigation-next navigation-unique" aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="r-programming-with-swirl.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="wrap-up-on-anvil.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
