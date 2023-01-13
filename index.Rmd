@@ -78,7 +78,18 @@ competencies <- tibble::tribble(
                               # "- What experimental methods are commonly used to analyze gene structure, gene expression, gene function, and genetic variants?",
                               
                               "Competencies\n",
-                              # "- **1** Ability to apply the process of science",
+                              # "- Locate, read, and comprehend primary literature research papers on genetics topics",
+                              # "- Implement observational strategies to formulate a question",
+                              # "- Generate testable hypotheses",
+                              # "- Design an experiment using appropriate controls and appropriate sample sizes",
+                              # "- Gather and evaluate experimental evidence, including qualitative and quantitative data",
+                              # "- Apply statistical methods when analyzing their data, and use patterns to construct a model",
+                              # "- Generate and interpret graphs displaying experimental results",
+                              # "- Critique large data sets and use bioinformatics to assess genetics data",
+                              # "- Communicate experimental results effectively, including writing research papers and giving presentations",
+                              # "- Effectively explain genetics concepts to different audiences",
+                              # "- Tap into the interdisciplinary nature of science",
+                              # "- Identify and critique scientific issues relating to society or ethics",
 #                           sep="\n"),
 
 
