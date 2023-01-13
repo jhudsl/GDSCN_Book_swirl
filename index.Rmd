@@ -63,7 +63,7 @@ competencies <- tibble::tribble(
 
 
 #   "**Genetics**",         paste(
-                              #"Concepts\n",
+                              # "Concepts\n",
                               # "- How is DNA organized?",
                               # "- What are the molecular components and mechanisms necessary to preserve and duplicate an organism’s genome?",
                               # "- What are the mechanisms by which an organism’s genome is passed on to the next generation?",
@@ -77,7 +77,7 @@ competencies <- tibble::tribble(
                               # "- How do the results of molecular genetic studies in model organisms help us understand aspects of human genetics and genetic diseases?",
                               # "- What experimental methods are commonly used to analyze gene structure, gene expression, gene function, and genetic variants?",
                               
-                              "Competencies\n",
+                              # "Competencies\n",
                               # "- Locate, read, and comprehend primary literature research papers on genetics topics",
                               # "- Implement observational strategies to formulate a question",
                               # "- Generate testable hypotheses",
