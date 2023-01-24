@@ -54,6 +54,7 @@ From SARS book
 From CourseSource
 
 Course Level
+
 - [ ]	Introductory
 - [ ]	Upper Level
 - [ ]	Graduate
@@ -61,6 +62,7 @@ Course Level
 - [ ]	Other
 
 Audience
+
 - [ ]	Life Sciences Major
 - [ ]	Physics or Engineering Major
 - [ ]	Non-Life Sciences Major
@@ -72,6 +74,7 @@ Audience
 - [ ]	Other
 
 Assessment Type
+
 - [ ]	Assessment of individual student performance
 - [ ]	Assessment of student groups/teams
 - [ ]	Assignment
@@ -111,6 +114,7 @@ Assessment Type
 - [ ]	Other
 
 Key Scientific Process Skills
+
 - [ ]	Reading research papers
 - [ ]	Reviewing prior research
 - [ ]	Asking a question
@@ -124,6 +128,7 @@ Key Scientific Process Skills
 - [ ]	Communicating results
 
 Pedagogical Approaches
+
 - [ ]	Think-Pair-Share
 - [ ]	Brainstorming
 - [ ]	Case Study
@@ -140,10 +145,12 @@ Pedagogical Approaches
 - [ ]	Other 
 
 Bloom’s Cognitive Level (based on learning objectives & assessments)
+
 - [ ]	Foundational: factual knowledge & comprehension
 - [ ]	Application & Analysis
 
 Principles of how people learn 
+
 - [ ]	Motivates student to learn material
 - [ ]	Focuses student on the material to be learned
 - [ ]	Develops supportive community of learners
