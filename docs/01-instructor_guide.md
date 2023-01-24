@@ -53,107 +53,104 @@ From SARS book
 
 From CourseSource
 
-<!--
-
 Course Level
-o	Introductory
-o	Upper Level
-o	Graduate
-o	High School
-o	Other
+- [ ]	Introductory
+- [ ]	Upper Level
+- [ ]	Graduate
+- [ ]	High School
+- [ ]	Other
 
 Audience
-o	Life Sciences Major
-o	Physics or Engineering Major
-o	Non-Life Sciences Major
-o	Non-Physics/Engineering Major
-o	Non-Traditional Student
-o	2-year College
-o	4-year College
-o	University 
-o	Other
+- [ ]	Life Sciences Major
+- [ ]	Physics or Engineering Major
+- [ ]	Non-Life Sciences Major
+- [ ]	Non-Physics/Engineering Major
+- [ ]	Non-Traditional Student
+- [ ]	2-year College
+- [ ]	4-year College
+- [ ]	University 
+- [ ]	Other
 
 Assessment Type
-o	Assessment of individual student performance
-o	Assessment of student groups/teams
-o	Assignment
-o	Exam/quiz, in class
-o	Exam/quiz, take home
-o	Homework
-o	Answer clicker-type question(s)
-o	Answer essay question(s)
-o	Answer fill in the blank question(s)
-o	Answer multiple choice question(s)
-o	Answer short answer questions(s)
-o	Answer true/false question(s)
-o	Create a concept map
-o	Create a diagram, drawing, figure, etc.
-o	Create a website
-o	Create graph, table etc. to present data
-o	Design an experiment or research study
-o	Design/present a poster
-o	Give an oral presentation
-o	Informal in-class report
-o	Interpret data
-o	Order items (e.g., strip sequence)
-o	Participate in discussion
-o	Peer evaluation
-o	Post-test
-o	Pre-test
-o	Produce a video or video response
-o	Respond to metacognition/reflection prompt
-o	Self-evaluation
-o	Solve problem(s)
-o	Written assignment: One minute paper
-o	Written assignment: Brochure
-o	Written assignment: Essay
-o	Written assignment: Figure/figure legend
-o	Written assignment: Lab report
-o	Written assignment: Literature review
-o	Other
+- [ ]	Assessment of individual student performance
+- [ ]	Assessment of student groups/teams
+- [ ]	Assignment
+- [ ]	Exam/quiz, in class
+- [ ]	Exam/quiz, take home
+- [ ]	Homework
+- [ ]	Answer clicker-type question(s)
+- [ ]	Answer essay question(s)
+- [ ]	Answer fill in the blank question(s)
+- [ ]	Answer multiple choice question(s)
+- [ ]	Answer short answer questions(s)
+- [ ]	Answer true/false question(s)
+- [ ]	Create a concept map
+- [ ]	Create a diagram, drawing, figure, etc.
+- [ ]	Create a website
+- [ ]	Create graph, table etc. to present data
+- [ ]	Design an experiment or research study
+- [ ]	Design/present a poster
+- [ ]	Give an oral presentation
+- [ ]	Informal in-class report
+- [ ]	Interpret data
+- [ ]	Order items (e.g., strip sequence)
+- [ ]	Participate in discussion
+- [ ]	Peer evaluation
+- [ ]	Post-test
+- [ ]	Pre-test
+- [ ]	Produce a video or video response
+- [ ]	Respond to metacognition/reflection prompt
+- [ ]	Self-evaluation
+- [ ]	Solve problem(s)
+- [ ]	Written assignment: One minute paper
+- [ ]	Written assignment: Brochure
+- [ ]	Written assignment: Essay
+- [ ]	Written assignment: Figure/figure legend
+- [ ]	Written assignment: Lab report
+- [ ]	Written assignment: Literature review
+- [ ]	Other
 
 Key Scientific Process Skills
-o	Reading research papers
-o	Reviewing prior research
-o	Asking a question
-o	Formulating hypotheses
-o	Designing/conducting experiments
-o	Predicting outcomes
-o	Gathering data/making observations
-o	Analyzing data
-o	Interpreting results/data
-o	Displaying/modeling results/data
-o	Communicating results
+- [ ]	Reading research papers
+- [ ]	Reviewing prior research
+- [ ]	Asking a question
+- [ ]	Formulating hypotheses
+- [ ]	Designing/conducting experiments
+- [ ]	Predicting outcomes
+- [ ]	Gathering data/making observations
+- [ ]	Analyzing data
+- [ ]	Interpreting results/data
+- [ ]	Displaying/modeling results/data
+- [ ]	Communicating results
 
 Pedagogical Approaches
-o	Think-Pair-Share
-o	Brainstorming
-o	Case Study
-o	Clicker Question
-o	Collaborative Work
-o	One Minute Paper
-o	Reflective Writing
-o	Concept Maps
-o	Strip Sequence
-o	Computer Model
-o	Physical Model
-o	Interactive Lecture
-o	Pre/Post Questions
-o	Other 
+- [ ]	Think-Pair-Share
+- [ ]	Brainstorming
+- [ ]	Case Study
+- [ ]	Clicker Question
+- [ ]	Collaborative Work
+- [ ]	One Minute Paper
+- [ ]	Reflective Writing
+- [ ]	Concept Maps
+- [ ]	Strip Sequence
+- [ ]	Computer Model
+- [ ]	Physical Model
+- [ ]	Interactive Lecture
+- [ ]	Pre/Post Questions
+- [ ]	Other 
 
 Bloom’s Cognitive Level (based on learning objectives & assessments)
-o	Foundational: factual knowledge & comprehension
-o	Application & Analysis
+- [ ]	Foundational: factual knowledge & comprehension
+- [ ]	Application & Analysis
 
 Principles of how people learn 
-o	Motivates student to learn material
-o	Focuses student on the material to be learned
-o	Develops supportive community of learners
-o	Leverages differences among learners
-o	Reveals prior knowledge
-o	Requires student to do the bulk of the work
+- [ ]	Motivates student to learn material
+- [ ]	Focuses student on the material to be learned
+- [ ]	Develops supportive community of learners
+- [ ]	Leverages differences among learners
+- [ ]	Reveals prior knowledge
+- [ ]	Requires student to do the bulk of the work
 
--->
 
 ## Lesson Plan
 
