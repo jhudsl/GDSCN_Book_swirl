@@ -28,7 +28,6 @@ From SARS book
 **Class Type**  
 
 - Lab (computer-based)
-- Homework for a Lecture
 
 **Class Size**  
 
@@ -45,9 +44,6 @@ From SARS book
 
 - Short answer questions at each lab stage
 
-**Lesson Length**
-
-- One class period
 
 -----
 
@@ -72,6 +68,47 @@ Audience
 - [ ]	4-year College
 - [ ]	University 
 - [ ]	Other
+
+Class Type
+
+- [ ] Lecture
+- [ ] Lab
+- [ ] Seminar
+- [ ] Discussion Section
+- [ ] On-line
+- [ ] Other
+
+Class Size
+
+- [ ] 1-50
+- [ ] 51-100
+- [ ] 101+
+
+Lesson Length
+
+- [ ] Portion of one class period
+- [ ] One class period
+- [ ] Multiple class periods
+- [ ] One term (semester or quarter)
+- [ ] One year
+- [ ] Other
+
+Vision and Change Core Competencies
+
+- [ ] Ability to apply the process of science
+- [ ] Ability to use quantitative reasoning
+- [ ] Ability to use modeling and simulation
+- [ ] Ability to tap into the interdisciplinary nature of science
+- [ ] Ability to communicate and collaborate with other disciplines
+- [ ] Ability to understand the relationship between science and society
+
+Vision and Change Core Concepts
+
+- [ ] Evolution
+- [ ] Structure and Function
+- [ ] Information flow, exchange and storage
+- [ ] Pathways and transformations of energy and matter
+- [ ] Systems
 
 Assessment Type
 
@@ -148,6 +185,7 @@ Bloom’s Cognitive Level (based on learning objectives & assessments)
 
 - [ ]	Foundational: factual knowledge & comprehension
 - [ ]	Application & Analysis
+- [ ]	Synthesis/Evaluation/Creation
 
 Principles of how people learn 
 
