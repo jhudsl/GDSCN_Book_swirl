@@ -51,7 +51,7 @@ Lesson Length should be one of the following (from CourseSource):
 -->
 
 **Class Type:** Lab (computer based)
-**Lesson Length:** One class period
+**Lesson Length:** One class period (2-3 hr lab)
 
 ## Learning Objectives {-}
 
