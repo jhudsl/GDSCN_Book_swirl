@@ -48,6 +48,14 @@ Lesson Length should be one of the following (from CourseSource):
 - One term (semester or quarter)
 - One year
 - Other
+
+You can then provide addtional details; e.g.
+
+- **Lesson Length:** One class period (2-3 hr lab)
+    - 40 min setup and introduction (for shorter lab periods, these can be done ahead of time)
+    - 2 hr core lab exercises
+    - Optional 20 min "challenge" exercise
+
 -->
 
 - **Class Type:** Lab (computer based)
