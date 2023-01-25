@@ -28,6 +28,31 @@ _Programming skills_
 **Novice**: no programming experience needed
 :::
 
+## Format {-}
+
+<!--
+Class Type should be one of the following (from CourseSource):
+- Lecture
+- Lab
+- Seminar
+- Discussion Section
+- On-line
+- Other
+-->
+
+<!--
+Lesson Length should be one of the following (from CourseSource):
+- Portion of one class period
+- One class period
+- Multiple class periods
+- One term (semester or quarter)
+- One year
+- Other
+-->
+
+**Class Type:** Lab (computer based)
+**Lesson Length:** One class period
+
 ## Learning Objectives {-}
 
 - Open RStudio and locate important panels (R console, Help)
