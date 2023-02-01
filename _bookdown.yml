@@ -3,9 +3,8 @@ chapter_name: "Chapter "
 repo: https://github.com/jhudsl/AnVIL_Template/
 rmd_files: ["index.Rmd",
             "01-instructor_guide.Rmd",
-            "01-student_setup.Rmd",
+            "02-student_setup.Rmd",
             "student_setup_AnVIL.Rmd",
-            "02-introduction.Rmd",
             "03-exercises.Rmd",
             "exercises_swirl_01_04_05_06_12.Rmd",
             "04-dataset_exploration.Rmd",
