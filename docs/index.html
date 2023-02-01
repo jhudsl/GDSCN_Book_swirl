@@ -4,11 +4,11 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>GDSCN: Intro R with swirl</title>
+  <title>Intro R with swirl</title>
   <meta name="description" content="This book provides a lab exercise that introduces students to the basics of R programming." />
   <meta name="generator" content="bookdown 0.24 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="GDSCN: Intro R with swirl" />
+  <meta property="og:title" content="Intro R with swirl" />
   <meta property="og:type" content="book" />
   
   
@@ -16,14 +16,14 @@
   
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="GDSCN: Intro R with swirl" />
+  <meta name="twitter:title" content="Intro R with swirl" />
   
   <meta name="twitter:description" content="This book provides a lab exercise that introduces students to the basics of R programming." />
   
 
 
 
-<meta name="date" content="2022-11-28" />
+<meta name="date" content="2023-02-01" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -135,10 +135,13 @@ code span.wa { color: #8f5902; font-weight: bold; font-style: italic; } /* Warni
 <a href="https://www.gdscn.org/" target="_blank"><img src="assets/GDSCN_style/logo-gdscn.png" style="width: 80%; padding-left: 15px; padding-top: 8px;"</a>
 
 <li class="divider"></li>
-<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>About this Course</a>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>About</a>
 <ul>
 <li class="chapter" data-level="" data-path="index.html"><a href="index.html#skills-level"><i class="fa fa-check"></i>Skills Level</a></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html#format"><i class="fa fa-check"></i>Format</a></li>
 <li class="chapter" data-level="" data-path="index.html"><a href="index.html#learning-objectives"><i class="fa fa-check"></i>Learning Objectives</a></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html#core-competencies"><i class="fa fa-check"></i>Core Competencies</a></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html#gdscn-collection"><i class="fa fa-check"></i>GDSCN Collection</a></li>
 </ul></li>
 <li class="part"><span><b>Instructor Guide</b></span></li>
 <li class="part"><span><b>I Setup</b></span></li>
@@ -179,7 +182,7 @@ code span.wa { color: #8f5902; font-weight: bold; font-style: italic; } /* Warni
       <div class="body-inner">
         <div class="book-header" role="navigation">
           <h1>
-            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">GDSCN: Intro R with swirl</a>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Intro R with swirl</a>
           </h1>
         </div>
 
@@ -200,12 +203,13 @@ code span.wa { color: #8f5902; font-weight: bold; font-style: italic; } /* Warni
   <img class= "hero-image" src="assets/GDSCN_style/dasl_thin_main_image.png">
 </div>
 <div id="header">
-<h1 class="title">GDSCN: Intro R with swirl</h1>
-<p class="date"><em>November 28, 2022</em></p>
+<h1 class="title">Intro R with swirl</h1>
+<p class="date"><em>February 01, 2023</em></p>
 </div>
-<div id="about-this-course" class="section level1 unnumbered">
-<h1>About this Course</h1>
-<p>This book is part of a series of books for the <a href="https://www.gdscn.org/home">The Genomic Data Science Community Network (GDSCN)</a>. GDSCN is a group of educators gathered with the aim to bring genomic data science education to students at diverse institutions.</p>
+<div id="about" class="section level1 unnumbered">
+<h1>About</h1>
+<p>In this exercise, students are introduced to the basics of R using the <code>swirl</code> package (<a href="https://swirlstats.com" class="uri">https://swirlstats.com</a>), which teaches students R from within the R console. The primary goal of this exercise is to get students comfortable interacting with the R console.</p>
+<p><img src="assets/swirl_logo.png" title="swirl logo" alt="swirl logo" width="650" /></p>
 <div id="skills-level" class="section level2 unnumbered">
 <h2>Skills Level</h2>
 <div class="notice">
@@ -215,13 +219,93 @@ code span.wa { color: #8f5902; font-weight: bold; font-style: italic; } /* Warni
 <strong>Novice</strong>: no programming experience needed</p>
 </div>
 </div>
+<div id="format" class="section level2 unnumbered">
+<h2>Format</h2>
+<!--
+Class Type should be one of the following (from CourseSource):
+- Lecture
+- Lab
+- Seminar
+- Discussion Section
+- On-line
+- Other
+-->
+<!--
+Lesson Length should be one of the following (from CourseSource):
+- Portion of one class period
+- One class period
+- Multiple class periods
+- One term (semester or quarter)
+- One year
+- Other
+
+You can then provide addtional details; e.g.
+
+- **Lesson Length:** One class period (2-3 hr lab)
+    - 40 min setup and introduction (for shorter lab periods, these can be done ahead of time)
+    - 2 hr core lab exercises
+    - Optional 20 min "challenge" exercise
+
+-->
+<ul>
+<li><strong>Class Type:</strong> Lab (computer based)</li>
+<li><strong>Lesson Length:</strong> One class period (2-3 hr lab)
+<ul>
+<li>40 min setup and introduction (for shorter lab periods, these can be done ahead of time)</li>
+<li>2 hr core lab exercises</li>
+<li>Optional 20 min “challenge” exercise</li>
+</ul></li>
+</ul>
+</div>
 <div id="learning-objectives" class="section level2 unnumbered">
 <h2>Learning Objectives</h2>
-<!-- Learning objectives for this activity come from the [Genetics Core Competencies](https://genetics-gsa.org/education/genetics-learning-framework/): -->
-<!-- - Objective 1 -->
-<!-- - Objective 2 -->
-<!-- - Objective 3 -->
-<!-- Please also see the Bioinformatics core competencies for undergraduate life sciences education from NIBLSE: https://journals.plos.org/plosone/article/figure?id=10.1371/journal.pone.0196878.t002 -->
+<ul>
+<li>Open RStudio and locate important panels (R console, Help)</li>
+<li>Run commands in the R console</li>
+<li>Explain what vectors and dataframes are in R</li>
+<li>Use common R commands to work with R objects (e.g. assign, print, subset, math operations)</li>
+<li>Explore a dataset using base R commands (e.g. <code>dim</code>, <code>summary</code>, <code>str</code>)</li>
+</ul>
+</div>
+<div id="core-competencies" class="section level2 unnumbered">
+<h2>Core Competencies</h2>
+<p>This activity addresses the following core concepts and competencies:</p>
+<table>
+<tbody>
+<tr>
+<td style="text-align:left;">
+<strong>Vision and Change</strong>
+</td>
+<td style="text-align:left;">
+<p>Competencies</p>
+<ul>
+<li><strong>2</strong>: Ability to use quantitative reasoning</li>
+<li><strong>4</strong>: Ability to tap into the interdisciplinary nature of science
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+<strong>Bioinformatics</strong>
+</td>
+<td style="text-align:left;">
+<ul>
+<li><strong>C7</strong>: Use command-line bioinformatics tools and write simple computer scripts
+</td>
+</tr>
+</tbody>
+</table></li>
+</ul></li>
+</ul>
+<p>Core concepts and competencies are taken from the following sources:</p>
+<ul>
+<li><a href="https://visionandchange.org/">Vision and Change in Undergraduate Biology Education</a> AAAS report</li>
+<li><a href="https://genetics-gsa.org/education/genetics-learning-framework/">Genetics Core Competencies</a> by <a href="https://genetics-gsa.org/">GSA</a></li>
+<li><a href="https://doi.org/10.1371/journal.pone.0196878">Bioinformatics core competencies for undergraduate life sciences education</a> by <a href="https://qubeshub.org/community/groups/niblse">NIBLSE</a></li>
+</ul>
+</div>
+<div id="gdscn-collection" class="section level2 unnumbered">
+<h2>GDSCN Collection</h2>
+<p>This exercise is part of a collection of teaching resources developed through the <em>Genomic Data Science Community Network</em> (GDSCN). GDSCN works towards a vision where researchers, educators, and students from diverse backgrounds are able to fully participate in genomic data science research. Learn more about GDSCN by visiting <a href="https://www.gdscn.org/home" class="uri">https://www.gdscn.org/home</a> or reading the <a href="https://doi.org/10.1101/gr.276496.121">article in Genome Research</a>.</p>
 
 </div>
 </div>
