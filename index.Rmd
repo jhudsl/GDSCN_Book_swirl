@@ -69,8 +69,8 @@ You can then provide addtional details; e.g.
 - Open RStudio and locate important panels (R console, Help)
 - Run commands in the R console
 - Explain what vectors and dataframes are in R
-- Use common commands to manipulate R objects (e.g. assigning, printing, subsetting, mathematical operations)
-- Carry out a basic exploration of rectangular data using base R commands (e.g. `dim`, `summary`, `str`)
+- Use common R commands to work with R objects (e.g. assign, print, subset, math operations)
+- Explore a dataset using base R commands (e.g. `dim`, `summary`, `str`)
 
 ## Core Competencies {-}
 
