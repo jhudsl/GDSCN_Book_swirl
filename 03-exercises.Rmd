@@ -1,1 +1,1 @@
-# (PART) Lab Exercises {-}
+# (PART\*) Lab Exercises {-}
