@@ -1,8 +1,16 @@
 # Introduction
 
-R is a popular, versatile (and free!) programming language for data analysis.  This exercise will introduce you to some of the tools and ideas used for organizing data in R (such as variables, vectors, and data.frames). You will use an R tutorial package called “Swirl”, to learn some common R commands for working with data. By the end of the exercise, you will use your R programming skills to answer some questions about the `us_contagious_diseases` dataset.
+R is a popular, versatile (and free!) programming language for data analysis.  This exercise will introduce you to some of the tools and ideas used for organizing data in R (such as variables, vectors, and data.frames). You will use an R tutorial package called `swirl`, to learn some common R commands for working with data. By the end of the exercise, you will use your R programming skills to answer some questions about the `us_contagious_diseases` dataset.
 
 This exercise will introduce you to two important data science tools:
 
 - **R programming language**: R is a programming language used by scientists to manipulate, visualize, and analyze data.  It is one of the most popular tools for data analysis.
-- **R Studio**:  RStudio helps you write and manage R projects.  Similar to how programs like Microsoft Word help you write documents, RStudio helps you carry out data analysis projects with R. 
+- **R Studio**:  RStudio helps you write and manage R projects.  Similar to how programs like Microsoft Word help you write documents, RStudio helps you carry out data analysis projects with R.
+
+## Why R?
+
+## Tour of RStudio
+
+RStudio is a powerful tool, with many features to help you write R code and carry out data analyses more quickly, correctly, and reproducibly.
+
+This video will give you a quick introduction to some of key features of RStudio to help you get started.
