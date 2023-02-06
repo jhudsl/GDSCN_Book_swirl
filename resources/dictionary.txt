@@ -7,11 +7,14 @@ Bloomberg
 callout
 Callout
 Coursera
+Customizability
 dropdown
 GDSCN
 Gmail
+HMTL
 impactful
 Irizarry
+javascript
 mentorship
 NCI
 NHGRI
@@ -21,6 +24,7 @@ OTTR
 ottrpal
 preprint
 reproducibility
+reproducibly
 RStudio
 underserved
 Workspaces
