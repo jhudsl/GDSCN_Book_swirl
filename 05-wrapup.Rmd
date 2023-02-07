@@ -1,1 +1,1 @@
-# (PART) Wrap-up {-}
+# (PART\*) Wrap-up {-}
