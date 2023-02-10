@@ -15,7 +15,7 @@ R is a programming language for data analysis.  But what exactly does that mean,
 
 Fundamentally, a **programming language** is a way for humans to give instructions to computers.  Just like there are many different spoken languages throughout the world, there are many different programming languages. Similar to how each spoken language is used by a subset of the humans on this Earth, each programming language was created for a different group of people who code. You may have heard of other programming languages, such as C, Python, or HMTL previously. These are all enormously popular programming languages, but each has different strengths and weakness, and is designed to be good at different things. For example:
 
-- **HTML** and **JavaScript** are designed for building websites
+- **HTML** and **JavaScript** are designed for building websites.
 - **C** and **C++** are great for building software that needs to run really quickly (like video games).  It's a lot of work to write a program in C or C++, but the payoff is a very fast program.
 - **Swift** and **Kotlin** are designed for writing mobile apps for iOS and Android respectively.
 - **Python** is a high-level (i.e. easier to write), general-purpose programming language used for data analysis, web applications, general scripting, and more.
