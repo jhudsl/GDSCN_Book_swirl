@@ -1,17 +1,17 @@
 # Introduction
 
-R is a popular, versatile (and free!) programming language for data analysis.  This exercise will introduce you to some of the tools and ideas used for organizing data in R (such as variables, vectors, and data.frames). You will use an R tutorial package called `swirl`, to learn some common R commands for working with data. By the end of the exercise, you will use your R programming skills to answer some questions about the `us_contagious_diseases` dataset.
+R is a popular, versatile (and free!) programming language for data analysis.  This exercise will introduce you to some of the tools and ideas used for organizing data in R (such as variables, vectors, and data.frames). You will use an R tutorial package called `swirl` to learn some common R commands for working with data. By the end of the exercise, you will use your R programming skills to answer some questions about the `us_contagious_diseases` dataset.
 
 This exercise will introduce you to two important data science tools:
 
 - **R programming language**: R is a programming language used by scientists to manipulate, visualize, and analyze data.  It is one of the most popular tools for data analysis.
-- **R Studio**:  RStudio helps you write and manage R projects.  Similar to how programs like Microsoft Word help you write documents, RStudio helps you carry out data analysis projects with R.
+- **RStudio**:  RStudio helps you write and manage R projects.  Similar to how programs like Microsoft Word help you write documents, RStudio helps you carry out data analysis projects with R.
 
 ## What is R?
 
 R is a **programming language** - a way for humans to give instructions to computers.  Just like there are many different spoken languages throughout the world, there are many different programming languages. Similar to how each spoken language is used by a subset of the humans on this Earth, each programming language was created for a different group of people who code. You may have heard of other programming languages, such as C, Python, or HMTL previously. These are all enormously popular programming languages, but each has different strengths and weakness, and is designed to be good at different things. For example:
 
-- **HTML** and **javascript** are designed for building websites
+- **HTML** and **JavaScript** are designed for building websites
 - **C** and **C++** are great for building software that needs to run really quickly (like video games).  It's a lot of work to write a program in C or C++, but the payoff is a very fast program.
 - **Python** is one of the easiest languages to write, and is great for "scripting" - writing short programs to automate tasks.  Python is also a very popular language for data analysis.
 
