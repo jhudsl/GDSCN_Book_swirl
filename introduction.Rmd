@@ -1,6 +1,6 @@
 # Introduction
 
-R is a popular, versatile (and free!) programming language for data analysis.  This exercise will introduce you to some of the tools and ideas used for organizing data in R (such as variables, vectors, and data.frames). You will use an R tutorial package called [`swirl`](https://swirlstats.com/) to learn some common R commands for working with data. By the end of the exercise, you will use your R programming skills to answer some questions about the [`us_contagious_diseases`](https://CRAN.R-project.org/package=dslabs) dataset.
+R is a popular, versatile (and free!) **programming language** for data analysis.  This exercise will introduce you to some of the tools and ideas used for organizing data in R (such as variables, vectors, and data.frames). You will use an R tutorial package called [`swirl`](https://swirlstats.com/) to learn some common R commands for working with data. By the end of the exercise, you will use your R programming skills to answer some questions about the [`us_contagious_diseases`](https://CRAN.R-project.org/package=dslabs) dataset.
 
 This exercise will introduce you to two important data science tools:
 
@@ -9,7 +9,11 @@ This exercise will introduce you to two important data science tools:
 
 ## What is R?
 
-R is a **programming language** - a way for humans to give instructions to computers.  Just like there are many different spoken languages throughout the world, there are many different programming languages. Similar to how each spoken language is used by a subset of the humans on this Earth, each programming language was created for a different group of people who code. You may have heard of other programming languages, such as C, Python, or HMTL previously. These are all enormously popular programming languages, but each has different strengths and weakness, and is designed to be good at different things. For example:
+R is a programming language for data analysis.  But what exactly does that mean, and why do people use R?
+
+### What is a programming language?
+
+Fundamentally, a **programming language** is a way for humans to give instructions to computers.  Just like there are many different spoken languages throughout the world, there are many different programming languages. Similar to how each spoken language is used by a subset of the humans on this Earth, each programming language was created for a different group of people who code. You may have heard of other programming languages, such as C, Python, or HMTL previously. These are all enormously popular programming languages, but each has different strengths and weakness, and is designed to be good at different things. For example:
 
 - **HTML** and **JavaScript** are designed for building websites
 - **C** and **C++** are great for building software that needs to run really quickly (like video games).  It's a lot of work to write a program in C or C++, but the payoff is a very fast program.
