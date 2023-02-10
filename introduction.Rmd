@@ -5,7 +5,7 @@ R is a popular, versatile (and free!) programming language for data analysis.  T
 This exercise will introduce you to two important data science tools:
 
 - **R programming language**: R is a programming language used by scientists to manipulate, visualize, and analyze data.  It is one of the most popular tools for data analysis.
-- **RStudio**:  RStudio helps you write and manage R projects.  Similar to how programs like Microsoft Word help you write documents, RStudio helps you carry out data analysis projects with R.
+- **RStudio**:  RStudio helps you create and manage R projects.  Similar to how programs like Microsoft Word help you write documents, RStudio helps you carry out data analysis projects with R.
 
 ## What is R?
 
