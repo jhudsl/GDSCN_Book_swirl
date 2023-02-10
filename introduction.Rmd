@@ -1,6 +1,6 @@
 # Introduction
 
-R is a popular, versatile (and free!) programming language for data analysis.  This exercise will introduce you to some of the tools and ideas used for organizing data in R (such as variables, vectors, and data.frames). You will use an R tutorial package called `swirl` to learn some common R commands for working with data. By the end of the exercise, you will use your R programming skills to answer some questions about the `us_contagious_diseases` dataset.
+R is a popular, versatile (and free!) programming language for data analysis.  This exercise will introduce you to some of the tools and ideas used for organizing data in R (such as variables, vectors, and data.frames). You will use an R tutorial package called [`swirl`](https://swirlstats.com/) to learn some common R commands for working with data. By the end of the exercise, you will use your R programming skills to answer some questions about the [`us_contagious_diseases`](https://CRAN.R-project.org/package=dslabs) dataset.
 
 This exercise will introduce you to two important data science tools:
 
