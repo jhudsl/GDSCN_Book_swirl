@@ -34,6 +34,8 @@ Out of all the programming languages, why choose R?
 - R is designed specifically for statistics and data analysis.
 - R is an **open source language**. This means that the language is free to use and the source code is available to the general public.
 - R has a strong community, and people are constantly developing new **packages** which add new features.
+    - The [Tidyverse](https://www.tidyverse.org/) is a collection of packages that share a common philosophy of data and R programming.  They are designed to work together naturally and smooth your data analysis journey through cleaning, analyzing, and presenting your data.
+    - If you are working in biology, [Bioconductor](https://www.bioconductor.org/) provides a huge collection of packages for all kinds of biological data analysis.
 
 Python is also a great language for data analysis, with many of the same strengths as R.  Either is a great choice for getting started!  Many of the ideas from programming carry over from one language to another, so learning a second programming language is much easier than learning your first.
 
