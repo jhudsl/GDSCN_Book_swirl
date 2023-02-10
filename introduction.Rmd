@@ -17,9 +17,10 @@ Fundamentally, a **programming language** is a way for humans to give instructio
 
 - **HTML** and **JavaScript** are designed for building websites
 - **C** and **C++** are great for building software that needs to run really quickly (like video games).  It's a lot of work to write a program in C or C++, but the payoff is a very fast program.
-- **Python** is one of the easiest languages to write, and is great for "scripting" - writing short programs to automate tasks.  Python is also a very popular language for data analysis.
+- **Swift** and **Kotlin** are designed for writing mobile apps for iOS and Android respectively.
+- **Python** is a high-level (i.e. easier to write), general-purpose programming language used for data analysis, web applications, general scripting, and more.
 
-R is a programming language built for data analysis - by writing R code you give the computer instructions on how to process data and produce results.
+**R** is a programming language built for data analysis - by writing R code you give the computer instructions on how to process data and produce results.
 
 ### Why use a programming language?
 
