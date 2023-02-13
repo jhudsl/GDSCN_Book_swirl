@@ -49,3 +49,6 @@ Python is also a great language for data analysis, with many of the same strengt
 RStudio is an "Integrated Development Environment" (IDE) for R programming.  This means it is specially designed to help you write and manage your R projects, sort-of like a Microsoft Word for writing R code.  For example, RStudio provides something similar to a "spell check" for your R code to help you catch errors as you write.
 
 RStudio is a powerful tool with many features to help you write code and carry out data analyses more quickly, correctly, and reproducibly.,   This video will give you a quick introduction to some of key features of RStudio:
+
+<iframe src="https://drive.google.com/file/d/1s_uoi_tNFcPA244eO-xlHwaunhxLrQ1O/preview" width="640" height="360" allow="autoplay"></iframe>
+
