@@ -1,3 +1,9 @@
+introduction
+what-is-r
+what-is-a-programming-language
+why-use-a-programming-language
+why-r
+tour-of-rstudio
 r-programming-with-swirl
 complete-your-first-swirl-lesson
 complete-additional-swirl-lessons
