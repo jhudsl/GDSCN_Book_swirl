@@ -7,6 +7,7 @@ Bloomberg
 callout
 Callout
 Coursera
+CoV
 Customizability
 dropdown
 GDSCN
@@ -15,6 +16,7 @@ HMTL
 impactful
 Irizarry
 javascript
+Jupyter
 mentorship
 NCI
 NHGRI
@@ -23,6 +25,7 @@ Onboarding
 OTTR
 ottrpal
 preprint
+px
 reproducibility
 reproducibly
 RStudio
