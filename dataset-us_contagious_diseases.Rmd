@@ -1,14 +1,12 @@
 # Explore `us_contagious_diseases` dataframe
 
-*Estimated time: 20 min*
-
 ```{r, include=FALSE}
 install.packages("dslabs")
 ```
 
 Now we will use your R skills to explore the [*US Contagious Diseases*](https://www.rdocumentation.org/packages/dslabs/versions/0.7.3/topics/us_contagious_diseases){target="_blank"} dataset.
 
-This dataset is part of [`dslabs`](https://www.rdocumentation.org/packages/dslabs/versions/0.7.3), a collection of datasets for practicing data analysis assembled by Rafael Irizarry and Amy Gill.  You can use the help function (`?us_contagious_diseases`) in RStudio to find out more about this dataset.
+This dataset is part of [`dslabs`](https://CRAN.R-project.org/package=dslabs), a collection of datasets for practicing data analysis assembled by Rafael Irizarry and Amy Gill.  You can use the help function (`?us_contagious_diseases`) in RStudio to find out more about this dataset.
 
 ## R tips
 
@@ -31,6 +29,8 @@ If you need help remembering how to use a command, use `?`
 If you start using R frequently, you'll naturally start to remember some of the common commands.  But don't hesitate to look things up, or ask if you get stuck!
 
 ## Explore dataframe
+
+*Estimated time: 20 min*
 
 To start, you will need to load the `dslabs` package, which contains the dataset.  Type the following commands to load the package and confirm that you can view the dataset.  You should see a printout of the first few rows of data, as shown below.
 

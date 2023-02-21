@@ -1,1 +1,1 @@
-# (PART) Student Setup {-}
+# (PART\*) Student Setup {-}
