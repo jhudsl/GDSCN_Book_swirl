@@ -4,7 +4,7 @@ In order to access R and RStudio on AnVIL, there are a few steps you need to com
 <br>
 
 :::{.notice}
-You may be able to skip some of these setup steps if your instructor had you do them ahead of time.
+You may be able to skip some of these setup steps if you did them ahead of time.
 :::
 
 ## Set up AnVIL Account
