@@ -2,7 +2,7 @@
 **Pause here** if you are not going to be doing the lab exercises right away.  Once you start up RStudio, it will cost money to keep it running.  It costs a few cents an hour, so it's quite cheap as long as you use it responsibly.  But it can add up if you leave it running for days or weeks when you don't need it.
 :::
 
-## Start RStudio
+## Start RStudio {#student-start-RStudio}
 
 ```{r, echo = FALSE, results='asis'}
 AnVIL_module_settings <- list(
