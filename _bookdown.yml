@@ -8,6 +8,8 @@ rmd_files: ["index.Rmd",
             "04-exercises_swirl_01_04_05_06_12.Rmd",
             "05-dataset-us_contagious_diseases.Rmd",
             "06-wrapup.Rmd",
+            "part-appendix.Rmd",
+            "prelab_setup_AnVIL.Rmd",
             "About.Rmd",
             "References.Rmd"]
 new_session: yes
