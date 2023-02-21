@@ -1,7 +1,13 @@
 # Setup on AnVIL
 In order to access R and RStudio on AnVIL, there are a few steps you need to complete.
 
-## Set up Account
+<br>
+
+:::{.notice}
+You may be able to skip some of these setup steps if your instructor had you do them ahead of time.
+:::
+
+## Set up AnVIL Account
 
 ```{r, echo = FALSE, results='asis'}
 cow::borrow_chapter(
@@ -10,7 +16,7 @@ cow::borrow_chapter(
 )
 ```
 
-## Access Materials
+## Access Materials (Clone Workspace)
 
 ```{r, echo = FALSE, results='asis'}
 #workspace_name <- "Example_Workspace"
