@@ -1,3 +1,6 @@
 # Pre-lab
 
 Welcome!  This lab will introduce you to some basic data analysis using the [R programming language](https://www.r-project.org/).  In order to do this, there are a few steps you need to complete so that you can access the material and be ready to start computing with R.
+
+```{r, child="_child_student_setup_AnVIL.Rmd"}
+```
