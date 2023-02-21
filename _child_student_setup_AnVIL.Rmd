@@ -1,4 +1,4 @@
-## Set up AnVIL Account
+## Set up AnVIL Account {#student-setup-anvil-account}
 
 ```{r, echo = FALSE, results='asis'}
 cow::borrow_chapter(
@@ -7,7 +7,7 @@ cow::borrow_chapter(
 )
 ```
 
-## Access Materials (Clone Workspace)
+## Access Materials (Clone Workspace) {#student-clone-workspace}
 
 ```{r, echo = FALSE, results='asis'}
 #workspace_name <- "Example_Workspace"
