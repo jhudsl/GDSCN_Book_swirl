@@ -3,13 +3,15 @@ chapter_name: "Chapter "
 repo: https://github.com/jhudsl/AnVIL_Template/
 rmd_files: ["index.Rmd",
             "01-instructor_guide.Rmd",
-            "02-student_setup.Rmd",
-            "03-exercises.Rmd",
-            "introduction.Rmd",
-            "exercises_swirl_01_04_05_06_12.Rmd",
-            "dataset-us_contagious_diseases.Rmd",
-            "05-wrapup.Rmd",
-            "wrapup-AnVIL.Rmd",
+            "part-01-exercises.Rmd",
+            "02-introduction.Rmd",
+            "03-student_setup.Rmd",
+            "RStudio_AnVIL.Rmd",
+            "04-exercises_swirl_01_04_05_06_12.Rmd",
+            "05-dataset-us_contagious_diseases.Rmd",
+            "06-wrapup.Rmd",
+            "part-appendix.Rmd",
+            "prelab_setup.Rmd",
             "About.Rmd",
             "References.Rmd"]
 new_session: yes

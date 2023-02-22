@@ -1,0 +1,10 @@
+# Pre-lab
+
+Welcome!  This lab will introduce you to some basic data analysis using the [R programming language](https://www.r-project.org/).  In order to do this, there are a few steps you need to complete so that you can access the material and be ready to start computing with R.
+
+```{r, child="_child_student_setup_AnVIL.Rmd"}
+```
+
+:::{.warning}
+**Pause here** if you are not going to be doing the lab exercises right away.  Once you start up RStudio, it will cost money to keep it running.  It costs a few cents an hour, so it's quite cheap as long as you use it responsibly.  But it can add up if you leave it running for days or weeks when you don't need it.
+:::

@@ -16,16 +16,18 @@ The `swirl` lessons touch on several additional R commands and concepts beyond t
 | Activity | Time |
 | :-- | :- |
 | Introduction | 10 minutes |
-| Student Setup | 30 minutes* |
-| swirl Lessons | 1 hr 40 minutes |
-| Application - Explore a dataframe | 20 minutes |
-| *Optional Challenge Exercise* | *20 minutes* |
+| Setup | 25 minutes* |
+| R Programming with `swirl` | 1 hr 40 minutes |
+| Explore `us_contagious_diseases` dataframe | 20 minutes |
+| *Optional Challenge Exercise*\*\* | *20 minutes* |
 | Wrap-up | 5 minutes |
 
 \*Student Setup:
 
-  - Most students will not take a full 30 minutes, but we have built in some buffer for anyone who gets stuck.  Students can proceed with the exercises on their own once they have finished setting up.
+  - Most students will not need the full time for setup, but we have built in some buffer for anyone who gets stuck.  Students can proceed with the exercises on their own once they have finished setting up.
   - Most of the setup steps can be completed ahead of time if desired.  We have provided a Pre-Lab with instructions in the Appendix.
+
+\*\*Included under *Explore `us_contagious_diseases` dataframe*
 
 ## Computing Requirements {-}
 

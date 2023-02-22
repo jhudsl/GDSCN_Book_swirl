@@ -1,0 +1,14 @@
+# Setup on AnVIL
+In order to access R and RStudio on AnVIL, there are a few steps you need to complete.
+
+<br>
+
+:::{.notice}
+You may be able to skip some of these setup steps if you did them ahead of time.
+
+- If you have already created an AnVIL account, you can start with [Access Materials](#student-clone-workspace)
+- If you have already cloned the Workspace, you can start with [Start RStudio](#student-start-RStudio)
+:::
+
+```{r, child="_child_student_setup_AnVIL.Rmd"}
+```
