@@ -1,6 +1,6 @@
 ---
 title: "Intro R with swirl "
-date: "February 13, 2023"
+date: "February 22, 2023"
 site: bookdown::bookdown_site
 documentclass: book
 bibliography: book.bib

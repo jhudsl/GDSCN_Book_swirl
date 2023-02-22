@@ -4,11 +4,11 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>Chapter 4 Wrap-up on AnVIL | Intro R with swirl</title>
+  <title>Instructor Guide | Intro R with swirl</title>
   <meta name="description" content="This book provides a lab exercise that introduces students to the basics of R programming." />
   <meta name="generator" content="bookdown 0.24 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="Chapter 4 Wrap-up on AnVIL | Intro R with swirl" />
+  <meta property="og:title" content="Instructor Guide | Intro R with swirl" />
   <meta property="og:type" content="book" />
   
   
@@ -16,7 +16,7 @@
   
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="Chapter 4 Wrap-up on AnVIL | Intro R with swirl" />
+  <meta name="twitter:title" content="Instructor Guide | Intro R with swirl" />
   
   <meta name="twitter:description" content="This book provides a lab exercise that introduces students to the basics of R programming." />
   
@@ -30,8 +30,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   
   <link rel="shortcut icon" href="assets/GDSCN_style/gdscn_favicon.ico" type="image/x-icon" />
-<link rel="prev" href="explore-us_contagious_diseases-dataframe.html"/>
-<link rel="next" href="about-the-authors.html"/>
+<link rel="prev" href="index.html"/>
+<link rel="next" href="introduction.html"/>
 <script src="libs/header-attrs-2.10/header-attrs.js"></script>
 <script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
@@ -215,51 +215,83 @@ code span.wa { color: #8f5902; font-weight: bold; font-style: italic; } /* Warni
 <div class="hero-image-container">
   <img class= "hero-image" src="assets/GDSCN_style/dasl_thin_main_image.png">
 </div>
-<div id="wrap-up-on-anvil" class="section level1" number="4">
-<h1><span class="header-section-number">Chapter 4</span> Wrap-up on AnVIL</h1>
-<p>Cloud computing costs are based on the amount of time you use the computing resources, so it’s important to clean up after yourself when you’re done, and not just leave the computers running.</p>
-<p>There are two ways to “shut down” RStudio on AnVIL:</p>
+<div id="instructor-guide" class="section level1 unnumbered">
+<h1>Instructor Guide</h1>
+<p>The primary goal of this exercise is to get students comfortable interacting with the R console. Students will complete several <code>swirl</code> lessons introducing basic R concepts, and then apply their new skills by conducting a brief exploration of a dataframe.</p>
+<div id="teaching-recommendations" class="section level2 unnumbered">
+<h2>Teaching Recommendations</h2>
+<p>This exercise is designed to be used either</p>
+<ol style="list-style-type: decimal">
+<li>As a stand-alone “taste of R”, to introduce students to the field of data science, give them an idea of what a data scientist’s day-to-day work looks like, and help students see it as something they could do.</li>
+<li>As an entry point for a more in-depth course or workshop. In this case we recommend following up on important topics using additional resources (such as <a href="https://r4ds.had.co.nz/">R for Data Science</a>). The <code>swirl</code> lessons are great for letting students work through the basics in a “real” R environment where they get immediate feedback, but they are hard for students to refer back to later. We find <code>swirl</code> most useful for giving students a first look at the big ideas, along with practice typing commands into the console. This sets them up well for a more in-depth treatment over the subsequent course/workshop sessions.</li>
+</ol>
+<p>The <code>swirl</code> lessons touch on several additional R commands and concepts beyond those mentioned in the learning objectives and provide a useful starting point for going deeper if you desire. Additional <code>swirl</code> lessons can be found at the <a href="http://swirlstats.com/scn/">swirl Course Network</a>.</p>
+</div>
+<div id="lesson-plan" class="section level2 unnumbered">
+<h2>Lesson Plan</h2>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Activity</th>
+<th align="left">Time</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Introduction</td>
+<td align="left">10 minutes</td>
+</tr>
+<tr class="even">
+<td align="left">Student Setup</td>
+<td align="left">30 minutes*</td>
+</tr>
+<tr class="odd">
+<td align="left">swirl Lessons</td>
+<td align="left">1 hr 40 minutes</td>
+</tr>
+<tr class="even">
+<td align="left">Application - Explore a dataframe</td>
+<td align="left">20 minutes</td>
+</tr>
+<tr class="odd">
+<td align="left"><em>Optional Challenge Exercise</em></td>
+<td align="left"><em>20 minutes</em></td>
+</tr>
+<tr class="even">
+<td align="left">Wrap-up</td>
+<td align="left">5 minutes</td>
+</tr>
+</tbody>
+</table>
+<p>*Student Setup:</p>
 <ul>
-<li><strong>Pause</strong> the environment: This will save a copy of your work, and then release the computers for other people to use them. <strong>Do this if you plan to continue working in RStudio</strong>.
+<li>Most students will not take a full 30 minutes, but we have built in some buffer for anyone who gets stuck. Students can proceed with the exercises on their own once they have finished setting up.</li>
+<li>Most of the setup steps can be completed ahead of time if desired. We have provided a Pre-Lab with instructions in the Appendix.</li>
+</ul>
+</div>
+<div id="computing-requirements" class="section level2 unnumbered">
+<h2>Computing Requirements</h2>
 <ul>
-<li>It’s similar to turning off your computer or phone - when you start it back up, everything will be where you left it.</li>
-<li>This still costs a small amount of money, but much less than leaving the computer running.<br />
-</li>
-</ul></li>
-<li><strong>Delete</strong> the environment: This will delete everything and then release the computers for other people to use them. <strong>Do this if you are completely finished working in RStudio</strong>, or if your future work will be in a new environment.
+<li>RStudio</li>
+<li>R packages
 <ul>
-<li>It’s similar to throwing your computer or phone in the trash!</li>
-<li><strong>You will not be able to recover your work.</strong></li>
-<li>Make sure you have saved anything you need before you delete your environment.</li>
+<li><a href="https://cran.r-project.org/web/packages/swirl/index.html"><code>swirl</code></a></li>
+<li><a href="https://cran.r-project.org/web/packages/dplyr/index.html"><code>dplyr</code></a></li>
+<li><a href="https://cran.r-project.org/web/packages/dslabs/index.html"><code>dslabs</code></a></li>
 </ul></li>
 </ul>
-<div id="pause-rstudio-environment" class="section level2" number="4.1">
-<h2><span class="header-section-number">4.1</span> Pause RStudio environment</h2>
-<ol style="list-style-type: decimal">
-<li><p>The upper right corner reminds you that you are accruing cloud computing costs.</p>
-<p><img src="wrapup-AnVIL_files/figure-html/1BLTCaogA04bbeSD1tR1Wt-mVceQA6FHXa8FmFzIARrg_g11f12bc99af_0_84.png" title="Screenshot of the RStudio interface. The icon on the top right showing that the cloud environment is running is highlighted." alt="Screenshot of the RStudio interface. The icon on the top right showing that the cloud environment is running is highlighted." width="480" /></p></li>
-<li><p>You should minimize charges when you are not performing an analysis. You can do this by clicking on “Stop cloud environment”. This will release the CPU and memory resources for other people to use. Note that your work will be saved in the environment and continue to accrue a very small cost. This work will be lost if the cloud environment gets deleted. If there is anything you would like to save permanently, it’s a good idea to copy it from your compute environment to another location, such as the Workspace bucket, GitHub, or your local machine, depending on your needs.</p>
-<p><img src="wrapup-AnVIL_files/figure-html/1BLTCaogA04bbeSD1tR1Wt-mVceQA6FHXa8FmFzIARrg_g11f12bc99af_0_91.png" title="Screenshot of the RStudio interface. The stop icon on the top right which stops the cloud environment is highlighted." alt="Screenshot of the RStudio interface. The stop icon on the top right which stops the cloud environment is highlighted." width="480" /></p></li>
-</ol>
-</div>
-<div id="delete-rstudio-environment" class="section level2" number="4.2">
-<h2><span class="header-section-number">4.2</span> Delete RStudio environment</h2>
-<ol style="list-style-type: decimal">
-<li><p>Stopping your cloud environment only pauses your work. When you are ready to delete the cloud environment, click on the gear icon in the upper right corner to “Update cloud environment”.</p>
-<p><img src="wrapup-AnVIL_files/figure-html/1eypYLLqD11-NwHLs4adGpcuSB07dYEJfAaALSMvgzqw_ge1182913a6_0_41.png" title="Screenshot of the Workspace page. The gear icon on the top right that updates the cloud environment is highlighted." alt="Screenshot of the Workspace page. The gear icon on the top right that updates the cloud environment is highlighted." width="480" /></p></li>
-<li><p>Click on “Delete Environment Options”.</p>
-<p><img src="wrapup-AnVIL_files/figure-html/1eypYLLqD11-NwHLs4adGpcuSB07dYEJfAaALSMvgzqw_ge1182913a6_0_20.png" title="Screenshot of the cloud environment popout. &quot;Delete environment options&quot; is highlighted." alt="Screenshot of the cloud environment popout. &quot;Delete environment options&quot; is highlighted." width="480" /></p></li>
-<li><p>If you are certain that you do not need the data and configuration on your disk, you should select “Delete everything, including persistent disk”. If there is anything you would like to save, open the compute environment and copy the file(s) from your compute environment to another location, such as the Workspace bucket, GitHub, or your local machine, depending on your needs.</p>
-<p><img src="wrapup-AnVIL_files/figure-html/1eypYLLqD11-NwHLs4adGpcuSB07dYEJfAaALSMvgzqw_ge1182913a6_0_46.png" title="Screenshot of the cloud environment popout. &quot;Delete everything, including persistent disk&quot; is highlighted." alt="Screenshot of the cloud environment popout. &quot;Delete everything, including persistent disk&quot; is highlighted." width="480" /></p></li>
-<li><p>Select “DELETE”.</p>
-<p><img src="wrapup-AnVIL_files/figure-html/1eypYLLqD11-NwHLs4adGpcuSB07dYEJfAaALSMvgzqw_ge1182913a6_0_51.png" title="Screenshot of the cloud environment popout. &quot;Delete&quot; is highlighted." alt="Screenshot of the cloud environment popout. &quot;Delete&quot; is highlighted." width="480" /></p></li>
-</ol>
+<p>This book provides instructions on how to set these up in the cloud using the <a href="https://anvil.terra.bio/">AnVIL platform</a>, so that your students will not need to install anything. Depending on your needs, you might decide to run this activity on a different cloud provider, such <a href="https://posit.cloud/">Posit Cloud</a> (formerly RStudio Cloud), or have your students install RStudio themselves.</p>
 
 </div>
 </div>
 
 
 
+</div>
+
+
+
+</div>
 <hr>
 <center> 
   <div class="footer">
@@ -273,8 +305,8 @@ code span.wa { color: #8f5902; font-weight: bold; font-style: italic; } /* Warni
           </div>
         </div>
       </div>
-<a href="explore-us_contagious_diseases-dataframe.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
-<a href="about-the-authors.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="index.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="introduction.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
