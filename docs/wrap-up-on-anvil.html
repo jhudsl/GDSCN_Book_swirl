@@ -4,11 +4,11 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>Intro R with swirl</title>
+  <title>Chapter 4 Wrap-up on AnVIL | Intro R with swirl</title>
   <meta name="description" content="This book provides a lab exercise that introduces students to the basics of R programming." />
   <meta name="generator" content="bookdown 0.24 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="Intro R with swirl" />
+  <meta property="og:title" content="Chapter 4 Wrap-up on AnVIL | Intro R with swirl" />
   <meta property="og:type" content="book" />
   
   
@@ -16,7 +16,7 @@
   
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="Intro R with swirl" />
+  <meta name="twitter:title" content="Chapter 4 Wrap-up on AnVIL | Intro R with swirl" />
   
   <meta name="twitter:description" content="This book provides a lab exercise that introduces students to the basics of R programming." />
   
@@ -30,8 +30,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   
   <link rel="shortcut icon" href="assets/GDSCN_style/gdscn_favicon.ico" type="image/x-icon" />
-
-<link rel="next" href="instructor-guide.html"/>
+<link rel="prev" href="explore-us_contagious_diseases-dataframe.html"/>
+<link rel="next" href="about-the-authors.html"/>
 <script src="libs/header-attrs-2.10/header-attrs.js"></script>
 <script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
@@ -215,113 +215,51 @@ code span.wa { color: #8f5902; font-weight: bold; font-style: italic; } /* Warni
 <div class="hero-image-container">
   <img class= "hero-image" src="assets/GDSCN_style/dasl_thin_main_image.png">
 </div>
-<div id="header">
-<h1 class="title">Intro R with swirl</h1>
-<p class="date"><em>February 22, 2023</em></p>
-</div>
-<div id="about" class="section level1 unnumbered">
-<h1>About</h1>
-<p>In this exercise, students are introduced to the basics of R using the <code>swirl</code> package (<a href="https://swirlstats.com" class="uri">https://swirlstats.com</a>), which teaches students R from within the R console. The primary goal of this exercise is to get students comfortable interacting with the R console.</p>
-<p><img src="assets/swirl_logo.png" title="swirl logo" alt="swirl logo" width="650" /></p>
-<div id="skills-level" class="section level2 unnumbered">
-<h2>Skills Level</h2>
-<div class="notice">
-<p><em>Genetics</em>
-<strong>Novice</strong>: no genetics knowledge needed</p>
-<p><em>Programming skills</em>
-<strong>Novice</strong>: no programming experience needed</p>
-</div>
-</div>
-<div id="format" class="section level2 unnumbered">
-<h2>Format</h2>
-<!--
-Class Type should be one of the following (from CourseSource):
-- Lecture
-- Lab
-- Seminar
-- Discussion Section
-- On-line
-- Other
--->
-<!--
-Lesson Length should be one of the following (from CourseSource):
-- Portion of one class period
-- One class period
-- Multiple class periods
-- One term (semester or quarter)
-- One year
-- Other
-
-You can then provide addtional details; e.g.
-
-- **Lesson Length:** One class period (2-3 hr lab)
-    - 40 min setup and introduction (for shorter lab periods, these can be done ahead of time)
-    - 2 hr core lab exercises
-    - Optional 20 min "challenge" exercise
-
--->
+<div id="wrap-up-on-anvil" class="section level1" number="4">
+<h1><span class="header-section-number">Chapter 4</span> Wrap-up on AnVIL</h1>
+<p>Cloud computing costs are based on the amount of time you use the computing resources, so it’s important to clean up after yourself when you’re done, and not just leave the computers running.</p>
+<p>There are two ways to “shut down” RStudio on AnVIL:</p>
 <ul>
-<li><strong>Class Type:</strong> Lab (computer based)</li>
-<li><strong>Lesson Length:</strong> One class period (2-3 hr lab)
+<li><strong>Pause</strong> the environment: This will save a copy of your work, and then release the computers for other people to use them. <strong>Do this if you plan to continue working in RStudio</strong>.
 <ul>
-<li>40 min setup and introduction (for shorter lab periods, these can be done ahead of time)</li>
-<li>2 hr core lab exercises</li>
-<li>Optional 20 min “challenge” exercise</li>
+<li>It’s similar to turning off your computer or phone - when you start it back up, everything will be where you left it.</li>
+<li>This still costs a small amount of money, but much less than leaving the computer running.<br />
+</li>
+</ul></li>
+<li><strong>Delete</strong> the environment: This will delete everything and then release the computers for other people to use them. <strong>Do this if you are completely finished working in RStudio</strong>, or if your future work will be in a new environment.
+<ul>
+<li>It’s similar to throwing your computer or phone in the trash!</li>
+<li><strong>You will not be able to recover your work.</strong></li>
+<li>Make sure you have saved anything you need before you delete your environment.</li>
 </ul></li>
 </ul>
+<div id="pause-rstudio-environment" class="section level2" number="4.1">
+<h2><span class="header-section-number">4.1</span> Pause RStudio environment</h2>
+<ol style="list-style-type: decimal">
+<li><p>The upper right corner reminds you that you are accruing cloud computing costs.</p>
+<p><img src="wrapup-AnVIL_files/figure-html/1BLTCaogA04bbeSD1tR1Wt-mVceQA6FHXa8FmFzIARrg_g11f12bc99af_0_84.png" title="Screenshot of the RStudio interface. The icon on the top right showing that the cloud environment is running is highlighted." alt="Screenshot of the RStudio interface. The icon on the top right showing that the cloud environment is running is highlighted." width="480" /></p></li>
+<li><p>You should minimize charges when you are not performing an analysis. You can do this by clicking on “Stop cloud environment”. This will release the CPU and memory resources for other people to use. Note that your work will be saved in the environment and continue to accrue a very small cost. This work will be lost if the cloud environment gets deleted. If there is anything you would like to save permanently, it’s a good idea to copy it from your compute environment to another location, such as the Workspace bucket, GitHub, or your local machine, depending on your needs.</p>
+<p><img src="wrapup-AnVIL_files/figure-html/1BLTCaogA04bbeSD1tR1Wt-mVceQA6FHXa8FmFzIARrg_g11f12bc99af_0_91.png" title="Screenshot of the RStudio interface. The stop icon on the top right which stops the cloud environment is highlighted." alt="Screenshot of the RStudio interface. The stop icon on the top right which stops the cloud environment is highlighted." width="480" /></p></li>
+</ol>
 </div>
-<div id="learning-objectives" class="section level2 unnumbered">
-<h2>Learning Objectives</h2>
-<ul>
-<li>Open RStudio and locate important panels (R console, Help)</li>
-<li>Run commands in the R console</li>
-<li>Explain what vectors and dataframes are in R</li>
-<li>Use common R commands to work with R objects (e.g. assign, print, subset, math operations)</li>
-<li>Explore a dataset using base R commands (e.g. <code>dim</code>, <code>summary</code>, <code>str</code>)</li>
-</ul>
-</div>
-<div id="core-competencies" class="section level2 unnumbered">
-<h2>Core Competencies</h2>
-<p>This activity addresses the following core concepts and competencies:</p>
-<table>
-<tbody>
-<tr>
-<td style="text-align:left;">
-<strong>Vision and Change</strong>
-</td>
-<td style="text-align:left;">
-<p>Competencies</p>
-<ul>
-<li><strong>2</strong>: Ability to use quantitative reasoning</li>
-<li><strong>4</strong>: Ability to tap into the interdisciplinary nature of science
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-<strong>Bioinformatics</strong>
-</td>
-<td style="text-align:left;">
-<ul>
-<li><strong>C7</strong>: Use command-line bioinformatics tools and write simple computer scripts
-</td>
-</tr>
-</tbody>
-</table></li>
-</ul></li>
-</ul>
-<p>Core concepts and competencies are taken from the following sources:</p>
-<ul>
-<li><a href="https://visionandchange.org/">Vision and Change in Undergraduate Biology Education</a> AAAS report</li>
-<li><a href="https://genetics-gsa.org/education/genetics-learning-framework/">Genetics Core Competencies</a> by <a href="https://genetics-gsa.org/">GSA</a></li>
-<li><a href="https://doi.org/10.1371/journal.pone.0196878">Bioinformatics core competencies for undergraduate life sciences education</a> by <a href="https://qubeshub.org/community/groups/niblse">NIBLSE</a></li>
-</ul>
-</div>
-<div id="gdscn-collection" class="section level2 unnumbered">
-<h2>GDSCN Collection</h2>
-<p>This exercise is part of a collection of teaching resources developed through the <em>Genomic Data Science Community Network</em> (GDSCN). GDSCN works towards a vision where researchers, educators, and students from diverse backgrounds are able to fully participate in genomic data science research. Learn more about GDSCN by visiting <a href="https://www.gdscn.org/home" class="uri">https://www.gdscn.org/home</a> or reading the <a href="https://doi.org/10.1101/gr.276496.121">article in Genome Research</a>.</p>
+<div id="delete-rstudio-environment" class="section level2" number="4.2">
+<h2><span class="header-section-number">4.2</span> Delete RStudio environment</h2>
+<ol style="list-style-type: decimal">
+<li><p>Stopping your cloud environment only pauses your work. When you are ready to delete the cloud environment, click on the gear icon in the upper right corner to “Update cloud environment”.</p>
+<p><img src="wrapup-AnVIL_files/figure-html/1eypYLLqD11-NwHLs4adGpcuSB07dYEJfAaALSMvgzqw_ge1182913a6_0_41.png" title="Screenshot of the Workspace page. The gear icon on the top right that updates the cloud environment is highlighted." alt="Screenshot of the Workspace page. The gear icon on the top right that updates the cloud environment is highlighted." width="480" /></p></li>
+<li><p>Click on “Delete Environment Options”.</p>
+<p><img src="wrapup-AnVIL_files/figure-html/1eypYLLqD11-NwHLs4adGpcuSB07dYEJfAaALSMvgzqw_ge1182913a6_0_20.png" title="Screenshot of the cloud environment popout. &quot;Delete environment options&quot; is highlighted." alt="Screenshot of the cloud environment popout. &quot;Delete environment options&quot; is highlighted." width="480" /></p></li>
+<li><p>If you are certain that you do not need the data and configuration on your disk, you should select “Delete everything, including persistent disk”. If there is anything you would like to save, open the compute environment and copy the file(s) from your compute environment to another location, such as the Workspace bucket, GitHub, or your local machine, depending on your needs.</p>
+<p><img src="wrapup-AnVIL_files/figure-html/1eypYLLqD11-NwHLs4adGpcuSB07dYEJfAaALSMvgzqw_ge1182913a6_0_46.png" title="Screenshot of the cloud environment popout. &quot;Delete everything, including persistent disk&quot; is highlighted." alt="Screenshot of the cloud environment popout. &quot;Delete everything, including persistent disk&quot; is highlighted." width="480" /></p></li>
+<li><p>Select “DELETE”.</p>
+<p><img src="wrapup-AnVIL_files/figure-html/1eypYLLqD11-NwHLs4adGpcuSB07dYEJfAaALSMvgzqw_ge1182913a6_0_51.png" title="Screenshot of the cloud environment popout. &quot;Delete&quot; is highlighted." alt="Screenshot of the cloud environment popout. &quot;Delete&quot; is highlighted." width="480" /></p></li>
+</ol>
 
 </div>
 </div>
+
+
+
 <hr>
 <center> 
   <div class="footer">
@@ -335,8 +273,8 @@ You can then provide addtional details; e.g.
           </div>
         </div>
       </div>
-
-<a href="instructor-guide.html" class="navigation navigation-next navigation-unique" aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="explore-us_contagious_diseases-dataframe.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="about-the-authors.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>

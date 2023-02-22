@@ -1,8 +1,8 @@
-# (PART\*) Instructor Guide {-}
-
-# Teaching Recommendations
+# Instructor Guide {-}
 
 The primary goal of this exercise is to get students comfortable interacting with the R console.  Students will complete several `swirl` lessons introducing basic R concepts, and then apply their new skills by conducting a brief exploration of a dataframe.
+
+## Teaching Recommendations {-}
 
 This exercise is designed to be used either
 
@@ -197,13 +197,28 @@ Principles of how people learn
 - [ ]	Requires student to do the bulk of the work
 
 
-## Lesson Plan
+## Lesson Plan  {-}
 
-## Computing Requirements
+| Activity | Time |
+| :-- | :- |
+| Introduction | 10 minutes |
+| Student Setup | 30 minutes* |
+| swirl Lessons | 1 hr 40 minutes |
+| Application - Explore a dataframe | 20 minutes |
+| *Optional Challenge Exercise* | *20 minutes* |
+| Wrap-up | 5 minutes |
+
+\*Student Setup:
+
+  - Most students will not take a full 30 minutes, but we have built in some buffer for anyone who gets stuck.  Students can proceed with the exercises on their own once they have finished setting up.
+  - Most of the setup steps can be completed ahead of time if desired.  We have provided a Pre-Lab with instructions in the Appendix.
+
+## Computing Requirements {-}
 
 - RStudio
 - R packages
-  - `swirl`
-  - `dplyr`
+  - [`swirl`](https://cran.r-project.org/web/packages/swirl/index.html)
+  - [`dplyr`](https://cran.r-project.org/web/packages/dplyr/index.html)
+  - [`dslabs`](https://cran.r-project.org/web/packages/dslabs/index.html)
 
 This book provides instructions on how to set these up in the cloud using the [AnVIL platform](https://anvil.terra.bio/), so that your students will not need to install anything.  Depending on your needs, you might decide to run this activity on a different cloud provider, such [Posit Cloud](https://posit.cloud/) (formerly RStudio Cloud), or have your students install RStudio themselves.
