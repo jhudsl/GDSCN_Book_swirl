@@ -89,6 +89,8 @@ Using this new, filtered dataframe, find the average case count:
 - Don't forget to store this data using a different name!  It would be confusing to have the Vermont Polio data stored in an object named `hepatitis_md`.
 :::
 
+## Challenge Exercise
+
 :::{.warning}
 
 **Challenge**:
