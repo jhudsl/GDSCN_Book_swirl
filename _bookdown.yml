@@ -2,6 +2,7 @@ book_filename: "Course_Name"
 chapter_name: "Chapter "
 repo: https://github.com/jhudsl/AnVIL_Template/
 rmd_files: ["index.Rmd",
+            "01-instructor_guide.Rmd",
             "part-01-exercises.Rmd",
             "02-introduction.Rmd",
             "03-student_setup.Rmd",
