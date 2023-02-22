@@ -1,8 +1,8 @@
-# (PART\*) Instructor Guide {-}
-
-# Teaching Recommendations
+# Instructor Guide {-}
 
 The primary goal of this exercise is to get students comfortable interacting with the R console.  Students will complete several `swirl` lessons introducing basic R concepts, and then apply their new skills by conducting a brief exploration of a dataframe.
+
+## Teaching Recommendations {-}
 
 This exercise is designed to be used either
 
@@ -11,199 +11,28 @@ This exercise is designed to be used either
 
 The `swirl` lessons touch on several additional R commands and concepts beyond those mentioned in the learning objectives and provide a useful starting point for going deeper if you desire.  Additional `swirl` lessons can be found at the [swirl Course Network](http://swirlstats.com/scn/).
 
-## Audience and Context {-}
+## Lesson Plan  {-}
 
-From SARS book
+| Activity | Time |
+| :-- | :- |
+| Introduction | 10 minutes |
+| Student Setup | 30 minutes* |
+| swirl Lessons | 1 hr 40 minutes |
+| Application - Explore a dataframe | 20 minutes |
+| *Optional Challenge Exercise* | *20 minutes* |
+| Wrap-up | 5 minutes |
 
-**Audience**  
+\*Student Setup:
 
-- Undergraduate biology majors
-- Graduate students with less exposure to bioinformatics
+  - Most students will not take a full 30 minutes, but we have built in some buffer for anyone who gets stuck.  Students can proceed with the exercises on their own once they have finished setting up.
+  - Most of the setup steps can be completed ahead of time if desired.  We have provided a Pre-Lab with instructions in the Appendix.
 
-**Prerequisites**  
-
-- Layman understanding of genetics (understanding of DNA, genes, trait inheritance)
-- Some previous exposure to the central dogma of molecular biology
-
-**Class Type**  
-
-- Lab (computer-based)
-
-**Class Size**  
-
-- 1-50
-
-**Lesson Duration**  
-
-- 20-30 minute pre-lab lecture 
-- 3 hour lab for undergraduate students
-- 1 hour lab for graduate students
-- Additional short lecture modules
-
-**Assessment Type**  
-
-- Short answer questions at each lab stage
-
-
------
-
-From CourseSource
-
-Course Level
-
-- [ ]	Introductory
-- [ ]	Upper Level
-- [ ]	Graduate
-- [ ]	High School
-- [ ]	Other
-
-Audience
-
-- [ ]	Life Sciences Major
-- [ ]	Physics or Engineering Major
-- [ ]	Non-Life Sciences Major
-- [ ]	Non-Physics/Engineering Major
-- [ ]	Non-Traditional Student
-- [ ]	2-year College
-- [ ]	4-year College
-- [ ]	University 
-- [ ]	Other
-
-Class Type
-
-- [ ] Lecture
-- [ ] Lab
-- [ ] Seminar
-- [ ] Discussion Section
-- [ ] On-line
-- [ ] Other
-
-Class Size
-
-- [ ] 1-50
-- [ ] 51-100
-- [ ] 101+
-
-Lesson Length
-
-- [ ] Portion of one class period
-- [ ] One class period
-- [ ] Multiple class periods
-- [ ] One term (semester or quarter)
-- [ ] One year
-- [ ] Other
-
-Vision and Change Core Competencies
-
-- [ ] Ability to apply the process of science
-- [ ] Ability to use quantitative reasoning
-- [ ] Ability to use modeling and simulation
-- [ ] Ability to tap into the interdisciplinary nature of science
-- [ ] Ability to communicate and collaborate with other disciplines
-- [ ] Ability to understand the relationship between science and society
-
-Vision and Change Core Concepts
-
-- [ ] Evolution
-- [ ] Structure and Function
-- [ ] Information flow, exchange and storage
-- [ ] Pathways and transformations of energy and matter
-- [ ] Systems
-
-Assessment Type
-
-- [ ]	Assessment of individual student performance
-- [ ]	Assessment of student groups/teams
-- [ ]	Assignment
-- [ ]	Exam/quiz, in class
-- [ ]	Exam/quiz, take home
-- [ ]	Homework
-- [ ]	Answer clicker-type question(s)
-- [ ]	Answer essay question(s)
-- [ ]	Answer fill in the blank question(s)
-- [ ]	Answer multiple choice question(s)
-- [ ]	Answer short answer questions(s)
-- [ ]	Answer true/false question(s)
-- [ ]	Create a concept map
-- [ ]	Create a diagram, drawing, figure, etc.
-- [ ]	Create a website
-- [ ]	Create graph, table etc. to present data
-- [ ]	Design an experiment or research study
-- [ ]	Design/present a poster
-- [ ]	Give an oral presentation
-- [ ]	Informal in-class report
-- [ ]	Interpret data
-- [ ]	Order items (e.g., strip sequence)
-- [ ]	Participate in discussion
-- [ ]	Peer evaluation
-- [ ]	Post-test
-- [ ]	Pre-test
-- [ ]	Produce a video or video response
-- [ ]	Respond to metacognition/reflection prompt
-- [ ]	Self-evaluation
-- [ ]	Solve problem(s)
-- [ ]	Written assignment: One minute paper
-- [ ]	Written assignment: Brochure
-- [ ]	Written assignment: Essay
-- [ ]	Written assignment: Figure/figure legend
-- [ ]	Written assignment: Lab report
-- [ ]	Written assignment: Literature review
-- [ ]	Other
-
-Key Scientific Process Skills
-
-- [ ]	Reading research papers
-- [ ]	Reviewing prior research
-- [ ]	Asking a question
-- [ ]	Formulating hypotheses
-- [ ]	Designing/conducting experiments
-- [ ]	Predicting outcomes
-- [ ]	Gathering data/making observations
-- [ ]	Analyzing data
-- [ ]	Interpreting results/data
-- [ ]	Displaying/modeling results/data
-- [ ]	Communicating results
-
-Pedagogical Approaches
-
-- [ ]	Think-Pair-Share
-- [ ]	Brainstorming
-- [ ]	Case Study
-- [ ]	Clicker Question
-- [ ]	Collaborative Work
-- [ ]	One Minute Paper
-- [ ]	Reflective Writing
-- [ ]	Concept Maps
-- [ ]	Strip Sequence
-- [ ]	Computer Model
-- [ ]	Physical Model
-- [ ]	Interactive Lecture
-- [ ]	Pre/Post Questions
-- [ ]	Other 
-
-Bloom’s Cognitive Level (based on learning objectives & assessments)
-
-- [ ]	Foundational: factual knowledge & comprehension
-- [ ]	Application & Analysis
-- [ ]	Synthesis/Evaluation/Creation
-
-Principles of how people learn 
-
-- [ ]	Motivates student to learn material
-- [ ]	Focuses student on the material to be learned
-- [ ]	Develops supportive community of learners
-- [ ]	Leverages differences among learners
-- [ ]	Reveals prior knowledge
-- [ ]	Requires student to do the bulk of the work
-
-
-## Lesson Plan
-
-## Computing Requirements
+## Computing Requirements {-}
 
 - RStudio
 - R packages
-  - `swirl`
-  - `dplyr`
+  - [`swirl`](https://cran.r-project.org/web/packages/swirl/index.html)
+  - [`dplyr`](https://cran.r-project.org/web/packages/dplyr/index.html)
+  - [`dslabs`](https://cran.r-project.org/web/packages/dslabs/index.html)
 
 This book provides instructions on how to set these up in the cloud using the [AnVIL platform](https://anvil.terra.bio/), so that your students will not need to install anything.  Depending on your needs, you might decide to run this activity on a different cloud provider, such [Posit Cloud](https://posit.cloud/) (formerly RStudio Cloud), or have your students install RStudio themselves.
