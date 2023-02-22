@@ -1,8 +1,8 @@
-# (PART\*) Instructor Guide {-}
-
-# Teaching Recommendations {-}
+# Instructor Guide {-}
 
 The primary goal of this exercise is to get students comfortable interacting with the R console.  Students will complete several `swirl` lessons introducing basic R concepts, and then apply their new skills by conducting a brief exploration of a dataframe.
+
+## Teaching Recommendations {-}
 
 This exercise is designed to be used either
 
