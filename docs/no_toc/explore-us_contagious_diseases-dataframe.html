@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Chapter 4 Explore us_contagious_diseases dataframe | Intro R with swirl</title>
+  <meta name="description" content="This book provides a lab exercise that introduces students to the basics of R programming." />
+  <meta name="generator" content="bookdown 0.24 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="Chapter 4 Explore us_contagious_diseases dataframe | Intro R with swirl" />
+  <meta property="og:type" content="book" />
+  
+  
+  <meta property="og:description" content="This book provides a lab exercise that introduces students to the basics of R programming." />
+  
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Chapter 4 Explore us_contagious_diseases dataframe | Intro R with swirl" />
+  
+  <meta name="twitter:description" content="This book provides a lab exercise that introduces students to the basics of R programming." />
+  
+
+
+
+<meta name="date" content="2023-03-01" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  <link rel="shortcut icon" href="assets/GDSCN_style/gdscn_favicon.ico" type="image/x-icon" />
+<link rel="prev" href="r-programming-with-swirl.html"/>
+<link rel="next" href="wrap-up-on-anvil.html"/>
+<script src="libs/header-attrs-2.10/header-attrs.js"></script>
+<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+<link href="libs/anchor-sections-1.0.1/anchor-sections.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.0.1/anchor-sections.js"></script>
+
+
+<style type="text/css">
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {  background-color: #f8f8f8; }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+code span.al { color: #ef2929; } /* Alert */
+code span.an { color: #8f5902; font-weight: bold; font-style: italic; } /* Annotation */
+code span.at { color: #c4a000; } /* Attribute */
+code span.bn { color: #0000cf; } /* BaseN */
+code span.cf { color: #204a87; font-weight: bold; } /* ControlFlow */
+code span.ch { color: #4e9a06; } /* Char */
+code span.cn { color: #000000; } /* Constant */
+code span.co { color: #8f5902; font-style: italic; } /* Comment */
+code span.cv { color: #8f5902; font-weight: bold; font-style: italic; } /* CommentVar */
+code span.do { color: #8f5902; font-weight: bold; font-style: italic; } /* Documentation */
+code span.dt { color: #204a87; } /* DataType */
+code span.dv { color: #0000cf; } /* DecVal */
+code span.er { color: #a40000; font-weight: bold; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #0000cf; } /* Float */
+code span.fu { color: #000000; } /* Function */
+code span.im { } /* Import */
+code span.in { color: #8f5902; font-weight: bold; font-style: italic; } /* Information */
+code span.kw { color: #204a87; font-weight: bold; } /* Keyword */
+code span.op { color: #ce5c00; font-weight: bold; } /* Operator */
+code span.ot { color: #8f5902; } /* Other */
+code span.pp { color: #8f5902; font-style: italic; } /* Preprocessor */
+code span.sc { color: #000000; } /* SpecialChar */
+code span.ss { color: #4e9a06; } /* SpecialString */
+code span.st { color: #4e9a06; } /* String */
+code span.va { color: #000000; } /* Variable */
+code span.vs { color: #4e9a06; } /* VerbatimString */
+code span.wa { color: #8f5902; font-weight: bold; font-style: italic; } /* Warning */
+</style>
+
+
+<link rel="stylesheet" href="assets/GDSCN_style/style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<a href="https://www.gdscn.org/" target="_blank"><img src="assets/GDSCN_style/logo-gdscn.png" style="width: 80%; padding-left: 15px; padding-top: 8px;"</a>
+
+<li class="divider"></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>About</a>
+<ul>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html#skills-level"><i class="fa fa-check"></i>Skills Level</a></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html#format"><i class="fa fa-check"></i>Format</a></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html#learning-objectives"><i class="fa fa-check"></i>Learning Objectives</a></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html#core-competencies"><i class="fa fa-check"></i>Core Competencies</a></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html#gdscn-collection"><i class="fa fa-check"></i>GDSCN Collection</a></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="instructor-guide.html"><a href="instructor-guide.html"><i class="fa fa-check"></i>Instructor Guide</a>
+<ul>
+<li class="chapter" data-level="" data-path="instructor-guide.html"><a href="instructor-guide.html#teaching-recommendations"><i class="fa fa-check"></i>Teaching Recommendations</a></li>
+<li class="chapter" data-level="" data-path="instructor-guide.html"><a href="instructor-guide.html#lesson-plan"><i class="fa fa-check"></i>Lesson Plan</a></li>
+<li class="chapter" data-level="" data-path="instructor-guide.html"><a href="instructor-guide.html#computing-requirements"><i class="fa fa-check"></i>Computing Requirements</a></li>
+</ul></li>
+<li class="part"><span><b>Lab Exercises</b></span></li>
+<li class="chapter" data-level="1" data-path="introduction.html"><a href="introduction.html"><i class="fa fa-check"></i><b>1</b> Introduction</a>
+<ul>
+<li class="chapter" data-level="1.1" data-path="introduction.html"><a href="introduction.html#what-is-r"><i class="fa fa-check"></i><b>1.1</b> What is R?</a>
+<ul>
+<li class="chapter" data-level="1.1.1" data-path="introduction.html"><a href="introduction.html#what-is-a-programming-language"><i class="fa fa-check"></i><b>1.1.1</b> What is a programming language?</a></li>
+<li class="chapter" data-level="1.1.2" data-path="introduction.html"><a href="introduction.html#why-use-a-programming-language"><i class="fa fa-check"></i><b>1.1.2</b> Why use a programming language?</a></li>
+<li class="chapter" data-level="1.1.3" data-path="introduction.html"><a href="introduction.html#why-r"><i class="fa fa-check"></i><b>1.1.3</b> Why R?</a></li>
+</ul></li>
+<li class="chapter" data-level="1.2" data-path="introduction.html"><a href="introduction.html#tour-of-rstudio"><i class="fa fa-check"></i><b>1.2</b> Tour of RStudio</a></li>
+</ul></li>
+<li class="chapter" data-level="2" data-path="setup-on-anvil.html"><a href="setup-on-anvil.html"><i class="fa fa-check"></i><b>2</b> Setup on AnVIL</a>
+<ul>
+<li class="chapter" data-level="2.1" data-path="setup-on-anvil.html"><a href="setup-on-anvil.html#student-setup-anvil-account"><i class="fa fa-check"></i><b>2.1</b> Set up AnVIL Account</a>
+<ul>
+<li class="chapter" data-level="2.1.1" data-path="setup-on-anvil.html"><a href="setup-on-anvil.html#create-google-account"><i class="fa fa-check"></i><b>2.1.1</b> Create Google Account</a></li>
+<li class="chapter" data-level="2.1.2" data-path="setup-on-anvil.html"><a href="setup-on-anvil.html#log-in-to-terra"><i class="fa fa-check"></i><b>2.1.2</b> Log In to Terra</a></li>
+<li class="chapter" data-level="2.1.3" data-path="setup-on-anvil.html"><a href="setup-on-anvil.html#share-username"><i class="fa fa-check"></i><b>2.1.3</b> Share Username</a></li>
+</ul></li>
+<li class="chapter" data-level="2.2" data-path="setup-on-anvil.html"><a href="setup-on-anvil.html#student-clone-workspace"><i class="fa fa-check"></i><b>2.2</b> Access Materials (Clone Workspace)</a></li>
+<li class="chapter" data-level="2.3" data-path="setup-on-anvil.html"><a href="setup-on-anvil.html#student-start-RStudio"><i class="fa fa-check"></i><b>2.3</b> Start RStudio</a></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="r-programming-with-swirl.html"><a href="r-programming-with-swirl.html"><i class="fa fa-check"></i><b>3</b> R Programming with <code>swirl</code></a>
+<ul>
+<li class="chapter" data-level="3.1" data-path="r-programming-with-swirl.html"><a href="r-programming-with-swirl.html#complete-your-first-swirl-lesson"><i class="fa fa-check"></i><b>3.1</b> Complete your first <code>swirl</code> lesson</a></li>
+<li class="chapter" data-level="3.2" data-path="r-programming-with-swirl.html"><a href="r-programming-with-swirl.html#complete-additional-swirl-lessons"><i class="fa fa-check"></i><b>3.2</b> Complete additional <code>swirl</code> lessons</a></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="explore-us_contagious_diseases-dataframe.html"><a href="explore-us_contagious_diseases-dataframe.html"><i class="fa fa-check"></i><b>4</b> Explore <code>us_contagious_diseases</code> dataframe</a>
+<ul>
+<li class="chapter" data-level="4.1" data-path="explore-us_contagious_diseases-dataframe.html"><a href="explore-us_contagious_diseases-dataframe.html#r-tips"><i class="fa fa-check"></i><b>4.1</b> R tips</a></li>
+<li class="chapter" data-level="4.2" data-path="explore-us_contagious_diseases-dataframe.html"><a href="explore-us_contagious_diseases-dataframe.html#explore-dataframe"><i class="fa fa-check"></i><b>4.2</b> Explore dataframe</a></li>
+<li class="chapter" data-level="4.3" data-path="explore-us_contagious_diseases-dataframe.html"><a href="explore-us_contagious_diseases-dataframe.html#challenge-exercise"><i class="fa fa-check"></i><b>4.3</b> Challenge Exercise</a></li>
+</ul></li>
+<li class="chapter" data-level="5" data-path="wrap-up-on-anvil.html"><a href="wrap-up-on-anvil.html"><i class="fa fa-check"></i><b>5</b> Wrap-up on AnVIL</a>
+<ul>
+<li class="chapter" data-level="5.1" data-path="wrap-up-on-anvil.html"><a href="wrap-up-on-anvil.html#pause-rstudio-environment"><i class="fa fa-check"></i><b>5.1</b> Pause RStudio environment</a></li>
+<li class="chapter" data-level="5.2" data-path="wrap-up-on-anvil.html"><a href="wrap-up-on-anvil.html#delete-rstudio-environment"><i class="fa fa-check"></i><b>5.2</b> Delete RStudio environment</a></li>
+</ul></li>
+<li class="appendix"><span><b>Appendix</b></span></li>
+<li class="chapter" data-level="A" data-path="pre-lab.html"><a href="pre-lab.html"><i class="fa fa-check"></i><b>A</b> Pre-lab</a>
+<ul>
+<li class="chapter" data-level="A.1" data-path="setup-on-anvil.html"><a href="setup-on-anvil.html#student-setup-anvil-account"><i class="fa fa-check"></i><b>A.1</b> Set up AnVIL Account</a>
+<ul>
+<li class="chapter" data-level="A.1.1" data-path="pre-lab.html"><a href="pre-lab.html#create-google-account-1"><i class="fa fa-check"></i><b>A.1.1</b> Create Google Account</a></li>
+<li class="chapter" data-level="A.1.2" data-path="pre-lab.html"><a href="pre-lab.html#log-in-to-terra-1"><i class="fa fa-check"></i><b>A.1.2</b> Log In to Terra</a></li>
+<li class="chapter" data-level="A.1.3" data-path="pre-lab.html"><a href="pre-lab.html#share-username-1"><i class="fa fa-check"></i><b>A.1.3</b> Share Username</a></li>
+</ul></li>
+<li class="chapter" data-level="A.2" data-path="setup-on-anvil.html"><a href="setup-on-anvil.html#student-clone-workspace"><i class="fa fa-check"></i><b>A.2</b> Access Materials (Clone Workspace)</a></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="about-the-authors.html"><a href="about-the-authors.html"><i class="fa fa-check"></i>About the Authors</a></li>
+<li class="chapter" data-level="" data-path="references.html"><a href="references.html"><i class="fa fa-check"></i>References</a></li>
+<li class="divider"></li>
+<p style="text-align:center;"> <a href="https://github.com/jhudsl/OTTR_Template" target="blank" > This content was published with</a> <a href="https://bookdown.org/" target="blank"> bookdown by: </a> </p>
+<p style="text-align:center;"> <a href="http://jhudatascience.org/"> The Johns Hopkins Data Science Lab </a></p>
+<a href="http://jhudatascience.org/"><img src="https://jhudatascience.org/images/dasl.png" style=" width: 80%; padding-left: 40px; padding-top: 8px; vertical-align: top "</a>
+<p style="text-align:center; font-size: 12px;"> <a href="https://github.com/rstudio4edu/rstudio4edu-book/"> Style adapted from: rstudio4edu-book </a> <a href ="https://creativecommons.org/licenses/by/2.0/"> (CC-BY 2.0) </a></p>
+
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Intro R with swirl</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<head>
+  <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=10.0,initial-scale=1.0">
+  <!--script src="https://kit.fontawesome.com/6a26f47516.js"></script-->
+  <!--<script src="assets/hideOutput.js"></script>-->
+  <link href="assets/GDSCN_style/style.css" rel="stylesheet">
+</head>
+
+
+
+<div class="hero-image-container">
+  <img class= "hero-image" src="assets/GDSCN_style/dasl_thin_main_image.png">
+</div>
+<div id="explore-us_contagious_diseases-dataframe" class="section level1" number="4">
+<h1><span class="header-section-number">Chapter 4</span> Explore <code>us_contagious_diseases</code> dataframe</h1>
+<p>Now we will use your R skills to explore the <a href="https://www.rdocumentation.org/packages/dslabs/versions/0.7.3/topics/us_contagious_diseases" target="_blank"><em>US Contagious Diseases</em></a> dataset.</p>
+<p>This dataset is part of <a href="https://CRAN.R-project.org/package=dslabs"><code>dslabs</code></a>, a collection of datasets for practicing data analysis assembled by Rafael Irizarry and Amy Gill. You can use the help function (<code>?us_contagious_diseases</code>) in RStudio to find out more about this dataset.</p>
+<div id="r-tips" class="section level2" number="4.1">
+<h2><span class="header-section-number">4.1</span> R tips</h2>
+<p>Don’t worry if you can’t remember everything - data scientists and computer programmers don’t memorize everything either. That’s why there’s a help function built in to R!</p>
+<p>As a reminder, here are a few useful commands for exploring dataframes:</p>
+<pre><code>dim()
+head()
+tail()
+summary()
+str()</code></pre>
+<p>If you need help remembering how to use a command, use <code>?</code></p>
+<pre><code>?dim</code></pre>
+<p>If you start using R frequently, you’ll naturally start to remember some of the common commands. But don’t hesitate to look things up, or ask if you get stuck!</p>
+</div>
+<div id="explore-dataframe" class="section level2" number="4.2">
+<h2><span class="header-section-number">4.2</span> Explore dataframe</h2>
+<p><em>Estimated time: 20 min</em></p>
+<p>To start, you will need to load the <code>dslabs</code> package, which contains the dataset. Type the following commands to load the package and confirm that you can view the dataset. You should see a printout of the first few rows of data, as shown below.</p>
+<div class="sourceCode" id="cb4"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb4-1"><a href="explore-us_contagious_diseases-dataframe.html#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(dslabs)</span>
+<span id="cb4-2"><a href="explore-us_contagious_diseases-dataframe.html#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="fu">head</span>(us_contagious_diseases)</span></code></pre></div>
+<pre><code>##       disease   state year weeks_reporting count population
+## 1 Hepatitis A Alabama 1966              50   321    3345787
+## 2 Hepatitis A Alabama 1967              49   291    3364130
+## 3 Hepatitis A Alabama 1968              52   314    3386068
+## 4 Hepatitis A Alabama 1969              49   380    3412450
+## 5 Hepatitis A Alabama 1970              51   413    3444165
+## 6 Hepatitis A Alabama 1971              51   378    3481798</code></pre>
+<div class="notice">
+<p>It can be a bit annoying to have to type out the whole dataset name, and it’s easy to make errors. Remember that you can use “tab completion” to make the computer do the work for you!</p>
+<ul>
+<li>Start typing the first few letters (i.e. <code>us</code>), then hit the <code>TAB</code> key on your keyboard and you should see a list of autocomplete possibilities.</li>
+<li>Use your mouse or the arrow keys to select the one you want, or just keep typing until it’s the only one left, then hit <code>ENTER</code> and it will autocomplete for you.</li>
+</ul>
+</div>
+<p>Take a minute to look at the first few rows of this dataset.</p>
+<div class="reflection">
+<p><strong>Q1.</strong> How many columns are there?</p>
+<p><strong>Q2.</strong> What’s in each column?</p>
+</div>
+<p>Now use some R commands to dig a little deeper into the data.</p>
+<div class="reflection">
+<p><strong>Q3.</strong> What diseases are reported in this dataset? (Hint: there are 7)</p>
+<p><strong>Q4.</strong> What time period does this dataset cover?</p>
+<ol style="list-style-type: lower-alpha">
+<li>What’s the earliest year reported?</li>
+<li>What’s the latest year reported?</li>
+</ol>
+</div>
+<p>Now let’s investigate something more specific: what’s the average case count for a particular disease in a particular state?</p>
+<p>The following command will extract all the rows where the <code>disease</code> column is equal to “Hepatitis A” and the <code>state</code> column is equal to “Maryland”. It stores that (much smaller) dataset in a dataframe named <code>hepatitis_md</code>.</p>
+<div class="sourceCode" id="cb6"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb6-1"><a href="explore-us_contagious_diseases-dataframe.html#cb6-1" aria-hidden="true" tabindex="-1"></a>hepatitis_md <span class="ot">&lt;-</span> dplyr<span class="sc">::</span><span class="fu">filter</span>(us_contagious_diseases, disease<span class="sc">==</span><span class="st">&quot;Hepatitis A&quot;</span>, state<span class="sc">==</span><span class="st">&quot;Maryland&quot;</span>)</span>
+<span id="cb6-2"><a href="explore-us_contagious_diseases-dataframe.html#cb6-2" aria-hidden="true" tabindex="-1"></a><span class="fu">head</span>(hepatitis_md)</span></code></pre></div>
+<pre><code>##       disease    state year weeks_reporting count population
+## 1 Hepatitis A Maryland 1966              52   812    3635161
+## 2 Hepatitis A Maryland 1967              52   854    3717154
+## 3 Hepatitis A Maryland 1968              52   741    3793418
+## 4 Hepatitis A Maryland 1969              49   704    3862374
+## 5 Hepatitis A Maryland 1970              51   907    3922399
+## 6 Hepatitis A Maryland 1971              51  1082    3972358</code></pre>
+<p>Using this new, filtered dataframe, find the average case count:</p>
+<div class="reflection">
+<p><strong>Q5.</strong> What is the median case count for Hepatitis A in Maryland?</p>
+<ul>
+<li>Copy the above command, and run it in RStudio.</li>
+<li>Then use an R command to find the median of the <code>count</code> column in the <code>hepatitis_md</code> dataframe.</li>
+</ul>
+<p><strong>Q6.</strong> Modify the above command to select for Polio cases in Vermont, and find the median case count.</p>
+<ul>
+<li>Remember that you can use the up arrow to cycle through previous commands. Tap the up arrow until you get back to the command that extracted the data for Hepatitis A in Maryland.</li>
+<li>Modify the command to select for Polio in Vermont.</li>
+<li>Don’t forget to store this data using a different name! It would be confusing to have the Vermont Polio data stored in an object named <code>hepatitis_md</code>.</li>
+</ul>
+</div>
+</div>
+<div id="challenge-exercise" class="section level2" number="4.3">
+<h2><span class="header-section-number">4.3</span> Challenge Exercise</h2>
+<div class="warning">
+<p><strong>Challenge</strong>:</p>
+<p><em>Estimated time: 20 min</em></p>
+<p>It’s difficult to make comparisons across states with this data as is. A case count of, say, 500 is much more concerning if it happens in a state with a small population, because it means a greater percentage of the people are getting sick.</p>
+<p>For example, the median case count for Polio in New York is 685. That’s much higher than Vermont! But let’s use the data to see whether the case counts are comparable when we adjust for the number of people in each state.</p>
+<p>This will take a few steps, and you’ll need to use multiple R commands to transform the data and extract the information you want.</p>
+<ol style="list-style-type: decimal">
+<li>First, <strong>extract the New York Polio data</strong>, just like you did for the Vermont data, and store it in a new dataframe.</li>
+<li>Then, for each of these dataframes <strong>calculate the case count per 100,000 people</strong> (this is a common way to report disease frequencies)</li>
+<li>Then <strong>find the median</strong> for each state.</li>
+</ol>
+<p>Some tips and reminders:</p>
+<ul>
+<li>You can get individual columns from a dataframe using <code>$</code>. For example, <code>us_contagious_diseases$count</code> will give you a vector containing the whole <code>counts</code> column.</li>
+<li>If you have multiple vectors, you can do mathematical operations with them.</li>
+<li>You don’t have to do everything in one command (although you can!). You can store any intermediate results using <code>&lt;-</code>. Just make sure to use a name that helps you remember what you stored.</li>
+</ul>
+<p>So, to get the disease frequencies:</p>
+<div style="background-color: white; padding: 1em 1em 0.15em; margin-bottom: 0.85em;">
+<ol style="list-style-type: decimal">
+<li>Extract the <code>count</code> and <code>population</code> columns from the Vermont Polio data.</li>
+<li>Divide <code>count</code> by <code>population</code>.</li>
+<li>Multiply the result by <code>100000</code> (don’t use commas, R will be confused if you try to use <code>100,000</code>).</li>
+<li>Find the median of this new vector.</li>
+<li>Repeat these steps for the New York Polio data.</li>
+</ol>
+</div>
+<p>Finally, answer the question:</p>
+<div class="reflection">
+<p><strong>C1.</strong> Is the median case count per 100000 people higher in New York or Vermont?</p>
+</div>
+</div>
+
+</div>
+</div>
+<hr>
+<center> 
+  <div class="footer">
+      All illustrations <a href="https://creativecommons.org/licenses/by/4.0/">CC-BY. </a>
+      <br>
+      All other materials <a href= "https://creativecommons.org/licenses/by/4.0/"> CC-BY </a> unless noted otherwise.
+  </div>
+</center>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="r-programming-with-swirl.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="wrap-up-on-anvil.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"whatsapp": false,
+"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": null,
+"text": null
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": null,
+"text": null
+},
+"download": null,
+"search": {
+"engine": "fuse",
+"options": null
+},
+"toc": {
+"collapse": "section"
+}
+});
+});
+</script>
+
+</body>
+
+</html>
