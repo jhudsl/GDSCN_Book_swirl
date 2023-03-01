@@ -1,0 +1,11 @@
+url	chapt_title	img_path
+https://jhudatascience.org/GDSCN_Book_swirl/no_toc/index.html	About	resources/chapt_screen_images/index.png
+https://jhudatascience.org/GDSCN_Book_swirl/no_toc/instructor-guide.html	Instructor Guide	resources/chapt_screen_images/instructor-guide.png
+https://jhudatascience.org/GDSCN_Book_swirl/no_toc/introduction.html	1 Introduction	resources/chapt_screen_images/introduction.png
+https://jhudatascience.org/GDSCN_Book_swirl/no_toc/setup-on-anvil.html	2 Setup on AnVIL	resources/chapt_screen_images/setup-on-anvil.png
+https://jhudatascience.org/GDSCN_Book_swirl/no_toc/r-programming-with-swirl.html	3 R Programming with swirl	resources/chapt_screen_images/r-programming-with-swirl.png
+https://jhudatascience.org/GDSCN_Book_swirl/no_toc/explore-us_contagious_diseases-dataframe.html	4 Explore us_contagious_diseases dataframe	resources/chapt_screen_images/explore-us_contagious_diseases-dataframe.png
+https://jhudatascience.org/GDSCN_Book_swirl/no_toc/wrap-up-on-anvil.html	5 Wrap-up on AnVIL	resources/chapt_screen_images/wrap-up-on-anvil.png
+https://jhudatascience.org/GDSCN_Book_swirl/no_toc/pre-lab.html	A Pre-lab	resources/chapt_screen_images/pre-lab.png
+https://jhudatascience.org/GDSCN_Book_swirl/no_toc/about-the-authors.html	About the Authors	resources/chapt_screen_images/about-the-authors.png
+https://jhudatascience.org/GDSCN_Book_swirl/no_toc/references.html	References	resources/chapt_screen_images/references.png
