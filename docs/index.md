@@ -1,6 +1,6 @@
 ---
 title: "Intro R with swirl "
-date: "March 01, 2023"
+date: "March 02, 2023"
 site: bookdown::bookdown_site
 documentclass: book
 bibliography: book.bib
@@ -19,10 +19,10 @@ In this exercise, students are introduced to the basics of R using the `swirl` p
 ## Skills Level {-} 
 
 ::: {.notice}
-_Genetics_
+_Genetics_  
 **Novice**: no genetics knowledge needed
 
-_Programming skills_
+_Programming skills_  
 **Novice**: no programming experience needed
 :::
 
