@@ -21,10 +21,10 @@ knitr::include_graphics("assets/swirl_logo.png")
 ## Skills Level {-} 
 
 ::: {.notice}
-_Genetics_
+_Genetics_  
 **Novice**: no genetics knowledge needed
 
-_Programming skills_
+_Programming skills_  
 **Novice**: no programming experience needed
 :::
 
