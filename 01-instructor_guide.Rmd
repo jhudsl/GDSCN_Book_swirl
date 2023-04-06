@@ -38,3 +38,11 @@ The `swirl` lessons touch on several additional R commands and concepts beyond t
   - [`dslabs`](https://cran.r-project.org/web/packages/dslabs/index.html)
 
 This book provides instructions on how to set these up in the cloud using the [AnVIL platform](https://anvil.terra.bio/), so that your students will not need to install anything.  Depending on your needs, you might decide to run this activity on a different cloud provider, such [Posit Cloud](https://posit.cloud/) (formerly RStudio Cloud), or have your students install RStudio themselves.
+
+## Teaching on AnVIL
+
+The AnVIL (Analysis Visualization and Informatics Lab-space) platform is a cloud computing platform specially designed for analyzing biological data, and is used by scientists doing all sorts of biological research.
+
+AnVIl can be an excellent way to introduce students to biological data analysis and cloud computing.  Because all computation on AnVIL is done in the cloud, all students can use the exact same computing environment through their browsers, with no need for software installation or access to expensive computers.
+
+If this is your first time using AnVIL (or first time using it for a course), the [AnVIL Instructor Guide](https://jhudatascience.org/AnVIL_Book_Instructor_Guide) provides a walkthrough of how to set up and teach a course or workshop on AnVIL.
