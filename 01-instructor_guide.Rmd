@@ -56,7 +56,9 @@ Here is a suggested timeframe for working through the checklist:
 **1+ month before**
 
 - Figure out how you will fund the class/workshop
-- Start working through INSTRUCTOR SETUP.  It's a good idea to get billing figured out with plenty of time to spare
+- Start working through INSTRUCTOR SETUP.
+    - It's a good idea to get billing figured out with plenty of time to spare
+    - Take some time to familiarize yourself with the content and make any desired updates or customizations.
 - Do any necessary EVENT SETUP steps
 
 **~1 week before**
