@@ -1,6 +1,6 @@
 ---
 title: "Intro R with swirl "
-date: "March 30, 2023"
+date: "May 19, 2023"
 site: bookdown::bookdown_site
 documentclass: book
 bibliography: book.bib
@@ -99,4 +99,3 @@ Core concepts and competencies are taken from the following sources:
 ## GDSCN Collection {-}
 
 This exercise is part of a collection of teaching resources developed through the *Genomic Data Science Community Network* (GDSCN). GDSCN works towards a vision where researchers, educators, and students from diverse backgrounds are able to fully participate in genomic data science research.  Learn more about GDSCN by visiting https://www.gdscn.org/home or reading the [article in Genome Research](https://doi.org/10.1101/gr.276496.121).
-
