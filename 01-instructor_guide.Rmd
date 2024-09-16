@@ -38,3 +38,41 @@ The `swirl` lessons touch on several additional R commands and concepts beyond t
   - [`dslabs`](https://cran.r-project.org/web/packages/dslabs/index.html)
 
 This book provides instructions on how to set these up in the cloud using the [AnVIL platform](https://anvil.terra.bio/), so that your students will not need to install anything.  Depending on your needs, you might decide to run this activity on a different cloud provider, such [Posit Cloud](https://posit.cloud/) (formerly RStudio Cloud), or have your students install RStudio themselves.
+
+## Teaching on AnVIL {-}
+
+The AnVIL (Analysis Visualization and Informatics Lab-space) platform is a cloud computing platform specially designed for analyzing biological data, and is used by scientists doing all sorts of biological research.
+
+AnVIl can be an excellent way to introduce students to biological data analysis and cloud computing.  Because all computation on AnVIL is done in the cloud, all students can use the exact same computing environment through their browsers, with no need for software installation or access to expensive computers.
+
+If this is your first time using AnVIL (or first time using it for a course), the [AnVIL Instructor Guide](https://jhudatascience.org/AnVIL_Book_Instructor_Guide) provides a walkthrough of how to set up and teach a course or workshop on AnVIL.
+
+### Checklist and Timeframe {-}
+
+Here is a [checklist](https://docs.google.com/document/d/1-HqQqH_qlkHwRua8-b92MyKQcEmcl0Nk37rSYqP49aw/edit) to help you keep track of the steps for setting up and teaching on AnVIL. Details about each of these steps can be found in the [AnVIL Instructor Guide](https://jhudatascience.org/AnVIL_Book_Instructor_Guide).  *Note that this checklist is written for workshop instructors as well as classroom instructors, so some of the "Event Setup" steps may not be applicable to you, depending on your teaching context.*
+
+Here is a suggested timeframe for working through the checklist:
+
+**1+ month before:**
+
+- Figure out how you will fund the class/workshop
+- Start working through INSTRUCTOR SETUP.
+    - It's a good idea to get billing figured out with plenty of time to spare
+    - Take some time to familiarize yourself with the content and make any desired updates or customizations.
+- Do any necessary EVENT SETUP steps
+
+**~1 week before:**
+
+- Start working through RUNNING THE CLASS
+- If possible, have students log in to AnVIL and send you their usernames, so you can add them to the Student Group ahead of time.  This saves time on the day of the class.
+- **Do not add students to your Billing Project** ahead of time.  This prevents them from accruing costs.
+
+**Day of (or shortly before):** 
+
+- Add students to Billing Project
+- Have students clone the Workspace (They cannot do this until you have added them to the Billing Project.  As soon as they do this, they can start computing.)
+
+**After:**
+
+- Collect feedback, if you didn't do it during the class/workshop
+- Work though EVENT WRAP-UP - until you shut things down, you will continue to accrue costs
