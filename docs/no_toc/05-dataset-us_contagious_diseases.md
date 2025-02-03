@@ -33,7 +33,7 @@ If you start using R frequently, you'll naturally start to remember some of the 
 To start, you will need to load the `dslabs` package, which contains the dataset.  Type the following commands to load the package and confirm that you can view the dataset.  You should see a printout of the first few rows of data, as shown below.
 
 
-```r
+``` r
 library(dslabs)
 head(us_contagious_diseases)
 ```
@@ -79,7 +79,7 @@ Now let's investigate something more specific: what's the average case count for
 The following command will extract all the rows where the `disease` column is equal to "Hepatitis A" and the `state` column is equal to "Maryland".  It stores that (much smaller) dataset in a dataframe named `hepatitis_md`.
 
 
-```r
+``` r
 hepatitis_md <- dplyr::filter(us_contagious_diseases, disease=="Hepatitis A", state=="Maryland")
 head(hepatitis_md)
 ```

@@ -1,6 +1,6 @@
 ---
 title: "Intro R with swirl "
-date: "May 22, 2023"
+date: "February 03, 2025"
 site: bookdown::bookdown_site
 documentclass: book
 bibliography: book.bib
@@ -14,7 +14,7 @@ favicon: assets/GDSCN_style/gdscn_favicon.ico
 
 In this exercise, students are introduced to the basics of R using the `swirl` package (https://swirlstats.com), which teaches students R from within the R console.  The primary goal of this exercise is to get students comfortable interacting with the R console.
 
-<img src="assets/swirl_logo.png" title="swirl logo" alt="swirl logo" width="650" />
+<img src="assets/swirl_logo.png" alt="swirl logo" width="650" />
 
 ## Skills Level {-} 
 
@@ -99,3 +99,4 @@ Core concepts and competencies are taken from the following sources:
 ## GDSCN Collection {-}
 
 This exercise is part of a collection of teaching resources developed through the *Genomic Data Science Community Network* (GDSCN). GDSCN works towards a vision where researchers, educators, and students from diverse backgrounds are able to fully participate in genomic data science research.  Learn more about GDSCN by visiting https://www.gdscn.org/home or reading the [article in Genome Research](https://doi.org/10.1101/gr.276496.121).
+
