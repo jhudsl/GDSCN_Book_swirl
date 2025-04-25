@@ -1,6 +1,6 @@
 ---
 title: "Intro R with swirl "
-date: "February 03, 2025"
+date: "April 25, 2025"
 site: bookdown::bookdown_site
 documentclass: book
 bibliography: book.bib

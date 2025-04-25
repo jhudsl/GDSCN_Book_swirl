@@ -50,7 +50,7 @@ These credits are based on our [course contributors table guidelines](https://gi
 ##  collate  en_US.UTF-8
 ##  ctype    en_US.UTF-8
 ##  tz       Etc/UTC
-##  date     2025-02-03
+##  date     2025-04-25
 ##  pandoc   3.1.1 @ /usr/local/bin/ (via rmarkdown)
 ## 
 ## ─ Packages ───────────────────────────────────────────────────────────────────
