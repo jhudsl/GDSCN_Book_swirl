@@ -1,0 +1,11 @@
+1-Introduction.md
+quiz_ch1.md
+2-Setup-on-AnVIL.md
+3-R-Programming-with-swirl.md
+4-Explore-us_contagious_diseases-dataframe.md
+5-Wrap-up-on-AnVIL.md
+About.md
+Instructor-Guide.md
+A-Pre-lab.md
+About-the-Authors.md
+References.md
